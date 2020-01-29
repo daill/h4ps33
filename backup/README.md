@@ -20,5 +20,5 @@ loady
 # erase location: offset length
 sf erase 0x0000001b0000 0x350000
 # write the image: from to length
-sf write 0xc0000100 0x0000001b0000 0x350000
+sf write 0xC1000000 0x0000001b0000 0x350000
 ``` 
