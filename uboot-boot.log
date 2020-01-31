@@ -1,0 +1,483 @@
+U-Boot 2012.10 (Dec 28 2018 - 10:59:46) for GK7102 dyzl-gk-ic-used-gc1024-v1.0 (GOKE)
+
+HAL:   20160913
+DRAM:  64 MiB
+Flash: [W25Q64FV] USE 4X mode read and 4X mode write
+8 MiB
+NAND:  [No SPI nand]
+SF:    8 MiB [page:256 Bytes] [sector:64 KiB] [count:128] (W25Q64FV)
+In:    serial
+Out:   serial
+Err:   serial
+Net:   Int PHY
+Hit Enter key to stop autoboot:  0
+[PROCESS_SEPARATORS] sf probe 0; sf read 0xc1000000 0x50000 0x160000; bootm 0xc1000000
+SF:    8 MiB [page:256 Bytes] [sector:64 KiB] [count:128] (W25Q64FV)
+put param to memory
+mem size (47)
+total mem size (64)
+bsb size (1)
+usr size (0)
+
+the kernel image is zImage or Image
+entry = 0xc1000000
+## Transferring control to Linux (at address c1000000)...
+
+Starting kernel ...
+
+machid = 3988 r2 = 0xc0000100
+Uncompressing Linux... done, booting the kernel.
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Linux version 3.4.43-gk (root@ubuntuX64) (gcc version 4.6.1 (crosstool-NG 1.18.0) ) #23 PREEMPT Thu Apr 11 19:12:55 CST 2019
+[    0.000000] CPU: ARMv6-compatible processor [410fb767] revision 7 (ARMv7), cr=00c5387d
+[    0.000000] CPU: VIPT aliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine: Goke IPC Board
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] AHB: 0x90000000  0xf2000000  -- 0x1000000
+[    0.000000] APB: 0xa0000000  0xf3000000  -- 0x1000000
+[    0.000000] PPM: 0xc0000000  0xc0000000  -- 0x200000
+[    0.000000] BSB: 0xc3100000  0xf5000000  -- 0x100000
+[    0.000000] DSP: 0xc3200000  0xf6000000  -- 0xdf0000
+[    0.000000] USR: 0xc3ff0000  0xfe000000  -- 0x10000
+[    0.000000] hal version = 20160913
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 11938
+[    0.000000] Kernel command line: console=ttySGK0 rootfstype=squashfs root=/dev/mtdblock2 init=/squashfs_init mem=47M phytype=0 mtdparts=gk_flash:320K(boot),1408K(linux),3392K(rootfs),576K(user),2496K(app)
+[    0.000000] PID hash table entries: 256 (order: -2, 1024 bytes)
+[    0.000000] Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Memory: 47MB = 47MB total
+[    0.000000] Memory: 43580k/43580k available, 4548k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     DMA     : 0xff600000 - 0xffe00000   (   8 MB)
+[    0.000000]     vmalloc : 0x83000000 - 0xff000000   (1984 MB)
+[    0.000000]     lowmem  : 0x80000000 - 0x82f00000   (  47 MB)
+[    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+[    0.000000]       .text : 0x80008000 - 0x80382000   (3560 kB)
+[    0.000000]       .init : 0x80382000 - 0x8039e000   ( 112 kB)
+[    0.000000]       .data : 0x8039e000 - 0x803c1c20   ( 144 kB)
+[    0.000000]        .bss : 0x803c1c44 - 0x803efac4   ( 184 kB)
+[    0.000000] NR_IRQS:128
+[    0.000000] >> gk init irq vic1...
+[    0.000000] >> gk init irq vic2...
+[    0.000000] gk init vic...
+[    0.000000] mach gk init timer...
+[    0.000000] sched_clock: 32 bits at 100 Hz, resolution 10000000ns, wraps every 4294967286ms
+[    0.000000] console [ttySGK0] enabled
+[    0.010000] Calibrating delay loop... 597.60 BogoMIPS (lpj=2988032)
+[    0.080000] pid_max: default: 32768 minimum: 301
+[    0.080000] Mount-cache hash table entries: 512
+[    0.090000] CPU: Testing write buffer coherency: ok
+[    0.100000] Setting up static identity map for 0xc04b1cd0 - 0xc04b1d08
+[    0.110000] NET: Registered protocol family 16
+[    0.110000] init timer...
+[    0.120000] Init HW timer for DSP communication
+[    0.120000] init gpio...
+[    0.130000] ###################################
+[    0.130000] [BOOT VERSION] Unknown ic-used-gc1024-v1.0 v0.0
+[    0.140000] [NET  INT_CLK] Internal PHY clock
+[    0.140000] [GPIO]#############################
+[    0.150000] [GPIO] gpio map get from uboot
+[    0.150000] [GPIO CFG] gpio   count = 55
+[    0.160000] [GPIO CFG] intphy count = 0
+[    0.160000] [GPIO CFG] extphy count = 0
+[    0.160000] [GPIO CFG] IR LED CTL    (undefined)
+[    0.170000] [GPIO CFG] IR CUT1       (20)
+[    0.170000] [GPIO CFG] IR CUT2       (23)
+[    0.180000] [GPIO CFG] SENSOR Reset  (undefined)
+[    0.180000] [GPIO CFG] PHY Reset     (undefined)
+[    0.190000] [GPIO CFG] PHY Speed Led (undefined)
+[    0.190000] [GPIO CFG] SPI0 EN       (undefined)
+[    0.200000] [GPIO CFG] SPI1 EN       (undefined)
+[    0.200000] [GPIO CFG] USB HOST      (undefined)
+[    0.210000] [GPIO CFG] SD Detect     (35)
+[    0.210000] [GPIO CFG] SD Power      (undefined)
+[    0.220000] [GPIO CFG] pwm0          (undefined)
+[    0.220000] [GPIO CFG] pwm1          (undefined)
+[    0.230000] [GPIO CFG] pwm2          (undefined)
+[    0.230000] [GPIO CFG] pwm3          (undefined)
+[    0.240000] [GPIO]#############################
+[    0.240000] gpiochip_add: registered GPIOs 0 to 63 on device: gk-gpio0
+[    0.250000] [GPIO CFG] gpio_00=SF_CS0
+[    0.250000] [GPIO CFG] gpio_01=SF_CS1
+[    0.260000] [GPIO CFG] gpio_02=SDIO0_DATA_3
+[    0.260000] [GPIO CFG] gpio_03=SDIO0_CMD
+[    0.270000] [GPIO CFG] gpio_04=I2C2_CLK
+[    0.270000] [GPIO CFG] gpio_05=I2C2_DATA
+[    0.280000] [GPIO CFG] gpio_06=INPUT_0
+[    0.280000] [GPIO CFG] gpio_07=INPUT_0
+[    0.280000] [GPIO CFG] gpio_08=INPUT_0
+[    0.290000] [GPIO CFG] gpio_09=INPUT_0
+[    0.290000] [GPIO CFG] gpio_10=OUTPUT_0
+[    0.300000] [GPIO CFG] gpio_11=OUTPUT_0
+[    0.300000] [GPIO CFG] gpio_12=OUTPUT_0
+[    0.310000] [GPIO CFG] gpio_13=OUTPUT_0
+[    0.310000] [GPIO CFG] gpio_14=INPUT_0
+[    0.310000] [GPIO CFG] gpio_15=INPUT_0
+[    0.320000] [GPIO CFG] gpio_16=INPUT_0
+[    0.320000] [GPIO CFG] gpio_17=INPUT_0
+[    0.330000] [GPIO CFG] gpio_18=INPUT_0
+[    0.330000] [GPIO CFG] gpio_19=INPUT_0
+[    0.330000] [GPIO CFG] gpio_20=IR_CUT1
+[    0.340000] [GPIO CFG] gpio_21=INPUT_0
+[    0.340000] [GPIO CFG] gpio_22=INPUT_0
+[    0.350000] [GPIO CFG] gpio_23=IR_CUT2
+[    0.350000] [GPIO CFG] gpio_24=INPUT_0
+[    0.360000] [GPIO CFG] gpio_25=UART0_TX
+[    0.360000] [GPIO CFG] gpio_26=UART0_RX
+[    0.360000] [GPIO CFG] gpio_27=OUTPUT_1
+[    0.370000] [GPIO CFG] gpio_28=I2C0_DATA
+[    0.370000] [GPIO CFG] gpio_29=I2C0_CLK
+[    0.380000] [GPIO CFG] gpio_30=INPUT_0
+[    0.380000] [GPIO CFG] gpio_31=INPUT_0
+[    0.380000] [GPIO CFG] gpio_32=INPUT_0
+[    0.390000] [GPIO CFG] gpio_33=SDIO0_CLK
+[    0.390000] [GPIO CFG] gpio_34=SDIO0_DATA_0
+[    0.400000] [GPIO CFG] gpio_35=SDIO0_CD_N
+[    0.400000] [GPIO CFG] gpio_36=SDIO0_DATA_1
+[    0.410000] [GPIO CFG] gpio_37=OUTPUT_0
+[    0.410000] [GPIO CFG] gpio_38=INPUT_0
+[    0.420000] [GPIO CFG] gpio_39=OUTPUT_0
+[    0.420000] [GPIO CFG] gpio_40=OUTPUT_0
+[    0.420000] [GPIO CFG] gpio_41=OUTPUT_0
+[    0.430000] [GPIO CFG] gpio_42=OUTPUT_0
+[    0.430000] [GPIO CFG] gpio_43=OUTPUT_0
+[    0.440000] [GPIO CFG] gpio_44=OUTPUT_0
+[    0.440000] [GPIO CFG] gpio_45=OUTPUT_0
+[    0.450000] [GPIO CFG] gpio_46=OUTPUT_0
+[    0.450000] [GPIO CFG] gpio_47=OUTPUT_0
+[    0.450000] [GPIO CFG] gpio_48=AO0_MCLK
+[    0.460000] [GPIO CFG] gpio_49=OUTPUT_0
+[    0.460000] [GPIO CFG] gpio_50=OUTPUT_0
+[    0.470000] [GPIO CFG] gpio_51=OUTPUT_1
+[    0.470000] [GPIO CFG] gpio_52=OUTPUT_0
+[    0.470000] [GPIO CFG] gpio_53=OUTPUT_0
+[    0.480000] [GPIO CFG] gpio_54=SDIO0_DATA_2
+[    0.480000] create proc dir
+[    0.490000] gk register devices 9
+[    0.490000] gk register I2C
+[    0.500000] bio: create slab <bio-0> at 0
+[    0.510000] spi spi.0: gk SPI Controller 0 created
+[    0.510000] spi spi.0: master is unqueued, this is deprecated
+[    0.520000] spi spi.1: gk SPI Controller 1 created
+[    0.530000] spi spi.1: master is unqueued, this is deprecated
+[    0.530000] usbcore: registered new interface driver usbfs
+[    0.540000] usbcore: registered new interface driver hub
+[    0.550000] usbcore: registered new device driver usb
+[    0.550000] i2c regbase: 0xf3003000
+[    0.560000] i2c i2c.0: i2c irq:registers 9
+[    0.560000] i2c i2c.0: GK I2C[0] adapter[i2c-0] probed!
+[    0.570000] i2c regbase: 0xf3004000
+[    0.570000] i2c i2c.1: i2c irq:registers 58
+[    0.580000] i2c i2c.1: GK I2C[1] adapter[i2c-1] probed!
+[    0.590000] cfg80211: Calling CRDA to update world regulatory domain
+[    0.590000] FS-Cache: Loaded
+[    0.600000] CacheFiles: Loaded
+[    0.600000] gk-sd gk-sd.0: Slot0 req_size=0x00010000, segs=16, seg_size=0x00010000
+[    0.630000] gk-sd gk-sd.0: GK SD/MMC[0] has 1 slots @ 46000000Hz, [0x09e130b0:0x00000000]
+[    0.640000] NET: Registered protocol family 2
+[    0.640000] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.650000] TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+[    0.660000] TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.670000] TCP: Hash tables configured (established 2048 bind 2048)
+[    0.670000] TCP: reno registered
+[    0.680000] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.680000] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.690000] NET: Registered protocol family 1
+[    0.700000] mdma init...
+[    0.700000] mdma request irq: 54
+[    0.710000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.710000] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    0.720000] msgmni has been set to 85
+[    0.730000] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+[    0.740000] io scheduler noop registered
+[    0.740000] io scheduler deadline registered
+[    0.750000] io scheduler cfq registered (default)
+[    0.750000] uart.0: ttySGK0 at MMIO 0xa0005000 (irq = 31) is a gkuart
+[    0.760000] uart.1: ttySGK1 at MMIO 0xa001f000 (irq = 15) is a gkuart
+[    0.770000] uart.2: ttySGK2 at MMIO 0xa001e000 (irq = 27) is a gkuart
+[    0.790000] brd: module loaded
+[    0.790000] adc initialized (10:11)
+[    0.790000] speed_mod is 0
+[    0.800000] [W25Q64FV] USE 1X mode read and 1X mode write
+[    0.810000] gk_flash gk_flash.0: W25Q64FV (8192 Kbytes)
+[    0.820000] 5 cmdlinepart partitions found on MTD device gk_flash
+[    0.820000] Creating 5 MTD partitions on "gk_flash":
+[    0.830000] 0x000000000000-0x000000050000 : "boot"
+[    0.840000] 0x000000050000-0x0000001b0000 : "linux"
+[    0.840000] 0x0000001b0000-0x000000500000 : "rootfs"
+[    0.850000] 0x000000500000-0x000000590000 : "user"
+[    0.860000] 0x000000590000-0x000000800000 : "app"
+[    0.860000] speed_mod is 0
+[    0.870000] detect sflash fail
+[    0.870000] slram: not enough parameters.
+[    0.880000] GKETH_init
+[    0.880000] [GKETH_drv_probe] eth_base = 0xf200e000
+[    0.890000] mii id = 0
+[    0.890000] mdiobus_register: PHY[0] whose id 0x00000000
+[    0.900000] goke MII Bus: probed
+[    0.900000] gk-eth gk-eth.0: MAC Address[02:11:22:a3:a0:00].
+[    0.910000] usbcore: registered new interface driver cdc_wdm
+[    0.910000] usbcore: registered new interface driver libusual
+[    0.920000] musb-hdrc: version 6.0, ?dma?, otg (peripheral+host)
+[    0.930000] musb phy Begin initial sequence ...
+[    1.230000] gk musb init end...
+[    1.240000] musb-hdrc musb-hdrc: MUSB HDRC host driver
+[    1.240000] musb-hdrc musb-hdrc: new USB bus registered, assigned bus number 1
+[    1.250000] hub 1-0:1.0: USB hub found
+[    1.260000] hub 1-0:1.0: 1 port detected
+[    1.260000] musb-hdrc musb-hdrc: USB Host mode controller at f0006000 using PIO, IRQ 26
+[    1.270000] platform add gk musb...
+[    1.280000] gk rtc init...
+[    1.280000] rtc base: 0xf2080000
+[    1.280000] os read tm: t=0
+[    1.290000] gk-rtc gk-rtc: rtc core: registered gk-rtc as rtc0
+[    1.290000] i2c /dev entries driver
+[    1.300000] gk_wdt_v1_00: GK Watchdog Timer, (c) 2014 Goke Microelectronics
+[    1.300000] [gk_wdt_init]: init
+[    1.310000] [gk_wdt_probe]: probe
+[    1.310000] [gk_wdt_probe]: probe mapped wdt_base=f3006000
+[    1.320000] watchdog inactive, reset disabled, irq disabled
+[    1.330000] TCP: cubic registered
+[    1.330000] Initializing XFRM netlink socket
+[    1.330000] NET: Registered protocol family 17
+[    1.340000] NET: Registered protocol family 15
+[    1.340000] lib80211: common routines for IEEE802.11 drivers
+[    1.350000] Registering the dns_resolver key type
+[    1.360000] VFP support v0.3: implementor 41 architecture 1 part 20 variant b rev 5
+[    1.370000] os read tm: t=0
+[    1.370000] gk-rtc gk-rtc: setting system clock to 1970-01-01 00:00:00 UTC (0)
+[    1.380000] VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+[    1.390000] Freeing init memory: 112K
+[    1.720000] usb 1-1: new high-speed USB device number 2 using musb-hdrc
+loading image
+----enter to upgrade from sdcard----
+mount: mounting /dev/mmcblk0p1 on /var/sdcard failed: No such file or directory
+    uboot.bin not exist.
+    kernel.bin not exist.
+    rootfs.bin not exist.
+    user.bin not exist.
+    app.bin not exist.
+----leaved to upgrade from sdcard----
+umount: can't umount /var/sdcard: Invalid argument
+
+Welcome to root (armv6l-Linux-3.4.43-gk@/dev/ttySGK0/b)
+GOKE ARM Linux 3.3  to Copyright (C) 2005 @DaYunLinks
+
+
+root login: [    5.900000] net eth0: ###### GKETH_start_hw
+[    5.900000] net eth0: ###### GKETH_phy_start_aneg...
+open success!
+gpio_request success,num = 9
+open success!
+gpio_request success,num = 8
+open success!
+gpio_request success,num = 7
+open success!
+gpio_request success,num = 6
+path = /sys/class/gpio/gpio9/direction
+gpio_direction is in
+path = /sys/class/gpio/gpio8/direction
+gpio_direction is in
+path = /sys/class/gpio/gpio7/direction
+gpio_direction is in
+path = /sys/class/gpio/gpio6/direction
+gpio_direction is in
+GPIO_get_value:gpio_value is 0
+
+GPIO_get_value:gpio_value is 0
+
+GPIO_get_value:gpio_value is 0
+
+GPIO_get_value:gpio_value is 1
+
+-Goke Chip ,Check hardware version=0x0001-
+[    6.600000] fortune: Module loaded.
+[    6.600000] ptzmiddleuse: Module loaded.
+[    6.600000] fortune: Module loaded.
+[    6.670000] hal: module license 'Proprietary' taints kernel.
+[    6.680000] Disabling lock debugging due to kernel taint
+[    6.760000] i2s: audio clock = 24000000.
+[    6.780000] i2s: init successful.
+[    6.800000] crypto initialized (10:11)
+Media driver version (gcc version 4.6.1 (crosstool-NG 1.18.0) (uClibc)) v2.1.0 #svn r13412 Fri Mar 9 17:22:53 CST 2018
+[    7.040000]  request_irq...24 ok-- video_sync
+[    7.070000]  request_irq...59 ok-- video_frame_last_pixel
+[    7.090000]  request_irq...61 ok-- video_frame
+chksensor@author[    7.200000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+ peter
+[    7.200000] i2c i2c.0: I2C state 0x10, please check address 0x6e!
+[    7.210000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+[    7.220000] i2c i2c.0: I2C state 0x10, please check address 0x6e!
+read data 37 f0 [    7.230000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+error
+[    7.230000] i2c i2c.0: I2C state 0x10, please check address 0x6e!
+[    7.240000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+[    7.250000] i2c i2c.0: I2C state 0x10, please check address 0x6e!
+read data 37 f0 [    7.250000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+error
+[    7.260000] i2c i2c.0: I2C state 0x10, please check address 0x42!
+[    7.270000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+[    7.280000] i2c i2c.0: I2C state 0x10, please check address 0x42!
+read data 21 f0 [    7.280000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+error
+[    7.290000] i2c i2c.0: I2C state 0x10, please check address 0x6c!
+[    7.300000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+[    7.300000] i2c i2c.0: I2C state 0x10, please check address 0x6c!
+ioctl error2[    7.310000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+: Remote I/O err[    7.320000] i2c i2c.0: I2C state 0x10, please check address 0x60!
+or
+[    7.330000] i2c i2c.0: i2c[60]:gk_i2c_irq in wrong state[0x9]
+[    7.330000] i2c i2c.0: I2C state 0x10, please check address 0x60!
+ioctl error2: Remote I/O error
+[0][1]:00
+grep: /tmp/sensor_id: No such file or directory
+get sensor_type=
+Default method to init without VI drivers...
+insmod: can't insert '/lib/modules/gc2033_ex.ko': No such file or directory
+[    7.470000] g_nId:0
+Have RJ45....
+[    7.570000] init ledw
+[    7.630000] [WiFiled ko]
+[    7.690000] spk switch init ok
+[    7.810000] -reset gpio init-
+[    8.520000] usbcore: registered new interface driver rtl8188fu
+Successfully initialized wpa_supplicant
+rfkill: Cannot open RFKILL control device
+ioctl[SIOCSIWAP]: Operation not permitted
+Create/Open Message Queue : 0
+add	206	/mnt/mtd/ipc/app/devctrl	Guard
+Not Insert Sd Card
+open success!
+gpio_request success,num = 9
+open success!
+gpio_request success,num = 8
+open success!
+gpio_request success,num = 7
+open success!
+gpio_request success,num = 6
+path = /sys/class/gpio/gpio9/direction
+gpio_direction is in
+path = /sys/class/gpio/gpio8/direction
+gpio_direction is in
+path = /sys/class/gpio/gpio7/direction
+gpio_direction is in
+path = /sys/class/gpio/gpio6/direction
+gpio_direction is in
+GPIO_get_value:gpio_value is 0
+
+GPIO_get_value:gpio_value is 0
+
+GPIO_get_value:gpio_value is 0
+
+GPIO_get_value:gpio_value is 1
+
+-Goke Chip ,Check hardware version=0x0001-
+add	224	/mnt/mtd/ipc/app/avencode	Guard
+Not Insert Sd Card
+GOKE ADI: R(13412) LIBC(uClibc) (gcc version 4.6.1 (crosstool-NG 1.18.0) ) 2018-03-09 17:22:13
+[PRI] firmware version:6081.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7101.
+Image library version (gcc version 4.6.1 (crosstool-NG 1.18.0) (uClibc)) v2.1.0 #svn r12890 Fri Oct 20 10:37:38 CST 2017
+[ERROR] open /tmp/sensor_hw.bin failed.
+[ERROR] Fail to set sensor params.
+real voice recognizer thread start:224
+GOKE CHIP Supprot ,set New IR LED
+ConfigNetWork,falg:1,mode:-1
+[MAC set Only!=-1]EncodeKeyStatus OK,Welcome use DyIPC!
+/mnt/mtd/ipc/app/App.sh: line 337: /mnt/mtd/ipc/app/netp2p: not found
+load sd detect end
+001 WatchdogOpen
+g_wdfd ,WDIOC_SETOPTIONS ret=0
+002 WatchdogFeed
+003 WatchDogThread Ing
+sd detect!
+SD card =-1
+umount: can't umount /mnt/mmc: Invalid argument
+start not  exist mmc
+Not Insert Sd Card
+ConfigNetWork,falg:0,mode:0
+/bin/sh: /var/alarmrec: not found
+Not Insert Sd Card
+killall: udhcpd: no process killed
+OK
+Not Insert Sd Card
+P2PID:AIOT-181425-FNWWU
+Not Insert Sd Card
+dhcpname=IPC-AIOT-181425-FNWWU
+killall: udhcpc: no process killed
+OK
+OK
+killall: wpa_supplicant: no process killed
+killall: udhcpc: no process killed
+killall: udhcpc: no process killed
+killall: udhcpc: no process killed
+Configuration file: /mnt/mtd/ipc/cfg/ap.cfg
+drv->ifindex=3
+l2_sock_recv==l2_sock_xmit=0x0x1c55d8
++rtl871x_sta_deauth_ops, ff:ff:ff:ff:ff:ff is deauth, reason=2
+rtl871x_set_key_ops
+rtl871x_set_key_ops
+rtl871x_set_key_ops
+rtl871x_set_key_ops
+Using interface ra0 with hwaddr 30:4a:26:a2:ef:dd and ssid 'HAP-AIOT-181425-FNWWU'
+rtl871x_set_wps_assoc_resp_ie
+rtl871x_set_wps_beacon_ie
+rtl871x_set_wps_probe_resp_ie
+rtl871x_set_beacon_ops
+rtl871x_set_hidden_ssid ignore_broadcast_ssid:0, HAP-AIOT-181425-FNWWU,21
+rtl871x_set_acl
+add	270	/mnt/mtd/ipc/app/sd/sd_detect	Guard
+add	284	/mnt/mtd/ipc/app/AVRecSch	Guard
+add	283	/mnt/mtd/ipc/app/AVRecorder	Guard
+add	286	/mnt/mtd/ipc/app/IOTCare	Guard
+add	285	/mnt/mtd/ipc/app/AlarmServer	Guard
+nRet=-7
+Set OSD error
+RUN: /mnt/mtd/ipc/app/avencode&
+Not Insert Sd Card
+GOKE ADI: R(13412) LIBC(uClibc) (gcc version 4.6.1 (crosstool-NG 1.18.0) ) 2018-03-09 17:22:13
+Image library version (gcc version 4.6.1 (crosstool-NG 1.18.0) (uClibc)) v2.1.0 #svn r12890 Fri Oct 20 10:37:38 CST 2017
+[ERROR] open /tmp/sensor_hw.bin failed.
+[ERROR] Fail to set sensor params.
+add	398	/mnt/mtd/ipc/app/avencode	Guard
+nRet=-7
+Set OSD error
+nRet=-7
+Set OSD error
+RUN: /mnt/mtd/ipc/app/avencode&
+Not Insert Sd Card
+GOKE ADI: R(13412) LIBC(uClibc) (gcc version 4.6.1 (crosstool-NG 1.18.0) ) 2018-03-09 17:22:13
+Image library version (gcc version 4.6.1 (crosstool-NG 1.18.0) (uClibc)) v2.1.0 #svn r12890 Fri Oct 20 10:37:38 CST 2017
+[ERROR] open /tmp/sensor_hw.bin failed.
+[ERROR] Fail to set sensor params.
+nRet=-7
+Set OSD error
+add	493	/mnt/mtd/ipc/app/avencode	Guard
+nRet=-7
+Set OSD error
+nRet=-7
+Set OSD error
+RUN: /mnt/mtd/ipc/app/avencode&
+Not Insert Sd Card
+GOKE ADI: R(13412) LIBC(uClibc) (gcc version 4.6.1 (crosstool-NG 1.18.0) ) 2018-03-09 17:22:13
+Image library version (gcc version 4.6.1 (crosstool-NG 1.18.0) (uClibc)) v2.1.0 #svn r12890 Fri Oct 20 10:37:38 CST 2017
+[ERROR] open /tmp/sensor_hw.bin failed.
+[ERROR] Fail to set sensor params.
+add	584	/mnt/mtd/ipc/app/avencode	Guard
+nRet=-7
+Set OSD error
+nRet=-7
+Set OSD error
+nRet=-7
+Set OSD error
+RUN: /mnt/mtd/ipc/app/avencode&
+Not Insert Sd Card
+GOKE ADI: R(13412) LIBC(uClibc) (gcc version 4.6.1 (crosstool-NG 1.18.0) ) 2018-03-09 17:22:13
+Image library version (gcc version 4.6.1 (crosstool-NG 1.18.0) (uClibc)) v2.1.0 #svn r12890 Fri Oct 20 10:37:38 CST 2017
+[ERROR] open /tmp/sensor_hw.bin failed.
+[ERROR] Fail to set sensor params.
+add	675	/mnt/mtd/ipc/app/avencode	Guard
+nRet=-7
+Set OSD error

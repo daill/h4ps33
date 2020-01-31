@@ -1,0 +1,1739 @@
+Software expires on: %s\n
+%ld/%ld/%ld
+3/15/2002
+10QTSSStream
+9StrPtrLen
+14QTSSDictionary
+16QTSSAttrInfoDict
+\n\v\f\r
+\n\v\f\r
+Unknown
+CharArray
+Bool16
+SInt16
+UInt16
+SInt32
+UInt32
+SInt64
+UInt64
+QTSS_Object
+QTSS_StreamRef
+Float32
+Float64
+VoidPointer
+QTSS_TimeVal
+0123456789ABCDEF
+true
+false
+12QTSSMessages
+No Message
+%s%s
+There was no URL contained in the following request: %s
+The following RTSP method: %s, was not understood by the server
+There is no RTSP version in the following request: %s
+Server expected 'rtsp://' and instead received: %s
+The following URL is too long to be processed by the server: %s
+The following URL is not in proper URL format: %s
+There was no colon after a header in the following request: %s
+There was no EOL after a header in the following request: %s
+That request is too long to be processed by the server.
+No module folder exists.
+Streaming Server couldn't listen on a specified RTSP port. Quitting.
+The module %s failed to Initialize.
+This machine is currently not configured for IP.
+The specified RTSP listening IP address doesn't exist.
+The module %s is not a compatible QTSS API module.
+The module %s failed to Register.
+Streaming Server is currently refusing new connections
+Too many clients connected
+Too much bandwidth being served
+No active RTP session for that RTSP session ID
+Specified file name is too long to be handled by the server.
+No client port pair found in transport header
+Reported client RTP port is not an even number
+Reported client RTCP port is not one greater than RTP port
+Streaming Server couldn't find any available UDP ports
+There is no QTSS API module installed to process this request.
+Not allowed to specify an alternate destination address
+Can't setup multicast.
+Another process is already using the following RTSP port: %s
+You must be root to use the following RTSP port: %s
+An error occurred when attempting to listen on the following RTSP port: %s
+The base64 you just sent to the server is corrupt!
+Streaming Server failed to listen on all requested RTSP port(s).
+Streaming Server is not listening for RTSP on any ports.
+Error creating pid file %s: %s
+Error switching to user %s: %s
+Error switching to group %s: %s
+A DESCRIBE request cannot contain the Session header
+The following pref, %s, wasn't found. Using a default value of: %s
+The following pref, %s, has the wrong type. Using a default value of: %s
+Couldn't re-write server prefs file
+Couldn't set desired UDP receive socket buffer size. Using size of %s K
+The request is incorrectly formatted.
+Fatal error: Can't register Mach Ports.
+A fatal error occcured while starting up server control module
+Can't bind reflector sockets
+Reflector sockets couldn't join multicast
+Couldn't seek to specified time.
+No SDP file found for the following URL: %s
+The requested file is not a movie file.
+Requested movie hasn't been hinted.
+Expected a digit at the end of the following URL: %s
+Specified trackID doesn't exist in the movie
+Too many connections from your IP address!
+TrackID doesn't match any trackID for this ReflectorSession
+Invalid config value for qtaccessfilename: name contains %s. Now using default name:%s
+The relay configuration file at: %s has no relay_source lines
+Could not find any relay_destination lines for one of the relay_source lines of the relay configuration file
+Could not find any input stream information for one of the relay_source lines of the relay configuration file
+Found an empty relay configuration file at %s
+A broadcast stream is already setup for this URL
+No users file found at %s.
+No groups file found at %s.
+Unable to read the users file at %s. It may be corrupted.
+Unable to read the groups file at %s. It may be corrupted.
+The Announced file does not end with .sdp
+The Announce feature is disabled. Your request is denied.
+The SDP file's static port %s is less than the QTSSReflectorModule's minimum_static_sdp_port preference.
+The SDP file's static port %s is greater than the QTSSReflectorModule's maximum_static_sdp_port preference.
+The QTSSReflectorModule's minimum_static_sdp_port and maximum_static_sdp_port preferences conflict with the client and dynamic broadcast port range= %s to %s.
+The QTSSReflectorModule's minimum_static_sdp_port and maximum_static_sdp_port preferences define an invalid range (min=%s > max=%s).
+The QTSSRelayModule encountered an error while parsing the relay config file. No relays setup in relayconfig.xml.
+qtssMsgNoMessage
+qtssMsgNoURLInRequest
+qtssMsgBadRTSPMethod
+qtssMsgNoRTSPVersion
+qtssMsgNoRTSPInURL
+qtssMsgURLTooLong
+qtssMsgURLInBadFormat
+qtssMsgNoColonAfterHeader
+qtssMsgNoEOLAfterHeader
+qtssMsgRequestTooLong
+qtssMsgNoModuleFolder
+qtssMsgCouldntListen
+qtssMsgInitFailed
+qtssMsgNotConfiguredForIP
+qtssMsgDefaultRTSPAddrUnavail
+qtssMsgBadModule
+qtssMsgRegFailed
+qtssMsgRefusingConnections
+qtssMsgTooManyClients
+qtssMsgTooMuchThruput
+qtssMsgNoSessionID
+qtssMsgFileNameTooLong
+qtssMsgNoClientPortInTransport
+qtssMsgRTPPortMustBeEven
+qtssMsgRTCPPortMustBeOneBigger
+qtssMsgOutOfPorts
+qtssMsgNoModuleForRequest
+qtssMsgAltDestNotAllowed
+qtssMsgCantSetupMulticast
+qtssListenPortInUse
+qtssListenPortAccessDenied
+qtssListenPortError
+qtssMsgBadBase64
+qtssMsgSomePortsFailed
+qtssMsgNoPortsSucceeded
+qtssMsgCannotCreatePidFile
+qtssMsgCannotSetRunUser
+qtssMsgCannotSetRunGroup
+qtssMsgNoSesIDOnDescribe
+qtssServerPrefMissing
+qtssServerPrefWrongType
+qtssMsgCantWriteFile
+qtssMsgSockBufSizesTooLarge
+qtssMsgBadFormat
+QTSSvrControlModuleCantRegisterMachPort
+QTSSvrControlModuleServerControlFatalErr
+QTSSReflectorModuleCantBindReflectorSocket
+QTSSReflectorModuleCantJoinMulticastGroup
+QTSSFileModuleSeekToNonExistentTime
+QTSSFileModuleNoSDPFileFound
+QTSSFileModuleBadQTFile
+QTSSFileModuleFileIsNotHinted
+QTSSFileModuleExpectedDigitFilename
+QTSSFileModuleTrackDoesntExist
+QTSSReflectorModuleExpectedDigitFilename
+QTSSSpamDefenseModuleTooManyConnections
+QTSSReflectorModuleBadTrackID
+QTSSAccessModuleBadAccessFileName
+QTSSReflectorModuleNoRelaySources
+QTSSReflectorModuleNoRelayDests
+QTSSReflectorModuleNoRelayStreams
+QTSSReflectorModuleNoRelayConfig
+QTSSReflectorModuleDuplicateBroadcastStream
+QTSSAccessModuleUsersFileNotFound
+QTSSAccessModuleGroupsFileNotFound
+QTSSAccessModuleBadUsersFile
+QTSSAccessModuleBadGroupsFile
+QTSSReflectorModuleAnnounceRequiresSDPSuffix
+QTSSReflectorModuleAnnounceDisabled
+QTSSReflectorModuleSDPPortMinimumPort
+QTSSReflectorModuleSDPPortMaximumPort
+QTSSReflectorModuleStaticPortsConflict
+QTSSReflectorModuleStaticPortPrefsBadRange
+QTSSRelayModulePrefParseError
+4Task
+11OSQueueElem
+10QTSSModule
+QTSSModule
+_Main
+static
+dynamic
+Module Loaded...%s [%s]
+InitializeRole
+ShutdownRole
+RTSPFilterRole
+RTSPRouteRole
+RTSPAthnRole
+RTSPAuthRole
+RTSPPreProcessorRole
+RTSPRequestRole
+RTSPPostProcessorRole
+RTSPSessionClosingRole
+RTPSendPacketsRole
+ClientSessionClosingRole
+RTCPProcessRole
+ErrorLogRole
+RereadPrefsRole
+OpenFileRole
+OpenFilePreProcessRole
+AdviseFileRole
+ReadFileRole
+CloseFileRole
+RequestEventFileRole
+RTSPIncomingDataRole
+StateChangeRole
+TimedIntervalRole
+14QTSServerPrefs
+10000
+36384
+/mnt/mmc
+0.0.0.0
+6000
+/usr/local/sbin/StreamingServerModules/
+/var/streaming/logs/
+1750
+4096
+100000
+DYRtspd
+-2000
+none
+2500
+1500
+1000
+server_status
+rtp;rr;sr;app;ack;
+/var/run/DarwinStreamingServer.pid
+Real
+5002
+5004
+127.0.0.1
+Media
+12EventContext
+10QTSSSocket
+8QTSSFile
+9QTSSPrefs
+13UDPSocketPool
+9TCPSocket
+6Socket
+15StringFormatter
+9QTSServer
+18RTSPListenerSocket
+13RTPSocketPool
+RTCPTask
+QTSSLiveModule
+QTSSFileModule
+QTSSPosixFileSysModule
+QTSSAccessModule
+RereadPreferences
+IdleTask
+TCPListenerSocket
+12AssertLogger
+18QTSSErrorLogStream
+18QTSServerInterface
+19RTPStatsUpdaterTask
+Build/
+Platform/
+RTPStatsUpdaterTask
+6.0.3
+526.3
+Release/Darwin Streaming Server; State/Development; 
+Linux
+Jun 26 2019, 15:52:09
+8RTCPTask
+10RTPSession
+Client complete. URL: %s.\n
+Max congestion window: %ld. Min congestion window: %ld. Avg congestion window: %ld\n
+Max RTT: %ld. Min RTT: %ld. Avg RTT: %ld\n
+Num resends: %ld. Num skipped frames: %ld. Num late packets dropped: %ld\n
+RTPSession Destory Function:%s,%d \n
+RTPSession
+application/sdp
+our-retransmit
+19RTPSessionInterface
+12StrPtrLenDel
+14UDPDemuxerTask
+9RTPStream
+ H_ssrc=%ld H_seq=%u H_ts=%lu seq_count=%lu ts_secs=%.3f \n
+ H_ssrc=%lu H_bytes=%lu H_ts=%lu H_pckts=%lu ts_secs=%.3f H_ntp=%s\n
+ type=video
+ type=audio
+<send sess=%lu: RTP %s xmit_sec=%.3f %s size=%lu 
+<send sess=%lu: SR %s xmit_sec=%.3f %s size=%lu 
+>recv sess=%lu: RTCP %s recv_sec=%.3f %s size=%lu 
+>recv sess=%lu: RTCP APP QTSS recv_sec=%.3f %s size=%lu 
+>recv sess=%lu: RTCP APP NADU recv_sec=%.3f %s size=%lu 
+>recv sess=%lu: RTCP APP %c%c%c%c recv_sec=%.3f %s size=%lu 
+unknown APP packet: 
+RUDP
+no-type
+\v\v\v\v\v\v\v\v\v\v
+\v\v\v\v\v\v\v\v\v\v\v\v
+\v\v\v\v\v\v\v\v\v\v
+>>>>>>>>>>>>>>
+>>->>>>>>>>
+>>>>>>>>>>>>>>
+>>-DESCRIBE
+SETUP
+TEARDOWN
+PLAY
+PAUSE
+OPTIONS
+ANNOUNCE
+GET_PARAMETER
+SET_PARAMETER
+REDIRECT
+RECORD
+Accept
+Cseq
+User-Agent
+Accept-Encoding
+Accept-Language
+Authorization
+Bandwidth
+Blocksize
+Cache-Control
+Conference
+Connection
+Content-Base
+Content-Encoding
+Content-Language
+Content-length
+Content-Location
+Content-Type
+Date
+Expires
+From
+Host
+If-Match
+If-Modified-Since
+Last-Modified
+Proxy-Authenticate
+Proxy-Require
+Referer
+Retry-After
+Require
+RTP-Info
+Scale
+Speed
+Timestamp
+Vary
+Allow
+Public
+Server
+Unsupported
+WWW-Authenticate
+x-Retransmit
+x-Accept-Retransmit
+x-RTP-Meta-Info
+x-Transport-Options
+x-Packet-Range
+x-Prebuffer
+x-Dynamic-Rate
+x-Accept-Dynamic-Rate
+x-Random-Data-Size
+3GPP-Link-Char
+3GPP-Adaptation
+3GPP-QoE-Feedback
+3GPP-QoE-Metrics
+x-predecbufsize
+x-initpredecbufperiod
+x-initpostdecbufperiod
+3gpp-videopostdecbufsize
+Continue
+Created
+Accepted
+No Content
+Partial Content
+Low on Storage Space
+Multiple Choices
+Moved Permanently
+See Other
+Not Modified
+Use Proxy
+Bad Request
+Unauthorized
+Payment Required
+Forbidden
+Method Not Allowed
+Not Acceptable
+Proxy Authentication Required
+Request Time-out
+Conflict
+Gone
+Length Required
+Precondition Failed
+Request Entity Too Large
+Request-URI Too Large
+Unsupported Media Type
+Parameter Not Understood
+Conference Not Found
+Not Enough Bandwidth
+Session Not Found
+Method Not Valid in this State
+Header Field Not Valid For Resource
+Invalid Range
+Parameter Is Read-Only
+Aggregate Option Not Allowed
+Only Aggregate Option Allowed
+Unsupported Transport
+Destination Unreachable
+Internal Server Error
+Not Implemented
+Bad Gateway
+Service Unavailable
+Gateway Timeout
+RTSP Version not supported
+Option Not Supported
+RTSP/1.0
+Basic realm="
+/trackID=
+unicast
+multiicast
+window
+maxtime
+late-tolerance
+mode
+receive
+record
+client_port
+Received invalid client_port field: 
+RTP/AVP
+RTP/AVP/TCP
+destination
+source
+Streaming Server
+Basic
+Digest
+username
+realm
+nonce
+auth
+auth-int
+response
+opaque
+stale="true", 
+15QTSSUserProfile
+15RTSPRequest3GPP
+20RTSPRequestInterface
+ack-timeout=
+Close
+url=
+;seq=
+;ssrc=
+;rtptime=
+;timeout=
+;server_port=
+;source=
+;interleaved=
+interleaved
+;client_port=
+\n\n#C->S:\n#time: ms=%lu date=%s\n
+#server: ip=
+#server: ip=NULL port=%u\n
+#client: ip=
+#client: ip=NULL port=%u\n
+\n#S->C:\n#time: ms=%lu date=%s\n
+11RTSPRequest
+11RTSPSession
+RTSPSession
+QTSSReflectorModuleBroadcasterSession
+post
+http
+X-SessionCookie:
+Accept:
+X-server-ip-address: 
+erasing username from profile
+RTSP
+RtspSession Destory Function:%s,%d \n
+video
+audio
+rtpmap
+control
+x-bufferdelay
+application/x-random-data
+HTTP/1.0 200 OK\r\n%s%s%s%sConnection: close\r\nDate: Thu, 19 Aug 1982 18:30:00 GMT\r\nCache-Control: no-store\r\nPragma: no-cache\r\nContent-Type: application/x-rtsp-tunnelled\r\n\r\n
+HTTP/1.0 200 OK\r\n%s%s%s%s\r\nConnection: close\r\nDate: Thu, 19 Aug 1982 18:30:00 GMT\r\nCache-Control: no-store\r\nPragma: no-cache\r\nContent-Type: application/x-rtsp-tunnelled\r\n\r\n
+15RTSPSession3GPP
+18RTSPResponseStream
+20RTSPSessionInterface
+theLocalAddrStr:%p,theLocalDNSStr:%p theRemoteAddrStr:%p \n
+;rtt=
+OPTIONS * RTSP/1.0\r\nContent-Type: application/x-random-data\r\nContent-Length: 1400\r\n\r\n
+%s/%s ( Build/%s; Platform/%s; %s) Built on: %s\n
+usage: %s [ -d | -p port | -v | -c /myconfigpath.xml | -o /myconfigpath.conf | -x | -S numseconds | -I | -h ]\n
+DarwinStreamingServer
+-d: Run in the foreground\n
+-D: Display performance data\n
+-p XXX: Specify the default RTSP listening port of the server\n
+-c /myconfigpath.xml: Specify a config file\n
+-o /myconfigpath.conf: Specify a DSS 1.x / 2.x config file to build XML file from\n
+-x: Force create new .xml config file and exit.\n
+-S n: Display server stats in the console every "n" seconds\n
+-I: Start the server in the idle state\n
+-h: Prints usage\n
+echo 3 > /proc/sys/vm/drop_caches
+Create Socket Failed 
+Set Socket Option Failed :%d \n
+Bind Socket Failed 
+listen Socket Failed 
+SetSid Failed :%d\n
+/var/av/xml/av.xml
+/mnt/mtd/ipc/app/av.xml
+mkdir -p /var/av/xml/
+cp %s %s
+/var/av/xml/
+/mnt/mtd/ipc/cfg/av.xml
+rm -rf /mnt/mtd/ipc/cfg/av.xml
+Directory located at location where streaming server prefs file should be.\n
+Cannot write to the streaming server prefs file.\n
+The Config File Is Not Exist so Exit 
+Fatal Error: Could not load configuration file at %s. (%d)\n
+qtssmessages.txt
+<plist version="0.9">
+<dict>
+     <key>%s</key>\n
+     <string>%s</string>\n
+</dict>
+%s\n\n
+</plist>
+     RTP-Conns RTSP-Conns HTTP-Conns  kBits/Sec   Pkts/Sec   RTP-Playing   AvgDelay CurMaxDelay  MaxDelay  AvgQuality  NumThinned      Time\n
+%11s
+%14s
+%24s\n
+server_debug_status
+%.4f%s 
+%.3f%s 
+%.2f%s 
+%4.0f%s 
+     RTP-Conns RTSP-Conns HTTP-Conns  kBits/Sec   Pkts/Sec    TotConn     TotBytes   TotPktsLost          Time\n
+%11lu
+%17s
+%11qu
+%25s
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % plistObject "(array | data | date | dict | real | integer | string | true | false )">
+<!ELEMENT plist %plistObject;>
+<!ATTLIST plist version CDATA "0.9">
+<!-- Collections -->
+<!ELEMENT array (%plistObject;)*>
+<!ELEMENT dict (key, %plistObject;)*>
+<!ELEMENT key (#PCDATA)>
+<!--- Primitive types -->
+<!ELEMENT string (#PCDATA)>
+<!ELEMENT data (#PCDATA)> <!-- Contents interpreted as Base-64 encoded -->
+<!ELEMENT date (#PCDATA)> <!-- Contents should conform to a subset of ISO 8601 (in particular, YYYY '-' MM '-' DD 'T' HH ':' MM ':' SS 'Z'.  Smaller units may be omitted with a loss of precision) -->
+<!-- Numerical primitives -->
+<!ELEMENT true EMPTY>  <!-- Boolean constant true -->
+<!ELEMENT false EMPTY> <!-- Boolean constant false -->
+<!ELEMENT real (#PCDATA)> <!-- Contents should represent a floating point number matching ("+" | "-")? d+ ("."d*)? ("E" ("+" | "-") d+)? where d is a digit 0-9.  -->
+<!ELEMENT integer (#PCDATA)> <!-- Contents should represent a (possibly signed) integer number in base 10 -->
+qtssSvrServerName
+qtssSvrServerVersion
+qtssSvrServerBuild
+qtssSvrServerPlatform
+qtssSvrRTSPServerComment
+qtssSvrServerBuildDate
+qtssSvrStartupTime
+qtssSvrCurrentTimeMilliseconds
+qtssSvrCPULoadPercent
+qtssSvrState
+qtssRTPSvrCurConn
+qtssRTSPCurrentSessionCount
+qtssRTSPHTTPCurrentSessionCount
+qtssRTPSvrCurBandwidth
+qtssRTPSvrCurPackets
+qtssRTPSvrTotalConn
+qtssRTPSvrTotalBytes
+qtssMP3SvrCurConn
+qtssMP3SvrTotalConn
+qtssMP3SvrCurBandwidth
+qtssMP3SvrTotalBytes
+GetRtspPort
+GetHttpPort
+SyncDBToConfigFile
+GenerateAllXMLPrefs
+Server.tproj/GenerateXMLPrefs.cpp
+Get Rtsp Port Failed :%d,%d \n
+Get HTTP Port Failed :%d,%d \n
+SyncDBToConfigFile Failed,%d,%d\n
+rtsp_timeout
+enter into GenerateAllXMLPrefs \n
+enabled
+real_rtsp_timeout
+rtp_timeout
+maximum_connections
+maximum_bandwidth
+movie_folder
+bind_ip_addr
+break_on_assert
+auto_restart
+total_bytes_update
+average_bandwidth_update
+safe_play_duration
+module_folder
+error_logfile_name
+error_logfile_dir
+error_logfile_interval
+error_logfile_size
+error_logfile_verbosity
+screen_logging
+error_logging
+drop_all_video_delay
+start_thinning_delay
+large_window_size
+window_size_threshold
+min_tcp_buffer_size
+max_tcp_buffer_size
+tcp_seconds_to_buffer
+do_report_http_connection_ip_address
+default_authorization_realm
+run_user_name
+run_group_name
+append_source_addr_in_transport
+rtsp_port
+buffer_seconds
+sdp_url
+admin_email
+max_advance_send_time
+modAccess_usersfilepath
+modAccess_groupsfilepath
+modAccess_qtaccessfilename
+11PrefsSource
+15FilePrefsSource
+%s   %s\n\n
+CONFIGURATION
+SERVER
+MODULE
+NAME
+PREF
+OBJECT
+EMPTY-OBJECT
+TYPE
+LIST-PREF
+LIST-OBJECT
+VALUE
+<?xml version ="1.0"?>
+<!-- The Document Type Definition (DTD) for the file -->
+<!DOCTYPE CONFIGURATION [
+<!ELEMENT CONFIGURATION (SERVER, MODULE*)>
+<!ELEMENT SERVER (PREF|LIST-PREF|OBJECT|LIST-OBJECT)*>
+<!ELEMENT MODULE (PREF|LIST-PREF|OBJECT|LIST-OBJECT)*>
+<!ATTLIST MODULE
+\tNAME CDATA #REQUIRED>
+<!ELEMENT PREF (#PCDATA)>
+<!ATTLIST PREF
+\tNAME CDATA #REQUIRED
+\tTYPE (UInt8|SInt8|UInt16|SInt16|UInt32|SInt32|UInt64|SInt64|Float32|Float64|Bool16|Bool8|char) "char">
+<!ELEMENT LIST-PREF (VALUE*)>
+<!ELEMENT VALUE (#PCDATA)>
+<!ATTLIST LIST-PREF
+\tTYPE  (UInt8|SInt8|UInt16|SInt16|UInt32|SInt32|UInt64|SInt64|Float32|Float64|Bool16|Bool8|char) "char">
+<!ELEMENT OBJECT (PREF|LIST-PREF|OBJECT|LIST-OBJECT)*>
+<!ATTLIST OBJECT
+<!ELEMENT LIST-OBJECT (OBJECT-VALUE*)>
+<!ELEMENT OBJECT-VALUE (PREF|LIST-PREF|OBJECT|LIST-OBJECT)*>
+<!ATTLIST LIST-OBJECT
+Couldn't find a valid tag
+End tag with no begin tag on line %d
+Unexpected end of file on line %d
+Unexpected character (%c) on line %d
+Missing '=' after attribute %s on line %d
+Attribute %s value not in quotes on line %d
+Attribute %s not allowed in tag %s on line %d
+Bad value for attribute %s on line %d
+'>' must follow '/' on line %d
+Bad format for tag <%s> on line %d
+Reached end of file without end for tag <%s> declared on line %d
+Unexpected text outside of tag on line %d
+Tag <%s> on line %d not allowed to have data
+Tag %s not allowed in tag %s on line %d
+End tag </%s> on line %d doesn't match tag <%s> declared on line %d
+Couldn't find end of tag <%s> declared on line %d
+Couldn't read xml file
+13RTCPAPPPacket
+14RTCPNaduPacket
+packetLenInWords =%lu\n
+ H_app_packet_name = %s, 
+              
+RTCP APP NADU Report[%lu] 
+h_ssrc = %lu
+, h_playoutdelay = %u
+, h_sequence_num = %u
+, h_nun_unit_num = %u
+, h_fbs_free_buf = %u
+\nDumping Nadu List (list size = %lu  record count=%lu)\n
+-------------------------------------------------------------\n
+NADU Record: list_index = %lu list_recordID = %lu\n
+24RTCPCompressedQTSSPacket
+\n              RTCP APP QTSS Report 
+H_app_packet_name = %s, 
+H_ssrc = %lu, 
+H_src_ID = %lu, 
+H_vers=%d, 
+H_packt_len=%d
+\n       h_type=%.2s(
+, h_vers=%u
+, h_size=%u
+, rcvr_bit_rate=%lu
+, avg_late=%u
+, percent_loss=%u
+, avg_buf_delay=%u
+, quality=%s
+better
+worse
+same
+, eyes=%lu
+, eyes_actv=%lu
+, eyes_pausd=%lu
+, pckts_rcvd=%lu
+, pckts_drppd=%u
+, ttl_pckts_lost=%u
+, buffr_fill=%u
+, frame_rate=%u
+, xpectd_frame_rate=%u
+, aud_dry_count=%u
+, ovr_buffr_windw_siz=%lu
+  [%.2s]
+),  
+10RTCPPacket
+18RTCPReceiverPacket
+22RTCPSenderReportPacket
+H_vers=%d, H_pad=%d, H_rprt_count=%d, H_type=%d, H_length=%d, H_ssrc=%ld
+              RTCP RR Report[%d] H_ssrc=%lu, H_frac_lost=%d, H_tot_lost=%lu, H_high_seq=%lu H_jit=%lu, H_last_sr_time=%lu, H_last_sr_delay=%lu \n
+ %s%qd
+QTSS
+13RTCPAckPacket
+%lu, 
+ H_name=%s H_seq=%u H_len=%u mask_size=%lu seq_nums_bit_set=%s\n
+pptttfnpqsdmServer preference %s %s
+HTTP/1.1 %lu %s
+error
+Date: %s
+<html><body>\n
+<h1>
+</h1>\n
+</body></html>\n
+Content-Type: text/html
+Content-Length: %lu
+Connection: close
+127.0.0.*
+14QTSSRollingLog
+QTSSRollingLog
+%Y-%m-%d %H:%M:%S
+.%y%m%d
+---.log
+%03ld.log
+#Log File Created On: %d/%d/%d %d:%d:%d\n
+.log
+#Log File Created On: %m/%d/%Y %H:%M:%S\n
+13SDPSourceInfo
+a=control:trackID=%ld\r\n
+a=control:trackID=
+c=IN IP4 0.0.0.0
+a=control:*
+x-broadcastcontrol
+TIME
+10SourceInfo
+12QTAccessFile
+12DSAccessFile
+<Limit
+WRITE
+READ
+</Limit>
+AuthName
+valid-user
+group
+require
+any-user
+AuthUserFile
+AuthGroupFile
+AuthScheme
+basic
+digest
+qtaccess
+require any-user\n
+require valid-user\n
+\nReached maximum configured output limit = %luK\n
+flow_control_probe_interval
+max_allowed_speed
+enable_shared_file_buffers
+enable_private_file_buffers
+num_shared_buffer_increase_per_session
+shared_buffer_unit_k_size
+private_buffer_unit_k_size
+num_shared_buffer_units_per_buffer
+num_private_buffer_units_per_buffer
+max_shared_buffer_units_per_buffer
+max_private_buffer_units_per_buffer
+add_seconds_to_client_buffer_delay
+record_movie_file_sdp
+enable_movie_file_sdp
+enable_player_compatibility
+compatibility_adjust_sdp_media_bandwidth_percent
+compatibility_adjust_rtp_start_time_milli
+allow_invalid_hint_track_refs
+http://
+admin@
+.sdp
+o=StreamingServer %qd %qd IN IP4 %s
+a=x-bufferdelay:
+a=x-bufferdelay:%.2f
+%10.5f
+time=%.5f
+npt=%.5f-%.5f
+QTSSFileModuleSession
+QTSSFileModulePlayCount
+QTSSFileModuleSDPBufferDelay
+QTSSFileModuleLastSentPacketSeqNum
+QTSSFileModuleLastPacketSeqNum
+t=0 0
+Movie SDP is not valid.
+must-revalidate
+QTSSRTPFileModuleSession
+QTSSRTPFileModule
+\r\ne=
+\r\nu=
+.rtp
+v=0\r\ns=
+c=IN IP4 
+\r\na=control:/\r\n
+DoDescribe
+RemoveRtpStream
+DoSetup
+DoPlay
+ProcessRTSPRequest
+SendPackets
+QTSSLiveModuleDispatch
+DestroySession
+rtspd get p2p lic err,wait 120s ,try again
+EncodeKeyStatus OK,Welcome use DyIPC!
+Ohh,NO!,YOU can not use this soft!
+Again check md5 failed:%d \n
+reboot
+APIModules/QTSSLiveModule/QTSSLiveModule.cpp
+Invalid Video Channel :%d \n
+Do Describe 002 
+StartStream nRet = %d \n
+RemoveRtpStream is NULL Value \n
+Get Channel failed:%d,%d \n
+Invalid  Channel :%d \n
+call video RemoveRtpStream  StopStream\n
+call Audio RemoveRtpStream  StopStream\n
+delete rtp package object %p\n
+QTSSLiveModuleExpectedDigitFilename
+QTSSLiveChannelNo
+QTSSRtspClientPort
+QTSSClientRtpStartTime
+QTSSRtpStreamPackPoolObject
+QtssClientSessionObject
+theDigitStr == NULL 
+QTSS_AddRTPStream failed :%d\n
+QTSS_GetValue qtssRTSPSesRemoteAddrStr :%d \n
+QTSS_GetValue qtssRTSPSesRemotePort :%d \n
+QTSS_Play failed :%d \n
+Play url stream\n
+ qtssTeardownMethod Get qtssRTSPSesRemoteAddrStr failed :%d \n
+ qtssTeardownMethod Get qtssRTSPSesRemotePort failed :%d \n
+ProcessRTSPRequest err = %d,%d \n
+002 SendPackets the Err = %d,%p \n
+003 SendPackets the Err = %d,%p \n
+004 SendPackets theStreamIndex = %d,%d,%d,%p \n
+close rtsp session QTSS_GetValue qtssCliRTSPSessRemoteAddrStr failed:%d \n
+QTSS_RTSPSessionClosing_Role Failed:%d \n
+005 QTSS_RTSPSessionClosing_Role RemoveRtpStream :%p,%d\n
+QTSS_ClientSessionClosing_Role( %s,%d)\n
+QTSS_GetValue sClientPortAttrID failed:%d \n
+DestroySession :%p \n
+Call QTSS_CloseFile_Role Roles \n
+/mac/av_stream/ch
+9UDPSocket
+RemoveClient
+AddRtpStream
+22StreamSessionInterface
+APIModules/QTSSLiveModule/StreamSessionInterface.cpp
+RemoveClient pRtpPool =%p \n
+001 RemoveClient :%d\n
+002 RemoveClient :%d\n
+m_VecRtpStream.size() = %d \n
+001 Remove rtpstream size = %d,%p \n
+002 Remove rtpstream size = %d,%p,%d \n
+003 Remove rtpstream size = %d \n
+004 Remove rtpstream size = %d \n
+005 Remove rtpstream size = %d \n
+RequsetIFrame
+StopStream
+StartStream
+18VideoStreamSession
+APIModules/QTSSLiveModule/VideoStreamSession.cpp
+bind socket on port %d \n
+Bind Local Port Failed :%d\n
+003 VideoStreamSession RequsetIFrame call service failed  ret= %d\n
+001 Call Stop Stream \n
+002 Call Stop Stream \n
+Call Stop Failed:%d,%d \n
+**********Video Start stream%d*********\n
+m_sockt.Open OS_NoErr,m_sockt!\n
+003 VideoStreamSession call service failed  ret= %d\n
+004 VideoStreamSession call service failed  pResVideo->retvalue= %d\n
+init m_nVideoFrameBufLen = %d,%d  \n
+reinit m_nVideoFrameBufLen = %d  \n
+Start stream %d,%d,%d,%d\n
+001 m_sdpcond.Wait m_osdpmutex \n
+002 m_sdpcond.Wait m_osdpmutex \n
+VideoStreamSession :Get kKillEvent \n
+RecvServiceData Error :%d \n
+Get Older Frame:%d,%d \n
+VideoStreamSession CheckMemPoolIsFull is full \n
+18AudioStreamSession
+AudioStreamSession CheckMemPoolIsFull 
+error package for audio package 
+Lost Audio Frame:%u,%u \n
+%02x%02x
+m=audio 0 RTP/AVP %d\r\nb=AS:%d\r\na=control:trackID=1\r\na=rtpmap:%d MPEG4-GENERIC/%d/%d\r\na=fmtp:%d profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=%s\r\n
+m=audio 0 RTP/AVP %d\r\nb=AS:%d\r\na=control:trackID=1\r\na=rtpmap:%d PCMA/%d/%d\r\na=ptime:125\r\na=fmtp:%d\r\n
+AudioStreamSession Bind Local Port Failed :%d\n
+Call Request Audio Failed ,%d,%d \n
+MPEG4-GENERIC/%d/%d
+PCMA/%d/%d
+; sprop-parameter-sets=
+; sprop-vps=
+; sprop-sps=
+; sprop-pps=
+; profile-level-id=
+0123456789ABCDEF9StreamSdp
+o=- 1 1 IN IP4 %s
+a=range:npt=0-   
+m=video 0 RTP/AVP 96
+a=control:trackID=0
+a=fmtp:96 profile-space=0;profile-id=1;tier-flag=0;level-id=180;interop-constraints=800000000000
+a=fmtp:96 packetization-mode=1
+h264frame2psets sdp len = %d \n
+s=DYrtpsion
+a=rtpmap:96 H264/90000
+a=rtpmap:96 H265/90000
+22AlarmDataStreamSession
+m=application 0 RTP/AVP %d\r\na=control:trackID=2\r\na=rtpmap:%d X-KATA/1000\r\na=fmtp:%d octet-align=1\r\nb=AS:2\r\n
+StopStream  AlarmDataStreamSession succed, nRet = %d \n
+14RtpPackagePool
+GetClientSessionStartRtpTime Error:%d \n
+SendOtherRtpStream failed:%d \n
+PopRtpPackage :%d,m_LeftRtpByFrame:%d \n
+001 Write Error:%d,%d ,%d\n
+**PopRtpPackage m_nBlockCount:%d,%d ** \n
+**001 lost Rtp Package:%d,%d,%d ** \n
+Remove Frame Header Package 
+m_RtpPackQueue erase package
+Not Got Complete Frame 
+Send Rtp Failed:%d \n
+Send Package Retry Count too Big:%d \n
+SendConnectResult
+HandleClientBW
+HandleCtrl
+ServeInvoke
+ServePacket
+ReadAndPorcessPacket
+11RTMPService
+Enter into RTMPService::~RTMPService() \n
+FMS/3,5,1,525
+status
+NetConnection.Connect.Success
+Connection succeeded.
+version
+%s, Response connect Request 
+%s: client BW = %d %d
+%s, received ctrl. type: %d, len: %d
+Handle Ctrl Set Buffer Length:%d ,%d,%d\n
+Enter into %s,%p \n
+%s, Sanity failed. no string method in invoke packet
+%s, error decoding invoke packet
+connect
+flashVer
+swfUrl
+tcUrl
+pageUrl
+audioCodecs
+videoCodecs
+objectEncoding
+SendConnectResult Failed \n
+SendSetChunkSize Failed \n
+createStream
+001 SendResultNumber Failed \n
+getStreamLength
+002 SendResultNumber Failed \n
+NetStream.Authenticate.UsherToken
+%s, av_NetStream_Authenticate_UsherToken\n
+play
+RTMP_SendCtrl failed\n
+SendPlayReset failed\n
+SendPlayStart failed\n
+%s, play null Path \n
+uwd=
+.mp4
+%s, play invalid Path \n
+File play  Path %s\n
+/mnt/mmc/%s
+%s, play invalid Stream Channel \n
+StartVideoStream failed\n
+deleteStream
+Get deleteStream Message \n
+Leave Out ServeInvoke: %d,%d,%d\n
+ServePacket Null Packet \n
+Enter into ServePacket :%d\n
+Enter into RTMP_PACKET_TYPE_INVOKE \n
+Leave out RTMP_PACKET_TYPE_INVOKE \n
+%s, unknown packet type received: 0x%02x
+Leave Out %s:%d \n
+%s, Handshaked Failed \n
+001 %s, Get Into ServerPacket,%d,%d \n
+call ServePacket  failed \n
+005 %s, %d bytes not process \n
+006 %s, Get Package Failed Exit Session \n
+001 sendFileVideoAvcc: %s ,%d  \n
+002 sendFileVideoAvcc: %s ,%d  \n
+003 sendFileVideoAvcc: %s ,%d ,%d \n
+Send Video Sps And PPs Data Failed \n
+001 m_pobjRtmpInfo->Link.protocol = %d \n
+002 m_pobjRtmpInfo->Link.protocol = %d \n
+_result
+fmsVer
+capabilities
+level
+code
+description
+onBWDone
+onStatus
+NetStream.Play.Reset
+reset...
+details
+clientid
+NetStream.Play.Start
+start...
+NetStream.Play.Stop
+Stopped playing
+onMetaData
+duration
+height
+videodatarate
+absRecordTime
+SendAudioFrame
+SendVideoFrame
+17RtmpStreamSession
+001 Call Audio Data Failed :%d\n
+002 Call Audio Data Failed :%d\n
+Main Stream Over the Max Connect :%d\n
+20151105 VideoStreamSession call service failed  ret= %d,%d,%d\n
+StartVideoStream SendMetaData  ret= %d\n
+001 RtmpStreamSession Call ~RtmpStreamSession() \n
+002 RtmpStreamSession Call ~RtmpStreamSession() \n
+002 %s, Get RtmpStreamSession Read Event ,%p,%d\n
+%s, m_AVShmFrame.ReadAVFrame Failed \n
+003 %s, Get RtmpStreamSession Read Event,%p , \n
+003.1 %s, Get RtmpStreamSession Read Event \n
+%s, Send Audio Frame Failed \n
+004 %s, Get RtmpStreamSession Read Event \n
+001 Create RtmpStreamSession Session \n
+open Socket Failed \n
+Bind Local Port Failed\n
+002 Create RtmpStreamSession Session \n
+%s, m_VideoShmFrame.ReadAVFrame Failed \n
+%s, 003 Get RtmpVideoStream Read Event \n
+%s, 004 Get RtmpVideoStream Read Event \n
+%s, Send Video Frame Failed \n
+Enter into  RtmpNetWorkThread thrad \n
+Enter into  RtmpNetWorkThread m_nRtmpPipes \n
+Leave out  RtmpNetWorkThread m_nRtmpPipes \n
+Leave out  RtmpNetWorkThread thrad \n
+Enter int   RtmpStreamSession::Run() ,events:%d \n
+001 RtmpStreamSession kStartEvent\n
+002 RtmpStreamSession kStartEvent,%d\n
+Create Rtmp Thread Failed errno:%d\n
+Create Rtmp Thread Success \n
+003 RtmpStreamSession kStartEvent,%d\n
+%s,Task::kKillEvent \n
+14RtmpFileStream
+001 RtmpFileStream Call ~RtmpFileStream() 
+002 RtmpFileStream Call ~RtmpFileStream() 
+001 RtmpFileStream::OpenFileStream() %s  \n
+002  RtmpFileStream::OpenFileStream() %s ,  \n
+ RtmpFileStream::OpenFileStream() %s failed,  \n
+003 RtmpFileStream::OpenFileStream() %s ,  \n
+004 RtmpFileStream::OpenFileStream() %s ,  \n
+Video (%dx%d) \n
+005 RtmpFileStream::OpenFileStream() %s failed,  \n
+006 RtmpFileStream::OpenFileStream() %s ,  \n
+007 RtmpFileStream::OpenFileStream() %s , %p,%p \n
+007.5 RtmpFileStream::OpenFileStream()   \n
+008 RtmpFileStream::OpenFileStream() %s failed,  \n
+009 RtmpFileStream::OpenFileStream() %s failed,  \n
+SendAVPacket,%d \n
+Exit ReadFileThread thread \n
+001 Create RtmpFileStream() Session:%s\n
+002 Create RtmpFileStream() Session
+/var/etc/streaming/qtusers
+/var/etc/streaming/qtgroups
+enable_allow_guest_default
+/mac/live/ch
+HYRtspd1.0
+13AccessChecker
+13RTPStream3GPP
+RTPStream3GPP::SetRTT curRTT ==%lu scaling by %d\n
+RTPStream3GPP::AddNadu sequence number error: seq=%hu, nextSeqNum=%lu, highestSeqNum=%lu\n
+reported buffer size = %lu reported Free Buffer=%lu  current calculated bufferUsage= %lu\n
+Avg Movie BitRate = %lu original target delay=%lu adjusted TargetDelay =%ld \n
+ADJUSTING buffer usage and target delay: maxUsableBufferSizeBytes =%lu adjustedFreeBuffer=%lu bufferUsage=%lu adjusted TargetDelay=%lu\n
+Calculated maxUsableBufferSize =%lu reported fBufferSize=%lu  reported buffer delay=%lu current calculated bufferUsage= %lu\n
+bufferUsageRatio =%f bufferDelayRatio=%f\n
+rate adapt is using delay ratio and buffer size\n
+fAdjustSize=kAdjustDown 1\n
+fAdjustSize=kAdjustUp 1\n
+fAdjustSize=kAdjustDown 2\n
+fAdjustSize=kAdjustUp 2\n
+rate adapt is using only buffer size\n
+RTPStream3GPP::UpdateTimeAndQuality fast network packet loss slowing down fNumRTCPWithoutPacketLoss=%ld\n
+RTPStream3GPP::UpdateTimeAndQuality slow network packet loss decrease quality fNumRTCPWithoutPacketLoss=%ld\n
+RTPStream3GPP::UpdateTimeAndQuality  update threshold=%ld\n
+RTPStream3GPP::UpdateTimeAndQuality fNumLargeRTT(%ld) >= 4 maximum quality level decreased: %ld\n
+RTPStream3GPP::UpdateTimeAndQuality fNumSmallRTT (%ld) >= levelTest(%ld) maximum quality level increased: %ld\n
+RTPStream3GPP::UpdateTimeAndQuality type=%s quality=%ld,  qualitylimit=%ld, fAdjustTime=%i bufferUsage=%lu(%.0f%%), bufferDelay=%lu(%.0f%%)\n
+RTPStream3GPP::GetAdjustedTransmitTime: initial quality=%lu\n
+14RTPSession3GPP
+target-time
+RTSPRequest3GPP::ParseAdpationHeaderTest numValues =%lu\n
+RTSPRequest3GPP::ParseAdpationHeaderTest err GetValuePtr(qtss3GPPRequestRateAdaptationStreamData\n
+RTSPRequest3GPP::ParseAdpationHeaderTest qtss3GPPRequestRateAdaptationStreamData=[
+RateAdapationStreamDataFields::PrintData trackID=%lu bufferSize=%lu targetTime=%lu\n
+RTSPRequest3GPP::ParseLinkCharHeaderTest qtss3GPPLinkCharHeader numValues =%lu\n
+RTSPRequest3GPP::ParseLinkCharHeaderTest err GetValuePtr(qtss3GPPLinkCharHeader\n
+RTSPRequest3GPP::ParseLinkCharHeaderTest qtss3GPPLinkCharHeader=[
+LinkCharDataFields::PrintData fURL=%s fGuaranteedKBitsPerSec=%lu fMaximumKBitsPerSec=%lu fMaximumTransferDelayMilliSec=%lu\n
+has an invalid value: valid range is [1..9]
+enable_3gpp_protocol
+enable_3gpp_protocol_rate_adaptation
+a=3GPP-Adaptation-Support:
+3gpp_protocol_rate_adaptation_report_frequency
+QTSSPosixFileSysModuleOSFileSource
+QTSSPosixFileSysModuleEventContext
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>@@@?456789:;<=@@@@@@@
+\a\b\t\n\v\f\r
+@@@@@@
+ !"#$%&'()*+,-./0123@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+param: %s
+ value(%ld): %s 
+- Configuration file error:\n
+  file: %s, line# %i\n
+  text: %s
+  reason: %s\n
+Parameter could not be set.
+No value to set.
+qtss.conf
+\f\f\f\f\f\f\f\f\f\v
+\f\f\f\f\f\f\f\f\f\f\f
+\f\f\f\a\f\f
+\f\f\f\f\f\n\f
+%d %b %Y %H:%M:%S GMT
+11EventThread
+14IdleTaskThread
+8IdleTask
+8OSThread
+pthread_attr_init Failed:%d \n
+Socket::GetLocalAddrStr() failed  
+Socket::GetLocalAddrStr() ipaddress:%s  \n
+Socket::GetLocalDNSStr() failed  
+Socket::GetLocalDNSStr() dns:%s  \n
+***WriteV:Send Data Failed:%d,%d,%d,%x*** \n
+***WriteV:Send Data Failed:%d,%d,%d,%x,%d,%p,%d*** \n
+Initialize  ipAddress:%s,%x \n
+eth0
+Get Local IPAddress Failed 
+local ip:%s \n
+25ResizeableStringFormatter
+%%%X
+10TaskThread
+live_
+unknown
+17TCPListenerSocket
+Out of File Descriptors. Set max connections lower and check for competing usage from other processes. Exiting.
+accept error = %d '%s' on socket. Clean up and continue.
+pthread_attr_init failed:%d \n
+pthread_attr_setstacksize failed:%d \n
+RTSP Create DispatchThread Failed errno:%d\n
+17TimeoutTaskThread
+TimeoutTask
+./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+$dufr$
+md5-sess
+7SDPLine
+vosiuepcbtrzkam
+SDPContainer::PrintAllLines no lines\n
+a=range
+b=AS:
+ AudioSpeakerThread  time out 
+header error 
+ AudioSpeakerThread  recv out 
+ Invalid Audio AudioSpeakerThread Param:%d,%d,%d,%d,%d \n
+RTSP/
+GET /live/ch
+POST /live/ch
+POST /fcs/ident2
+Content-Type: application/x-fcs
+*************001 Not Support fcs idents*************
+Init Pthread Attr Failed:%d \n
+pthread_attr_setstacksize Failed:%d \n
+speak create thread  failed:%s,%d
+x-sessioncookie
+Host:
+HTTP
+rtsp://%s:%u%s\r\n
+rtsptext\r\n%s
+HTTP/1.0 200 OK\r\nServer: DSS/6.0.3\r\nConnection: close\r\nContent-Type: video/quicktime\r\nContent-Length: %d\r\nPragma: no-cache\r\nCache-Control: no-cache\r\n\r\n
+Connect WebServer Tcp Socket Failed 
+002 Dispatch Task:%d,%d,%d \n
+6QTFile
+QTFile::FindTOCEntry - Searching for "%s".\n
+QTFile::FindTOCEntry - ..Rooting search at [%03lu].\n
+QTFile::FindTOCEntry - ..Starting search at [%03lu] '%c%c%c%c'.  Search path is "%s"\n
+QTFile::FindTOCEntry - ..Comparing against [%03lu '%c%c%c%c'\n
+QTFile::FindTOCEntry - ....Failed match; ascending to parent.  Search path is "%s".\n
+QTFile::FindTOCEntry - ....Found match for '%c%c%c%c'; search path is "%s"\n
+QTFile::FindTOCEntry - ..Matched atom path.\n
+QTFile::FindTOCEntry - ....Hit RootTOCID; aborting ascension.\n
+QTFile::FindTOCEntry - ..Match failed.\n
+QTFile::GenerateAtomTOC - Found End-of-udta marker.\n
+QTFile::GenerateAtomTOC - Found 'uuid' extended type name= %s.\n
+QTFile::GenerateAtomTOC - Bail atom is bad. type= '%c%c%c%c'; pos=%qu; length=%qu; header=%lu.\n
+QTFile::GenerateAtomTOC - Found 64 bit atom '%c%c%c%c'; pos=%qu; length=%qu; header=%lu.\n
+QTFile::GenerateAtomTOC - Found 32 bit atom '%c%c%c%c'; pos=%qu; length=%qu; header=%lu.\n
+QTFile::GenerateAtomTOC - Placing this atom at the head of the TOC.\n
+QTFile::GenerateAtomTOC - ..This atom is the first child of our new parent.\n
+QTFile::GenerateAtomTOC - ..Creating a new parent.\n
+QTFile::GenerateAtomTOC - Empty atom.\n
+QTFile::GenerateAtomTOC - End of this parent's ('%c%c%c%c') children.\n
+QTFile::Open - Opening movie.\n
+QTFile::Open - Generating Atom TOC.\n
+QTFile::Open - Reading movie header.\n
+moov:mvhd
+QTFile::Open - Loading tracks.\n
+:tref:hint
+moov:trak
+QTFile::Open - Finished loading.\n
+QTFile::DumpAtomTOC - Dumping TOC.\n
+%s[%03lu] AtomType=%c%c%c%c; AtomDataPos=%qu; AtomDataLength=%qu\n
+23QTFile_FileControlBlock
+33QTHintTrack_HintTrackControlBlock
+11QTHintTrack
+:udta:hinf
+:udta:hnti:sdp 
+QTHintTrack::GetPacket - ....Sample entry found (sample#=%lu; offset=%lu; length=%u; BPCB=%u; SPCB=%u)\n
+QTHintTrack::GetPacket - Building packet #%u in sample %lu.\n
+QTHintTrack::GetPacket - ..rtpTimestamp=%lu; rtpSequenceNumber=%u; transmitTime=%.2f\n
+QTHintTrack::GetPacket - ..Building packet.\n
+QTHintTrack::GetPacket - ....Sample entry found (size=%u)\n
+QTHintTrack::GetPacket - ....Immediate entry found (size=%u)\n
+QTHintTrack::GetPacket - ....Sample Description entry found (size=%u)\n
+QTHintTrack::GetPacket - ....No-Op entry found\n
+QTHintTrack::GetPacket - ..Packet length is %lu bytes.\n
+9QTRTPFile
+a=range:npt=0-%10.5f\r\n
+moov:udta:hnti:rtp 
+Calculating RTP timestamp for track #%lu at time %.2f.\n
+..timestamp=%lu\n
+7QTTrack
+<untitled>
+QTTrack::DumpTrack - Dumping track.\n
+QTTrack::DumpTrack - ..Track name: "%s".\n
+:udta:name
+:mdia:mdhd
+Searching track #%lu 'elst' atom.\n
+:edts:elst
+:mdia:minf:dinf:dref
+:mdia:minf:stbl:stts
+:mdia:minf:stbl:ctts
+:mdia:minf:stbl:stsc
+:mdia:minf:stbl:stsd
+:mdia:minf:stbl:stco
+:mdia:minf:stbl:co64
+:mdia:minf:stbl:stsz
+:mdia:minf:stbl:stss
+:tkhd
+6QTAtom
+11QTAtom_dref
+QTAtom_dref::DumpAtom - Dumping atom.\n
+QTAtom_dref::DumpAtom - ..Ref #%lu is in file: %s\n
+11QTAtom_elst
+QTAtom_elst::DumpAtom - Dumping atom.\n
+QTAtom_elst::DumpAtom - ..Version: %d.\n
+QTAtom_elst::DumpAtom - ..Number of edits: %ld\n
+QTAtom_elst::Initialize failed. Version unsupported: %d\n
+QTAtom_elst::Initialize ..%lu edits found.\n
+QTAtom_elst::Initialize ..Edit #%lu: Duration=%qu; MediaTime=%qd\n
+11QTAtom_hinf
+QTAtom_hinf::DumpAtom - Dumping atom.\n
+QTAtom_hinf::DumpAtom - ..Total RTP bytes: %qu\n
+QTAtom_hinf::DumpAtom - ....Average bitrate: %.2f Kbps\n
+QTAtom_hinf::DumpAtom - ..Total RTP packets: %qu\n
+QTAtom_hinf::DumpAtom - ....Average packet size: %qu\n
+QTAtom_hinf::DumpAtom - ..Total Payload bytes: %qu\n
+QTAtom_hinf::DumpAtom - ..Maximum Data Rate: %qu\n
+QTAtom_hinf::DumpAtom - ..Total Media Track bytes: %qu\n
+QTAtom_hinf::DumpAtom - ..Total Repeat Packet bytes: %qu\n
+QTAtom_hinf::DumpAtom - ..Total Immediate Bytes: %qu\n
+QTAtom_hinf::DumpAtom - ..Minimum Transmission Time: %lu\n
+QTAtom_hinf::DumpAtom - ..Maximum Transmission Time: %lu\n
+QTAtom_hinf::DumpAtom - ..Maximum Packet Size bytes: %lu\n
+QTAtom_hinf::DumpAtom - ..Maximum Maximum Packet Duration: %lu\n
+QTAtom_hinf::DumpAtom - ..Payload ID: %lu\n
+QTAtom_hinf::DumpAtom - ..Payload string: %s\n
+:payt
+:dmax
+:pmax
+:tmax
+:tmin
+:drep
+:dimm
+:dmed
+:maxr
+:tpay
+:tpyl
+:npck
+:nump
+:totl
+:trpy
+11QTAtom_mdhd
+QTAtom_mdhd::DumpAtom - Dumping atom.\n
+QTAtom_mdhd::DumpAtom - ..Version: %d.\n
+QTAtom_mdhd::DumpAtom - ..Creation date: %s
+QTAtom_mdhd::Initialize failed. Expected AtomDataLength == 24 version: %d AtomDataLength: %qu\n
+QTAtom_mdhd::Initialize failed. Expected AtomDataLength == 36 version: %d AtomDataLength: %qu\n
+QTAtom_mdhd::Initialize  failed. Version unsupported: %d\n
+11QTAtom_mvhd
+QTAtom_mvhd::DumpAtom - Dumping atom.\n
+QTAtom_mvhd::DumpAtom - ..Version: %d.\n
+QTAtom_mvhd::DumpAtom - ..Creation date: %s
+QTAtom_mvhd::DumpAtom - ..Movie duration: %.2f seconds\n
+QTAtom_mvhd::Initialize failed. Expected AtomDataLength == 100 version: %d AtomDataLength: %qu\n
+QTAtom_mvhd::Initialize failed. Expected AtomDataLength = 112 version: %d AtomDataLength: %qu\n
+QTAtom_mvhd::Initialize failed. Version unsupported: %d\n
+11QTAtom_stco
+-- Chunk Offset table ----------------------------------------------------------\n
+  Chunk Num.     Offset\n
+  ----------   ----------\n
+  %10lu: QTAtom_stco::DumpTable ChunkOffset error\n
+  %10lu: %qu\n
+QTAtom_stco::DumpAtom - Dumping atom.\n
+QTAtom_stco::DumpAtom - ..Number of chunk offset entries: %ld\n
+35QTAtom_stsc_SampleTableControlBlock
+11QTAtom_stsc
+-- Sample-to-Chunk table -------------------------------------------------------\n
+  Sample Num   FirstChunk  Samples/Chunk  Sample Description\n
+  ----------   ----------  -------------  ------------------\n
+  %10lu : %10lu   %10lu        %10lu\n
+QTAtom_stsc::DumpAtom - Dumping atom.\n
+QTAtom_stsc::DumpAtom - ..Number of STC entries: %ld\n
+11QTAtom_stsd
+QTAtom_stsd::DumpAtom - Dumping atom.\n
+QTAtom_stsd::DumpAtom - ..Number of sample description entries: %ld\n
+11QTAtom_stss
+-- Sync Sample table -----------------------------------------------------------\n
+  Entry Num.   Sample Num\n
+  %10lu : %10lu\n
+QTAtom_stss::DumpAtom - Dumping atom.\n
+QTAtom_stss::DumpAtom - ..Number of sync sample entries: %ld\n
+11QTAtom_stsz
+-- Sample Size table -----------------------------------------------------------\n
+  Sample Num   SampleSize\n
+QTAtom_stsz::DumpAtom - Dumping atom.\n
+QTAtom_stsz::DumpAtom - ..Number of sample size entries: %ld\n
+35QTAtom_stts_SampleTableControlBlock
+11QTAtom_stts
+35QTAtom_ctts_SampleTableControlBlock
+11QTAtom_ctts
+-- Composition Time To Sample table ----------------------------------------------\n
+  Entry Num.   Sample Count   Sample Offset\n
+  ----------   ------------   ---------------\n
+  %10lu : %10lu  %10lu\n
+-- Time To Sample table -----------------------------------------------------------\n
+  Entry Num.   Sample Count   Sample Duration\n
+QTAtom_ctts::DumpAtom - Dumping atom.\n
+QTAtom_ctts::DumpAtom - ..Number of CTTS entries: %ld\n
+QTAtom_stts::DumpAtom - Dumping atom.\n
+QTAtom_stts::DumpAtom - ..Number of TTS entries: %ld\n
+11QTAtom_tkhd
+ Enabled
+ InMovie
+ InPreview
+ InPoster
+QTAtom_tkhd::DumpAtom - Dumping atom.\n
+QTAtom_tkhd::DumpAtom - ..Version: %d.\n
+QTAtom_tkhd::DumpAtom - ..Track ID: %ld\n
+QTAtom_tkhd::DumpAtom - ..Flags:%s%s%s%s\n
+QTAtom_tkhd::DumpAtom - ..Creation date: %s
+QTAtom_tkhd::Initialize failed. Expected AtomDataLength == 84 version: %d AtomDataLength: %qu\n
+QTAtom_tkhd::Initialize failed. Expected AtomDataLength == 96 version: %d AtomDataLength: %qu\n
+QTAtom_tkhd::Initialize failed. Version unsupported: %d
+11QTAtom_tref
+QTAtom_tref::DumpAtom - Dumping atom.\n
+QTAtom_tref::DumpAtom - ..Number of track reference entries: %lu\n
+Create Standard key Error
+Create Message Queue Error
+Send Message Error
+libVerion:%s
+201710191408
+open %s\n
+%s%s%s
+hdKSFHK*&@DJSFH@^askahhcdjkyelejh$PanYuanYiDaYunLinksKey!
+%s-%2.2X%2.2X%2.2X
+%4d%02d%02d%02d%02d%02d
+license%s.xml
+%s-%X%X%X-%08d
+%d;%s;%s;%s;%s;
+LICENSE
+/dev/mem
+open failed 
+mmap error 
+QZ^&
+\a7Ç\r
+qtssAttrName
+qtssAttrID
+qtssAttrDataType
+qtssAttrPermissions
+qtssModName
+qtssModDesc
+qtssModVersion
+qtssModRoles
+qtssModPrefs
+ModAttributes
+rtsp_timeout
+real_rtsp_timeout
+rtp_timeout
+maximum_connections
+maximum_bandwidth
+movie_folder
+bind_ip_addr
+break_on_assert
+auto_restart
+total_bytes_update
+average_bandwidth_update
+safe_play_duration
+module_folder
+error_logfile_name
+error_logfile_dir
+error_logfile_interval
+error_logfile_size
+error_logfile_verbosity
+screen_logging
+error_logging
+drop_all_video_delay
+start_thinning_delay
+large_window_size
+window_size_threshold
+min_tcp_buffer_size
+max_tcp_buffer_size
+tcp_seconds_to_buffer
+do_report_http_connection_ip_address
+default_authorization_realm
+run_user_name
+run_group_name
+append_source_addr_in_transport
+rtsp_port
+max_retransmit_delay
+small_window_size
+ack_logging_enabled
+rtcp_poll_interval
+rtcp_rcv_buf_size
+send_interval
+thick_all_the_way_delay
+alt_transport_src_ipaddr
+max_send_ahead_time
+reliable_udp_slow_start
+auto_delete_sdp_files
+authentication_scheme
+sdp_file_delete_interval_seconds
+auto_start
+reliable_udp
+reliable_udp_dirs
+reliable_udp_printfs
+drop_all_packets_delay
+thin_all_the_way_delay
+always_thin_delay
+start_thicking_delay
+quality_check_interval
+RTSP_error_message
+RTSP_debug_printfs
+enable_monitor_stats_file
+monitor_stats_file_interval_seconds
+monitor_stats_file_name
+enable_packet_header_printfs
+packet_header_printf_options
+overbuffer_rate
+medium_window_size
+window_size_max_threshold
+RTSP_server_info
+run_num_threads
+pid_file
+force_logs_close_on_write
+disable_thinning
+player_requires_rtp_header_info
+player_requires_bandwidth_adjustment
+player_requires_no_pause_time_adjustment
+enable_3gpp_protocol
+enable_3gpp_protocol_rate_adaptation
+3gpp_protocol_rate_adaptation_report_frequency
+default_stream_quality
+player_requires_rtp_start_time_adjust
+enable_3gpp_debug_printfs
+enable_udp_monitor_stream
+udp_monitor_video_port
+udp_monitor_audio_port
+udp_monitor_dest_ip
+udp_monitor_src_ip
+enable_allow_guest_default
+run_num_rtsp_threads
+player_requires_disable_3gpp_rate_adapt
+player_requires_3gpp_target_time
+3gpp_target_time_milliseconds
+player_requires_disable_thinning
+qtssFlObjStream
+qtssFlObjFileSysModuleName
+qtssFlObjLength
+FlObjPosition
+qtssFlObjModDate
+qtssServerAPIVersion
+qtssSvrDefaultDNSName
+qtssSvrDefaultIPAddr
+qtssSvrServerName
+qtssRTSPSvrServerVersion
+qtssRTSPSvrServerBuildDate
+qtssSvrRTSPPorts
+qtssSvrRTSPServerHeader
+qtssSvrState
+qtssSvrIsOutOfDescriptors
+qtssRTSPCurrentSessionCount
+qtssRTSPHTTPCurrentSessionCount
+qtssRTPSvrNumUDPSockets
+qtssRTPSvrCurConn
+qtssRTPSvrTotalConn
+qtssRTPSvrCurBandwidth
+qtssRTPSvrTotalBytes
+qtssRTPSvrAvgBandwidth
+qtssRTPSvrCurPackets
+qtssRTPSvrTotalPackets
+qtssSvrHandledMethods
+qtssSvrModuleObjects
+qtssSvrStartupTime
+qtssSvrGMTOffsetInHrs
+qtssSvrDefaultIPAddrStr
+qtssSvrPreferences
+SvrMessages
+qtssSvrClientSessions
+qtssSvrCurrentTimeMilliseconds
+qtssSvrCPULoadPercent
+qtssSvrNumReliableUDPBuffers
+qtssSvrReliableUDPWastageInBytes
+qtssSvrConnectedUsers
+qtssMP3SvrCurConn
+qtssMP3SvrTotalConn
+qtssMP3SvrCurBandwidth
+qtssMP3SvrTotalBytes
+MP3SvrAvgBandwidth
+qtssSvrServerBuild
+qtssSvrServerPlatform
+qtssSvrRTSPServerComment
+qtssSvrNumThinned
+qtssSvrNumThreads
+qtssConnectionType
+qtssConnectionCreateTimeInMsec
+qtssConnectionTimeConnectedInMsec
+qtssConnectionBytesSent
+qtssConnectionMountPoint
+qtssConnectionHostName
+qtssConnectionSessRemoteAddrStr
+qtssConnectionSessLocalAddrStr
+qtssConnectionCurrentBitRate
+qtssConnectionPacketLossPercent
+ConnectionTimeStorage
+qtssCliSesStreamObjects
+qtssCliSesCreateTimeInMsec
+qtssCliSesFirstPlayTimeInMsec
+qtssCliSesPlayTimeInMsec
+qtssCliSesAdjustedPlayTimeInMsec
+qtssCliSesRTPBytesSent
+qtssCliSesRTPPacketsSent
+qtssCliSesState
+qtssCliSesPresentationURL
+qtssCliSesFirstUserAgent
+qtssCliStrMovieDurationInSecs
+CliStrMovieSizeInBytes
+CliSesMovieAverageBitRate
+qtssCliSesLastRTSPSession
+qtssCliSesFullURL
+qtssCliSesHostName
+qtssCliRTSPSessRemoteAddrStr
+qtssCliRTSPSessLocalDNS
+qtssCliRTSPSessLocalAddrStr
+qtssCliRTSPSesUserName
+qtssCliRTSPSesUserPassword
+qtssCliRTSPSesURLRealm
+qtssCliRTSPReqRealStatusCode
+qtssCliTeardownReason
+qtssCliSesReqQueryString
+qtssCliRTSPReqRespMsg
+qtssCliSesCurrentBitRate
+qtssCliSesPacketLossPercent
+qtssCliSesTimeConnectedinMsec
+qtssCliSesCounterID
+qtssCliSesRTSPSessionID
+qtssCliSesFramesSkipped
+qtssCliSesTimeoutMsec
+qtssCliSesOverBufferEnabled
+qtssCliSesRTCPPacketsRecv
+qtssCliSesRTCPBytesRecv
+qtssCliSesStartedThinning
+qtssCliSes3GPPObject
+qtssCliSessLastRTSPBandwidth
+qtssCliSessIs3GPPSession
+qtssRTPStrTrackID
+qtssRTPStrSSRC
+qtssRTPStrPayloadName
+qtssRTPStrPayloadType
+qtssRTPStrFirstSeqNumber
+qtssRTPStrFirstTimestamp
+qtssRTPStrTimescale
+qtssRTPStrQualityLevel
+qtssRTPStrNumQualityLevels
+qtssRTPStrBufferDelayInSecs
+RTPStrFractionLostPackets
+qtssRTPStrTotalLostPackets
+qtssRTPStrJitter
+qtssRTPStrRecvBitRate
+qtssRTPStrAvgLateMilliseconds
+qtssRTPStrPercentPacketsLost
+qtssRTPStrAvgBufDelayInMsec
+qtssRTPStrGettingBetter
+qtssRTPStrGettingWorse
+qtssRTPStrNumEyes
+qtssRTPStrNumEyesActive
+qtssRTPStrNumEyesPaused
+qtssRTPStrTotPacketsRecv
+qtssRTPStrTotPacketsDropped
+qtssRTPStrTotPacketsLost
+qtssRTPStrClientBufFill
+qtssRTPStrFrameRate
+qtssRTPStrExpFrameRate
+qtssRTPStrAudioDryCount
+qtssRTPStrIsTCP
+qtssRTPStrStreamRef
+qtssRTPStrTransportType
+qtssRTPStrStalePacketsDropped
+qtssRTPStrCurrentAckTimeout
+qtssRTPStrCurPacketsLostInRTCPInterval
+qtssRTPStrPacketCountInRTCPInterval
+qtssRTPStrSvrRTPPort
+qtssRTPStrClientRTPPort
+qtssRTPStrNetworkMode
+qtssRTPStr3gppObject
+qtssRTPStrThinningDisabled
+qtssRTSPReqFullRequest
+qtssRTSPReqMethodStr
+qtssRTSPReqFilePath
+qtssRTSPReqURI
+qtssRTSPReqFilePathTrunc
+qtssRTSPReqFileName
+qtssRTSPReqFileDigit
+qtssRTSPReqAbsoluteURL
+qtssRTSPReqTruncAbsoluteURL
+qtssRTSPReqMethod
+qtssRTSPReqStatusCode
+qtssRTSPReqStartTime
+qtssRTSPReqStopTime
+qtssRTSPReqRespKeepAlive
+qtssRTSPReqRootDir
+qtssRTSPReqRealStatusCode
+qtssRTSPReqStreamRef
+qtssRTSPReqUserName
+qtssRTSPReqUserPassword
+qtssRTSPReqUserAllowed
+qtssRTSPReqURLRealm
+qtssRTSPReqLocalPath
+qtssRTSPReqIfModSinceDate
+qtssRTSPReqQueryString
+qtssRTSPReqRespMsg
+qtssRTSPReqContentLen
+qtssRTSPReqSpeed
+qtssRTSPReqLateTolerance
+qtssRTSPReqTransportType
+qtssRTSPReqTransportMode
+qtssRTSPReqSetUpServerPort
+qtssRTSPReqAction
+qtssRTSPReqUserProfile
+RTSPReqPrebufferMaxTime
+qtssRTSPReqAuthScheme
+qtssRTSPReqSkipAuthorization
+qtssRTSPReqNetworkMode
+qtssRTSPReqDynamicRateValue
+qtssRTSPReq3GPPRequestObject
+qtssRTSPReqBandwidthBits
+qtssRTSPReqUserFound
+qtssRTSPReqAuthHandled
+qtssRTSPReqDigestChallenge
+qtssRTSPReqDigestResponse
+qtssRTSPSesID
+qtssRTSPSesLocalAddr
+qtssRTSPSesLocalAddrStr
+qtssRTSPSesLocalDNS
+qtssRTSPSesRemoteAddr
+qtssRTSPSesRemoteAddrStr
+qtssRTSPSesEventCntxt
+qtssRTSPSesType
+qtssRTSPSesStreamRef
+qtssRTSPSesLastUserName
+qtssRTSPSesLastUserPassword
+qtssRTSPSesLastURLRealm
+qtssRTSPSesLocalPort
+qtssRTSPSesRemotePort
+qtssRTSPSes3GPPObject
+qtssRTSPSesLastDigestChallenge
+qtssUserName
+qtssUserPassword
+qtssUserGroups
+qtssUserRealm
+qtssUserRights
+qtssUserExtendedRights
+qtssUserQTSSExtendedRights
+qtss3GPPStreamEnabled
+qtss3GPPStreamRateAdaptBufferBytes
+qtss3GPPStreamRateAdaptTimeMilli
+qtss3GPPCliSesEnabled
+qtss3GPPCliSesLinkCharGuaranteedBitRate
+qtss3GPPCliSesLinkCharMaxBitRate
+qtss3GPPCliSesLinkCharMaxTransferDelayMilliSec
+qtss3GPPCliSesLinkCharURL
+qtss3GPPRequestEnabled
+qtss3GPPRequestRateAdaptationStreamData
+qtss3GPPRTSPSesEnabled
+\a\b\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+vtosiuepcbzk
+vosiuepcbtrzka

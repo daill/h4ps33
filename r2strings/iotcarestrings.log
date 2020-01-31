@@ -1,0 +1,823 @@
+FromCfgGetIpcVersion
+_Thread_Search_Manager
+_Thread_Search_Manager
+handler
+iCareP2p_IOCtrl_LIVE_START_REQ
+iCareP2p_IOCtrl_AUDIO_STOP
+iCareP2p_IOCtrl_AUDIO_START
+iCareP2p_IOCtrl_LIVE_STOP_REQ
+iCareP2p_IOCtrlDevLogin
+print_reason
+iCareP2pReleaseUser
+CustomInterfaceRecvData
+_ThreadIOCtrManager
+_ThreadIOCtrManager
+CheckDhcpFailed
+iCareP2p_IOCtrlDevLoginOutRange
+PlatformInitialization
+PlatformInitialization
+_Thread_ALive_Manager
+_Thread_ALive_Manager
+main
+main
+IOTCare.cpp
+chStrVerion=%s\n
+%s[%d]\n
+SetCustom notich :p2p a SIGALRM signal %d,%d -%d \n
+set net ,ip will change\n
+ SIGUSR2 tell p2p  online status\n
+/tmp/p2pOKConnet
+/var/p2p_ok_wav
+/tmp/p2pIngConnet
+/var/p2p_ing_wav
+QVGA
+Unknown
+VIDEO
+Rev APP Live Info. Stream Resolution(HD/SD/VGA):%s(%d), Stream Type(VIDEO,AUDIO,ALL):%s(%d)\n
+AUDIO
+gUser[%d].bVideo and Audio,Requested:%d,%d\n
+iCareP2p_IOCtrl_AUDIO_STOP send failed\n
+iCareP2p_IOCtrl_AUDIO_START send failed\n
+iCareP2p_IOCtrl_LIVE_STOP_REQ send failed\n
+Rev app password:%s ,System:%s\n
+print_reason signal id 0x%0X ,[SIG-%d]\n
+release user[%d]\n
+iCareP2pReleaseUser
+PPCS_Close(%d)\n
+P2P DeInit Failed.  ret = %d\n
+P2P DeInit Success. ret = %d\n
+NoError
+Unknow, something is wrong!
+IOCTRL_TYPE_UNKN
+IOCTRL_TYPE_LIVE_START_REQ
+IOCTRL_TYPE_LIVE_START_RESP
+IOCTRL_TYPE_LIVE_STOP_REQ
+IOCTRL_TYPE_LIVE_STOP_RESP
+IOCTRL_TYPE_AUDIO_START
+IOCTRL_TYPE_AUDIO_STOP
+IOCTRL_TYPE_SPEAKER_START
+IOCTRL_TYPE_SPEAKER_STOP
+IOCTRL_DEV_LOGIN
+IOCTRL_DEV_LOGOUT
+IOTYPE_USER_IPCAM_SETRECORD_REQ
+IOTYPE_USER_IPCAM_SETRECORD_RESP
+IOTYPE_USER_IPCAM_GETRECORD_REQ
+IOTYPE_USER_IPCAM_GETRECORD_RESP
+IOTYPE_USER_IPCAM_LISTEVENT_REQ
+IOTYPE_USER_IPCAM_LISTEVENT_RESP
+IOTYPE_USER_IPCAM_RECORD_PLAYCONTROL
+IOTYPE_USER_IPCAM_RECORD_PLAYCONTROL_RESP
+IOTYPE_USER_IPCAM_SETSTREAMCTRL_REQ
+IOTYPE_USER_IPCAM_SETSTREAMCTRL_RESP
+IOTYPE_USER_IPCAM_SETMOTIONDETECT_REQ
+IOTYPE_USER_IPCAM_SETMOTIONDETECT_RESP
+IOTYPE_USER_IPCAM_GETMOTIONDETECT_REQ
+IOTYPE_USER_IPCAM_GETMOTIONDETECT_RESP
+IOTYPE_USER_IPCAM_GETAUDIOOUTFORMAT_REQ
+IOTYPE_USER_IPCAM_GETAUDIOOUTFORMAT_RESP
+IOTYPE_USER_IPCAM_DEVINFO_REQ
+IOTYPE_USER_IPCAM_DEVINFO_RESP
+IOTYPE_USER_IPCAM_SETPASSWORD_REQ
+IOTYPE_USER_IPCAM_SETPASSWORD_RESP
+IOTYPE_USER_IPCAM_LISTWIFIAP_REQ
+IOTYPE_USER_IPCAM_LISTWIFIAP_RESP
+IOTYPE_USER_IPCAM_SETWIFI_REQIOTYPE_USER_IPCAM_SETWIFI_REQ
+IOTYPE_USER_IPCAM_SETWIFI_RESP
+IOTYPE_USER_IPCAM_GETWIFI_REQ
+IOTYPE_USER_IPCAM_GETWIFI_RESP
+IOTYPE_USER_IPCAM_SET_ENVIRONMENT_REQ
+IOTYPE_USER_IPCAM_SET_ENVIRONMENT_RESP
+IOTYPE_USER_IPCAM_GET_ENVIRONMENT_REQ
+IOTYPE_USER_IPCAM_GET_ENVIRONMENT_RESP
+IOTYPE_USER_IPCAM_SET_VIDEOMODE_REQ
+IOTYPE_USER_IPCAM_SET_VIDEOMODE_RESP
+IOTYPE_USER_IPCAM_GET_VIDEOMODE_REQ
+IOTYPE_USER_IPCAM_GET_VIDEOMODE_RESP
+IOTYPE_USER_IPCAM_FORMATEXTSTORAGE_REQ
+IOTYPE_USER_IPCAM_FORMATEXTSTORAGE_RESP
+IOTYPE_USER_IPCAM_GET_NAME_REQ
+IOTYPE_USER_IPCAM_GET_NAME_RESP
+IOTYPE_USER_IPCAM_CAMERA_RENAME_REQ
+IOTYPE_USER_IPCAM_CAMERA_RENAME_RESP
+IOTYPE_USER_IPCAM_GET_TIMEZONE_REQ_EXT
+IOTYPE_USER_IPCAM_GET_TIMEZONE_RESP_EXT
+IOTYPE_USER_IPCAM_SET_TIMEZONE_REQ_EXT
+IOTYPE_USER_IPCAM_SET_TIMEZONE_RESP_EXT
+IOTYPE_USER_IPCAM_PTZ_COMMAND
+IOTYPE_USER_IPCAM_SET_RESET_REQ
+IOTYPE_USER_IPCAM_SET_RESET_RESP
+IOTYPE_USER_IPCAM_SET_UPGRADE_REQ
+IOTYPE_USER_IPCAM_SET_UPGRADE_RESP
+IOTYPE_USER_IPCAM_GET_VOLUME_REQ
+IOTYPE_USER_IPCAM_GET_VOLUME_RESP
+IOTYPE_USER_IPCAM_SET_VOLUME_REQ
+IOTYPE_USER_IPCAM_SET_VOLUME_RESP
+IOTYPE_USER_IPCAM_GET_DOUBLE_LIGHT_MODE_REQ
+IOTYPE_USER_IPCAM_GET_DOUBLE_LIGHT_MODE_RESP
+IOTYPE_USER_IPCAM_SET_DOUBLE_LIGHT_MODE_REQ
+IOTYPE_USER_IPCAM_SET_DOUBLE_LIGHT_MODE_RESP
+IOTYPE_USER_IPCAM_SET_COLINK_PARAM_REQ
+IOTYPE_USER_IPCAM_SET_COLINK_PARAM_RESP
+IOTYPE_USER_IPCAM_GET_CHIPER_ID_REQ
+IOTYPE_USER_IPCAM_GET_CHIPER_ID_RESP
+Unknow CMD.
+TEST Command_handler UnKnown CMD: 0x%x\n
+-app give cmd = 0x%x(%s)\n
+IOCtrManager read APP[%d] cmd timeout, nRecvSize = %d, continue. at line ret: %d\n
+line %d timeout.\n
+Read CMD Error. Abnormal Data. Need Data Size:%d, Real Read Data Size:%d.(goto the next)\n
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ recv messgae from app. +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n
+APP[%d] pStreamIOHead->datasize:%d, cmdtype:0x%x, headFlag:0x%x\n
+002 ThreadRecvIOCtrl: failed %d !!\n
+Read Data Error. Abnormal Data. Want Data Size:%d, Real Read Data Size:%d.(goto the next)\n
+SessionIndexNum:%d.error password:%d\n
+SessionIndexNum:%d, _ThreadIOCtrManager exit!!\n
+/var/pid_hostapd
+/var/dhcp.info
+failed
+default
+192.168.0.188
+DHCP FAILED.\n
+out of max login range.\n
+hotspot
+station
+Station
+WiFI
+Camera wireless state:%s\n
+%s, Line:%d; P2P Init Failed. ret = %d\n
+The network cannot be restored and must be restarted\n
+echo 3 > /proc/sys/vm/drop_caches
+killall -SIGUSR1 IOTCare
+/mnt/mtd/ipc/cfg/DyVoiceRecog.bin
+/var/tmpNetWiFi
+In distribution network stage:WiFi\n
+/tmp/thinkap
+192.168.66.1
+sys add1 192.168.66.1\n
+PPCS_NetworkDetect ...\n
+PPCS_NetworkDetect() Failed. ret = %d\n
+-PPCS_NetworkDetect 2 IPC  -\n
+Internet Reachable     : %s\n
+P2P Server IP resolved : %s\n
+P2P Server Hello Ack   : %s\n
+Local NAT Type         : %d\n
+ Unknow\n
+ IP-Restricted Cone\n
+ Port-Restricted Cone\n
+ Symmetric\n
+IPC Wan IP : %s\n
+IPC Lan IP : %s\n
+NetWork in WiFi %s\n
+-PPCS_NetworkDetect END-\n
+0.0.0.0
+NoIP\n
+IPC hot:%s connection, no need to resolve the domain name\n
+PlatformInitialization Failed,Ret:%d, from %s,line:%d\n
+wait for Net OK!,ip:%s\n
+/var/dhcp.pid
+DHCPC status:%d\n
+wait for Net OK!,ip:%s,%s\n
+Think IP ERROR:%s\n
+sys add2 192.168.66.1\n
+Net is OK, IP : %s(Line:%d)\n
+/var/ap_exit.list
+/tmp/NetETHRefresh
+Call_Service Failed, nRet = %d, in %s, at line:%d.\n
+IP get Unvalidated Input:%s,len:%d\n
+The IP address is different:%s\n
+PPCS_Listen_Break :%d\n
+Line %d, PPCS_Close(%d)\n
+Line %d, PPCS_Close,NO.[%d]:%d\n
+PPCS_DeInitialize :%d\n
+PlatformInitialization :%d\n
+PlatformInitialization Failed.\n
+PPCS_LoginStatus_Check ret:%d status:%d\n
+reset PPCS_Listen:%d\n
+reset PPCS_Listen and all net socket:%d\n
+Client
+Device
+-SangYun P2P @DaYunLinks,V%s,%s-\n
+1022.2.237build20190626
+GK-100CD10
+/mnt/mtd/ipc/app/version
+/mnt/mtd/ipc/cfg/version
+GKW.Chip%04d-v%d.%d.%d.%d
+\niCareP2p:%s\n
+IPC system User=%s,Password=%s\n
+/mnt/mtd/db/cid
+IPC have cid \n
+P2PID:%s\n
+002 Try GetP2PInfo enable=%d,APPID=%s,LICENSE=%s,COMPANYID=%s,COMPANKEY=%s,chDaYunKey=%s,chKeyStatus=%s,r=%s\n
+AudioEncode_SpeakStart Failed at line %d in %s.\n
+20190626155203
+ExitListen,Force an initialization message to be received:%d\n
+PPCS_Listen:%d\n
+MAX_USER(socket) continue!\n
+Invalid DID.\n
+DID Out of Date.\n
+IOTCARE %d\n
+SessionHandle Error(nSessionCheckRet = %d). continue.\n
+ValidUserIndex:%d , P2P Connected, SessionHandle:%d.\n
+==================================================================\n
+||                 From app %s Session Info                     ||\n
+||--------------------------------------------------------------||\n
+||App Index : %-50d||\n
+||SessionHandle : %-46d||\n
+||Socket : %-53d||\n
+||Remote Addr : %15s:%-32d||\n
+||My Lan Addr : %15s:%-32d||\n
+||My Wan Addr : %15s:%-32d||\n
+||Connection time : %d second before%-29s||\n
+||DID : %-56s||\n
+||I am %-57s||\n
+||Connection mode: %-45s||\n
+PPCS_DeInitialize done ret = %d!!\n
+MAX_USER continue!\n
+EEGDFHBAKKIOGNJCEOHEFKEGHHNNDPJFGLAABIGLBFNGLKPECBEKHOODCGLCMPKMFIMJKFGMOANCFGGGJCJJJKEOMGKBAHHHBFGFDKFDIHOCBLHPAGBJODIMHANNFHGP
+ERROR_P2P_FAIL_TO_CREATE_THREAD
+ERROR_P2P_INVALID_APILICENSE
+ERROR_P2P_SESSION_CLOSED_INSUFFICIENT_MEMORY
+ERROR_P2P_USER_CONNECT_BREAK
+ERROR_P2P_UDP_PORT_BIND_FAILED
+ERROR_P2P_MAX_SESSION
+ERROR_P2P_USER_LISTEN_BREAK
+ERROR_P2P_REMOTE_SITE_BUFFER_FULL
+ERROR_P2P_SESSION_CLOSED_CALLED
+ERROR_P2P_SESSION_CLOSED_TIMEOUT
+ERROR_P2P_SESSION_CLOSED_REMOTE
+ERROR_P2P_INVALID_SESSION_HANDLE
+ERROR_P2P_NO_RELAY_SERVER_AVAILABLE
+ERROR_P2P_ID_OUT_OF_DATE
+ERROR_P2P_INVALID_PREFIX
+ERROR_P2P_FAIL_TO_RESOLVE_NAME
+ERROR_P2P_DEVICE_NOT_ONLINE
+ERROR_P2P_INVALID_PARAMETER
+ERROR_P2P_INVALID_ID
+ERROR_P2P_TIME_OUT
+ERROR_P2P_ALREADY_INITIALIZED
+ERROR_P2P_NOT_INITIALIZED
+ERROR_P2P_SUCCESSFUL
+127.0.0.1
+_Thread_Talk_Manager
+_Thread_Talk_Manager
+iCareP2p_GETAUDIOOUTFORMAT_REQ
+iCareP2p_GETAUDIOOUTFORMAT_REQ
+iCareP2p_IOCtrl_SPEAKER_START
+iCareP2p_IOCtrl_SPEAKER_START
+iCareP2p_IOCtrl_SPEAKER_STOP
+iCareP2p_IOCtrl_SPEAKER_STOP
+CallBackAVFun/AudioSpeaker.cpp
+%s %d \n
+Talking Data empty!\n
+%s %d ,send failed\n
+Start Talk[%d].\n
+/dev/spksw
+Can't open /dev/spksw\n
+AudioCodec:0x%x,AudioLen:%d\n
+Start Talk[%d] Failed. Speaker is Busy. stIoctrlTalkStartResp.result=%d\n
+Stop Talk[%d].\n
+SetVideoEncodeParam
+HandleSetOSD
+AlarmCallDeepDeep
+RequestKeyFrame
+iCareP2p_IOTYPE_USER_IPCAM_SET_ENVIRONMENT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_ENVIRONMENT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_ENVIRONMENT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_ENVIRONMENT_REQ
+set var vinorm='%s';\n
+Err:%d ,stResp.retvalue = %d\n
+get var vinorm='%s';\n
+CallBackAVFun/AVFun.cpp
+Call Service Set Video Encode Param Failed:%d,%d \n
+001 start call service \n
+%Y/%m/%d %H:%M:%S
+/mnt/mtd/ipc/cfg/OsdText
+HandleSetOSD,nDirection:%d\n
+DaYunIPC
+nRet=%d\n
+Set OSD error
+Alaram Beep  Request Failed,%d,%d \n
+p2p request I frame:%d .Error Code:%d,%d\n
+stMsgAVIoctrlSetEnvironmentReq.mode:%X\n
+AV_Interface_Reinit
+ThreadAVStreamRecv
+AV_Interface_Init
+AV_StopVideoStream
+Audio_Interface_Start_Stream
+CallBackAVFun/avInterface.cpp
+Create Video Socket failed:%d\n
+Get Video Socket failed:%d,%d\n
+Create Audio Socket failed\n
+getsockname Audio Socket failed\n
+Real-time audio and video streaming callback service\n
+g_nVideoSocket[%d]=%d\n
+g_nAudioSocket   =%d\n
+Real-time audio and video streaming ,test line\n
+Enter into select,From realtime stream\n
+recv < 0\n
+recv == 0\n
+chBuffer=%s\n
+g_objCirVideoFrame[nChn].ReadAVFrame(g_pVideoFB[%d],nLen) == NULL Still.\n
+Ch0 VideoFrameReady: %d, invalid session handle!!\n
+Ch0 VideoFrameReady: %d, Session Remote Close!!\n
+Ch0 VideoFrameReady: %d, Session TimeOUT!!\n
+Ch1 VideoFrameReady: %d, invalid session handle!!\n
+Ch1 VideoFrameReady: %d, Session Remote Close!!\n
+Ch1 VideoFrameReady: %d, Session TimeOUT!!\n
+AudioFrameReady: %d, invalid session handle!!\n
+AudioFrameReady: %d, Session Remote Close!!\n
+AudioFrameReady: %d, Session TimeOUT!!\n
+Real-time audio and video streaming ,end line\n
+pthread_create ThreadAVStreamRecv  Failed \n
+av start video stream:width * height=%d*%d\n
+stop stream ,Real-time service stop:%d\n
+p2p start audio interface ,Init share mem\n
+001 DY_StopAudioStream :%d \n
+002 DY_StopAudioStream :%d,%d \n
+\rVR^ZFBNJvr~zfbnj+)/-#!'%;9?=317
+XHxh
+\b8(ØÈøè
+`\a \a
+_Thread_DownloadLog
+CheckSsidIsCurrent
+_PrepareBrushData2CameraThread
+_DisplayApiSdkVersion
+iCareP2p_IOTYPE_USER_IPCAM_SETPASSWORD_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SETPASSWORD_REQ
+#,/48;=BHKL
+eP2p_IOTYPE_USER_IPCAM_GET_TIMEZONE_REQ_EXT
+iCareP2p_IOTYPE_USER_IPCAM_GET_TIMEZONE_REQ_EXT
+iCareP2p_IOTYPE_USER_IPCAM_SET_TIMEZONE_REQ_EXT
+PrivSetDeviceTime
+iCareP2p_IOTYPE_USER_IPCAM_SET_TIMEZONE_REQ_EXT
+iCareP2p_IOTYPE_USER_IPCAM_LISTWIFIAP_REQ
+iCareP2p_IOTYPE_USER_IPCAM_LISTWIFIAP_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SETWIFI_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SETWIFI_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GETWIFI_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GETWIFI_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEVINFO_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEVINFO_REQ
+iCareP2p_IOTYPE_USER_IPCAM_NETINFO_REQ
+iCareP2p_IOTYPE_USER_IPCAM_NETINFO_REQ
+iCareP2p_IPCAM_SETREBOOT_REQ
+iCareP2p_IPCAM_SETREBOOT_REQ
+iCareP2p_PTZ_COMMAND_REQ
+iCareP2p_SETSTREAMCTRL_REQ
+iCareP2p_SETSTREAMCTRL_REQ
+iCareP2p_SET_VIDEOMODE_REQ
+iCareP2p_SET_VIDEOMODE_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_VIDEOMODE_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_VIDEOMODE_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_OPER_LOG_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_UPGRADE_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_UPGRADE_REQ
+GetAudioI
+GetAudioO
+iCareP2p_IOTYPE_USER_IPCAM_GET_VOLUME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_VOLUME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_VOLUME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_VOLUME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_CAMERA_RENAME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_CAMERA_RENAME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_NAME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_NAME_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_DUAL_LIGHT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_DUAL_LIGHT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_DUAL_LIGHT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_DUAL_LIGHT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_USE_P2P_TRANSFER_SET_REQ
+PrepareBrushData2Camera
+iCareP2p_IOTYPE_USER_IPCAM_USE_P2P_TRANSFER_SET_REQ
+iCareP2p_IOTYPE_USER_IPCAM_USE_P2P_TRANSFER_CHECK_REQ
+r.0.0.0
+u.0.0.0
+iCareP2p_IOTYPE_USER_IPCAM_USE_P2P_TRANSFER_CHECK_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEBUG_LOG_SWITCH_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEBUG_LOG_SWITCH_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEBUG_LOG_LIST_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEBUG_LOG_LIST_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEBUG_LOG_DOWNLOAD_REQ
+iCareP2p_IOTYPE_USER_IPCAM_DEBUG_LOG_DOWNLOAD_REQ
+CallBackDevMntFun/DevMngFun.cpp
+start log download,mode:%d,file:%s.txt\n
+/mnt/mmc/log/%s.txt
+log send: %d, Session TimeOUT!!\n
+log send: %d, Session Remote Close!!\n
+log send: %d, invalid session handle!!\n
+PPCS_Write:%d\n
+%s-%s-%s %s:%s:%s
+Call FUN_GET_DEV_INFO Service Failed.Error Code:%d,%d 
+_PrepareBrushData2CameraThread url:%s,md5:%s\n
+/dev/mmcblk0p1
+/tmp/sd/sd.ok
+Storage path not exists\n
+mkdir /tmp/xm_autorun
+/tmp/xm_autorun/sound
+mkdir /tmp/xm_autorun/sound
+/mnt/mmc/kernel.bin
+rm -rf /mnt/mmc/kernel.bin
+rm -rf /mnt/mmc/rootfs.bin
+/mnt/mmc/user.bin
+rm -rf /mnt/mmc/user.bin
+/mnt/mmc/app.bin
+rm -rf /mnt/mmc/app.bin
+/mnt/mmc/kernel.bin.upg
+rm -rf /mnt/mmc/kernel.bin.upg
+/mnt/mmc/rootfs.bin.upg
+rm -rf /mnt/mmc/rootfs.bin.upg
+/mnt/mmc/app.bin.upg
+rm -rf /mnt/mmc/app.bin.upg
+/mnt/mmc/file_upgared_md5_err.amr
+rm -rf /mnt/mmc/file_upgared_md5_err.amr
+/mnt/mmc/file_download_ok.amr
+rm -rf /mnt/mmc/file_download_ok.amr
+/mnt/mmc/file_unzip_over.amr
+rm -rf /mnt/mmc/file_unzip_over.amr
+/mnt/mmc/file_upgared_reboot.amr
+rm -rf /mnt/mmc/file_upgared_reboot.amr
+/mnt/mmc/md5.txt
+rm -rf /mnt/mmc/md5.txt
+%s%s
+/mnt/mmc/
+rm -rf /mnt/mmc/%s
+Delete URL file cmd:%s\n
+/lib/modules/http.ko -n 6 -o /mnt/mmc  %s
+download url cmd:%s:%d\n
+http.ko
+-download url file-\n
+/mnt/mmc/%s
+download file sucessful:%s\n
+unzip   /mnt/mmc/%s  "*file_download_ok.amr"  -d /tmp/xm_autorun/sound
+/tmp/xm_autorun/sound/file_download_ok.amr
+mv /tmp/xm_autorun/sound/file_download_ok.amr /tmp/xm_autorun/sound/custom.wav
+touch  /var/custom_wav
+unzip   /mnt/mmc/%s  -d /mnt/mmc
+mv /mnt/mmc/file_unzip_over.amr /tmp/xm_autorun/sound/custom.wav
+%s%s%s
+md5 input str=%s len=%d\n
+Before the encryption:%s\nencrypted:
+%s%02x
+kernel Packs
+File:%ld me:%ld\n
+chlUpdateSize=%s\n
+chSizeStrMd5Wr=%s\n
+rootfs app Packs
+WrMd5Total:%s,%d\n
+Exist md5:%s\n
+md5 ok\n
+mv /mnt/mmc/file_upgared_md5_err.amr /tmp/xm_autorun/sound/custom.wav
+mv /mnt/mmc/kernel.bin.upg /mnt/mmc/kernel.bin
+mv  /mnt/mmc/rootfs.bin.upg /mnt/mmc/rootfs.bin
+mv  /mnt/mmc/app.bin.upg /mnt/mmc/app.bin
+mv /mnt/mmc/file_upgared_reboot.amr /tmp/xm_autorun/sound/custom.wav
+reboot
+end\n
+/tmp/xm_autorun
+all Packs\n
+[ _API Version: %d.%d.%d.%d ]\n
+old:%s;new:%s\n
+admin
+%d-%d-%d %d:%d:%d
+Call FUN_GET_ZONETIME_OPER Service Failed.Error Code:%d,%d 
+%04d-%02d-%02d %02d:%02d:%02d
+nNowTime:%d,%s,localtime_r time,%s\n
+nZone:%d\n
+/tmp/ntpupdatep2p
+stMsgAVIoctrlSetTimeZoneExtReq.nGMTDiff:%d,stMsgAVIoctrlSetTimeZoneExtReq.local_utc_time:%d\n
+%04d-%02d-%02d;%02d:%02d:%02d
+chTimeNowDate is : %s\n
+Line %d, iZone=%d\n
+Line %d, nGMTDiff=%d\n
+stReq.nZoneTime=%d(%s)\n
+stReq.chCurTime=%s\n
+%s %d ,send num:%d\n
+%s %d ,send ret = %d\n
+ssid:%s,psw:%s,enctype:%x\n
+enable=%d ,ssid=%s\n
+var sdtotalspace=%d;
+var sdfreespace=%d;\n
+Model:%s\n
+vendor:%s\n
+WiFi
+********************************* NETINFO beg **********************************\n
+Net Info -- Net Type:%4s, IP:%15s\n
+SessionHandle Error.\n
+GetNetworkInfoReq, channel:%d\n
+********************************* NETINFO end **********************************\n
+stMsgAVIoctrlSetRebootReq.action == %d.\n
+/var/reset_wav
+Wait IPC reset.\n
+%s. %d,%d
+ERR_STR_CallSERVER_FAILED
+/var/reboot
+Wait IPC reboot.\n
+stMsgAVIoctrlSetVideoModeReq.mode:%d\n
+Call FUN_SET_IMAGE_PARAM_OPER Service Failed.Error Code:%d,%d 
+\n********************************* OPER_LOG beg **********************************\n
+stMsgIoctrlGetOperaLogReq.channel = %d\n
+%04d%02d%02d%02d%02d%02d
+chStartTime:%s\n
+chEndTime:%s\n
+ERR_STR_PARAM_VALUE_FAILED
+Show Logs(StartTime:%s --- EndTime:%s)(total:%d)\n
+This time range have no log file 
+-nMaxLogCount:%d ,nDataOffset:%d -\n
+nOperLogCount(%d) >= nMaxLogCount(%d)\n
+nCycleNumber:%d ,nLastNumber:%d\n
+page(nAdd):%d \n
+********************************* OPER_LOG end **********************************\n
+stMsgAVIoctrlSetUpgradeReq.action=%d\n
+upgrade.hapsee.cn
+47.254.23.76
+p2p ,domain->ip:%s\n
+echo "%s" > /mnt/mtd/ipc/cfg/SrvIp
+/var/update_wav
+touch /mnt/mtd/ipc/cfg/upgrade
+stResp.nSpeakerVol_i:%d\n
+stResp.nSpeakerVol_o:%d\n
+volumn input:%d,volumn outpu:%d\n
+Audio in:%d,Audio out:%d\n
+new nickname : `%s`\n
+iCareP2p_IOTYPE_USER_IPCAM_CAMERA_RENAME_REQ - set Server Push Name Error.%d:%d\n
+DEFAULT-CAMERA
+stNeoCamGetNameResp.szCamName:%s\n
+%s %d, send failed.\n
+stResp.nDate:%d\n
+url:%s,md5:%s,mode:0x%X\n
+g_BrushData2CamerapThreadId  task end\n
+/filesystemversion
+/mnt/mtd/ipc/cfg/En.wav
+/mnt/mtd/ipc/cfg/Cn.wav
+/gm/bin/set_log_level 0 0
+/gm/bin/set_log_level 1 1
+/gm/bin/set_log_level 2 1
+/mnt/mmc/log
+no tfcard\n
+LogName:%s\n
+/mnt/mmc/log/%d.txt
+check list log:%s\n
+can not find this:%s\n
+download  this:%s\n
+@make debug thread
+download thread so busy
+GMT-12:00
+GMT-11:00
+GMT-10:00
+GMT-09:00
+GMT-08:00
+GMT-07:00
+GMT-06:00
+GMT-05:00
+GMT-04:00
+GMT-03:30
+GMT-03:00
+GMT-02:00
+GMT-01:00
+GMT+01:00
+GMT+02:00
+GMT+03:00
+GMT+04:00
+GMT+04:30
+GMT+05:00
+GMT+05:30
+GMT+05:45
+GMT+06:00
+GMT+06:30
+GMT+07:00
+GMT+08:00
+GMT+09:00
+GMT+09:30
+GMT+10:00
+GMT+11:00
+GMT+12:00
+GMT+13:00
+DiscoverSvrCall
+GetIPCNetAttr
+r.0.0.0
+u.0.0.0
+create socket fail\n
+eth0
+CallBackDevMntFun/DiscoverSvr.cpp
+001 GetIPCNetAttr Failed:%d,%d \n
+Create Listen Socket Failed %d,%d\n
+setsockopt Failed errno:%d\n
+DYDiscover app select failed,ret:%d errno:%d  \n
+DYDiscover app recv failed,ret:%d errno:%d  \n
+/var/NetFlag
+Open NetFlag failed \n
+nReadLen NetFlag file failed \n
+nReadLen nNetFlag = 0 \n
+Get Mac Address Failed,errno:%d \n
+%02X:%02X:%02X:%02X:%02X:%02X
+Get IP Net Failed \n
+/var/wifilinksSeacherw
+sendto errno = %d stSendAddress.sin_port=0x%X  %s\n
+sendto errno = %d stSendAddress.sin_port=0x%X\n
+It is Admin ,Can change[Roleid=%d] add by Peter.Pan !\n
+sendto errno = %d \n
+iCareP2p_IOTYPE_USER_IPCAM_FORMATEXTSTORAGE_REQ
+iCareP2p_IOTYPE_USER_IPCAM_FORMATEXTSTORAGE_REQ
+SetCardIPCamearAlarmLed
+_set_alarm_plane_led
+_GetMDSensitivityFromdb
+iCareP2p_IOTYPE_USER_IPCAM_SETMOTIONDETECT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SETMOTIONDETECT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GETMOTIONDETECT_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GETMOTIONDETECT_REQ
+CallBackAlarmFun/AlarmFun.cpp
+%s %d ,show!\n
+storage:%d\n
+%s. %d,%d\n
+/proc/gpiopowner
+bAlarmEnable:%d\n
+Request ERR %d,%d \n
+nRet = %d stResp.retvalue = %d\n
+001 MD ensitivity From db:%d\n
+LinkAction_Count:%d \n
+kAlarmBeep index:%d\n
+002 Alarm AlarmBeep:%d\n
+kStroeVideoToSd index:%d\n
+003 Alarm StroeVideoToSd:%d\n
+md:%d,sensitivity:%d,bActSDStroeVideo:%d,beep:%d,AlaramTrigType:%d\n
+sensitivity:%d\n
+Beep alarm flag same:%d\n
+set beep,ret:%d,reserve:%d\n
+MD open now,same sensitivity:%d\n
+send failed ret:%d,%d\n
+set FUN_ACTION_PARAM_SET kIndexStroeVideoToSd ret:%d,%d\n
+P2P_SET
+stReq.stMDArea.sensitivity:%d\n
+AV_GetNextFrame
+AV_GetNextFrame
+21Mp4ParseH264ExtraData
+Open AV_OpenFile!
+AV_OpenFile(CH264) error: avformat_open_input return 
+AV_OpenFile(CH264) error: av_find_stream_info return 
+***********************************************
+video Index:%d\n
+audio Index:%d\n
+Didn't find a video stream.
+cannot open the h264_mp4toannexb
+video m_avPacket,size:%d,pts:%d\n
+001 malloc size:%d!\n
+01 copy head of video \n 
+02 copy data of video \n 
+03 copy data over \n 
+CallBackRecorderFun/Mp4ParseH264ExtraData.cpp
+Video,%s %d ,send failed\n
+audioindex  m_avPacket,size:%d,pts:%d\n
+002 malloc size:%d!\n
+Thread_PlayBack_Audio_Manager
+Thread_PlayBack_Audio_Manager
+Thread_PlayBack_Video_Manager
+Thread_PlayBack_Video_Manager
+RecSetStatus2Led
+_set_recorder_plane_led
+SetRecParam
+SetRecParam
+SetRecordMP4TimeChannel
+_Recorder_Ctrl
+iCareP2p_SETRECORD_REQ
+iCareP2p_SETRECORD_REQ
+iCareP2p_GETRECORD_REQ
+iCareP2p_GETRECORD_REQ
+iCareP2p_RECORDER_LISTEVENT_REQ
+iCareP2p_RECORDER_LISTEVENT_REQ
+iCareP2p_RECORD_PLAYCONTROL
+iCareP2p_RECORD_PLAYCONTROL
+iCareP2p_IOCTRL_HOST_GET_EVERYDAY_EXISTED_RECORD_FLAG_REQ
+iCareP2p_IOCTRL_HOST_GET_EVERYDAY_EXISTED_RECORD_FLAG_REQ
+_GetVideoChannel_
+CallBackRecorderFun/RecorderFun.cpp
+Create Thread_PlayBack_Audio_Manager\n
+APP[%d] %s %d\n
+debug func:%s line:%d\n
+mp4_parse_get_audio error:%d\n
+file end (audio)\n
+PPCS_Write error:%d(Audio line %d)\n
+APP[%d] PlayBack End, PlayBack Audio Thread Exit.\n
+Create Thread_PlayBack_Video_Manager\n
+mp4_parse_get_video error:%d\n
+file end (video)\n
+PlayRecordResp send failed\n
+the device have been sent PlayRecordResp\n
+PPCS_Write error:%d(Video line %d)\n
+APP[%d] PlayBack End,PlayBack Video Thread Exit.\n
+bEnable:%d\n
+failed,nRet:%d \n
+var planrec_enable=%d;\n
+%s,%d,DEBUG_CALLSERVER_ rt:%d:%d\n
+Call SetRecParam Failed,nRet:%d \n
+Set Record MP4 Time Channel\n
+Call Fun Modi RecPlan Failed,nRet:%d ,%d\n
+Modi RecPlan end,nRet:%d ,%d\n
+Call FUN_QRY_RECPLAN failed;nRet = %d \n
+plan
+alarm
+%d-%02d-%02d %02d:%02d:%02d
+BeginDateTime:%s,EndDateTime:%s\n
+chBeginDateTime ,chEndDateTime ERROR!\n
+Call_Service ERROR,nRet:%d,stResp.num:%d!\n
+List RecFileNum:%d\n
+evnet type:%5s(%d)\ttime:%04d-%02d-%02d_%02d:%02d:%02d\n
+--------------------TO : APP INTERFACE!---------------------\n
+-nMaxIndexNum:%d ,nSetoffData:%d -\n
+RecFileNum(%d) >= nMaxIndexNum(%d)\n
+%s %d line ,show!\n
+channel:%d\n
+command:0x%x\n
+Param:%d\n
+stTimeDay.year:%d\n
+stTimeDay.month:%d\n
+stTimeDay.day:%d\n
+stTimeDay.wday:%d\n
+stTimeDay.hour:%d\n
+stTimeDay.minute:%d\n
+stTimeDay.second:%d\n
+stMsgAVIoctrlPlayRecord.reserved[0]:%d\n
+stMsgAVIoctrlPlayRecord.reserved[1]:%d\n
+stMsgAVIoctrlPlayRecord.reserved[2]:%d\n
+stMsgAVIoctrlPlayRecord.reserved[3]:%d\n
+TYPE:%d,TIME:%s\n
+REC PATH:reerved[0] = 0x%X\n
+%s/%s/%04d%02d%02d/%02d/nrc%s.mp4
+plan_record
+%s/%s/%04d%02d%02d/%02d/ARC%s.mp4
+alarm_record
+stMsgAVIoctrlPlayRecord.command:0x%X\n
+REC Path:%s\n
+REC PALY chStrFileUrl[strlen(chStrFileUrl)] = 0x%x\n
+REC PALY:%s\n
+REC PALY Size:%d\n
+Video File Does Not Exist.\n
+Play Start.\n
+test11111
+test - %s\n
+Mp4Parser Init Failed, nRet == %d, File [%s] Damaged.\n
+nRet == MP4_PARSE_NOERR || nRet == MP4_PARSE_ERR_INIT_AUDIO_FAILED
+PlayBack Video File Time is : %d\n
+Play Stop.\n
+Play Pause.\n
+Play SeekTime.\n
+PlayBack Seek Time:%d\n
+Play End.\n
+Not suppot this playback cmd:(AVIOCTRL_RECORD_PLAY_END)%x!\n
+Plan
+Time:%d/%d,%s\n
+%04d%02d
+ERR\n
+var recday='%s';
+nChannel:%d,time:%d\n
+iCareP2p_IOTYPE_USER_IPCAM_GET_CHIPER_ID_REQ
+iCareP2p_IOTYPE_USER_IPCAM_GET_CHIPER_ID_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_COLINK_PARAM_REQ
+iCareP2p_IOTYPE_USER_IPCAM_SET_COLINK_PARAM_REQ
+CallBackCustomFun/CustomMngFun.cpp
+Call FUN_GET_DDNS_PARAM Service Failed.Error Code:%d,%d 
+vendor
+iCareP2p_IOTYPE_USER_IPCAM_SET_COLINK_PARAM_REQ:\ndevid:%s\napikey:%s\nip:%s\nport:%d\n
+iCareP2p_IOTYPE_USER_IPCAM_SET_COLINK_PARAM_REQ:\nchDevid:%s\nchAPIKey:%s\nchIP:%s\nnPort:%d\n
+/mnt/mtd/ipc/app/colink.sh
+killall colink.sh
+/mnt/mtd/ipc/app/colink.sh %s %s %s %d %s
+Create Standard key Error
+Create Message Queue Error
+Send Message Error
+%s-%06d-%s
+0.0.0.0
+$$$$ bind failed!! errno = %d\n
+socket create failed!!, errno=%d\n
+PPPP_QueryDID is not supported since Version 3.0.0
+IYC=
+GSOae
+\aa\rm
+\vߋI;
+ܲ/!#
+\v'\f<
+(rыZ
+n\e𣈫C
+E8OP"f 
+s\tNi$
+3lV~
+udWv
+6Abϙ
+2Lg`a
+127.0.0.1
+169.254
+%02X\n
+data:%02X 
+%02X 
+B Frame
+SP Frame
+I Frame
+SI Frame
+Not Standard `avc` Code.
+getParameter error.
+seek time no fd 
+\v/a+
+GIC\r
+%)\aSYa
+\v/5;=
+%)\aS
+\v/5YaI

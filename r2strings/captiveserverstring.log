@@ -1,0 +1,19 @@
+Usage: %s [http_port]\n
+Thread Captive Create Failed
+Thread DNS Create Failed
+NULL pointer of thread_fun_Captive
+Create HTTP Socket
+Listen HTTP Socket
+line:%d\n
+captive_server captive select
+Accept HTTP Socket
+send HTTP failed.
+DNS_Server
+DNS_Server Bind
+captive_server dns select
+Accept DNS : %s\n
+eth0
+sendto
+DNSServer recvfrom Error
+HTTP/1.1 200 OK\r\nAccept-Ranges:bytes\r\nContent-Type:text/html\r\nContent-Length:69\r\nAge:10\r\nConnection:keep-alive\r\n\r\n<HTML><HEAD><TITLE>Success</TITLE></HEAD><BODY>Success</BODY></HTML>\r\n
+captive.apple.com

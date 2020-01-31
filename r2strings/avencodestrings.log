@@ -1,0 +1,2481 @@
+DecodeAudio
+Check_Encoder_Issame
+Start_Encode
+Stop_Encode
+InitAudioEncDec
+\a\b\t\n\v\f\r
+SetInputVol
+SetOutputVol
+DeinitAudioEncDec
+audio_encoder
+SendG711Stream
+ReadAudioFrame
+13audio_encoder
+audio.cpp
+Enable ao device failed \n
+gadi_audio_ao_send_frame :%d,%d \n
+check endeo is not same \n
+Enable ai device failed :%d\n
+Enable ai aec failed \n
+001 destory audio encoder 
+002 destory audio encoder 
+Enable ai device failed \n
+gadi_audio_init fail\n
+pAudioParam->SampleRate = %d,%d \n
+Set ai attribute failed :%d \n
+gadi_audio_set_sample_format failed:%d \n
+Set ao attribute failed \n
+aec register fail\n
+aec register ok\n
+gadi_audio_ai_set_gain failed:%d \n
+gadi_audio_ao_set_volume failed:%d \n
+aec unregister fail\n
+aec unregister ok\n
+Init G711 Audio Share Mem failed,%d \n
+audio_encoder contruct complete \n
+Invalid Buffer Size:%d \n
+m_objG711AVShmFrame WriteAVFrame failed:%d \n
+vr_writeData Failed:%d,%d \n
+SetIspDayNight
+SetGKImage
+RequestFlip
+C2V_AXIS
+V2C_AXIS
+CleanUpSystem
+SetGKIOVol
+RtpFdtOper
+GetOSDMask
+SetOSDText
+SetAVParam
+request_vstream
+SetIspKeyFrameParam
+CheckCryptThread
+JoinThreadTimeOut
+RequestAudioBeep
+InitFaceDetectionFun
+MbFDTOper
+SnapFdtOper
+SignalHandler
+English_Player
+Chinese_Player
+CompatiblePlayer
+ExitAVMaker
+ProcessExit
+main
+InitImageIspParam
+Y:%d ,Shutter:%f\n
+avmaker.cpp
+SetDayNight Mode Failed:%d \n
+Set gk video brightness failed \n
+Set gk video contrase failed \n
+Set gk video saturation failed \n
+Set gk video hue failed \n
+SendData Failed:%d \n
+RequestFlip Failed:%d \n
+ReStart Encoder :%d \n
+C2V_AXIS Invalid res:(%d,%d) \n
+Send Data Error \n
+V2C_AXIS Invalid res:(%d,%d) \n
+V2C_AXIS nRight error:%d,%d,%d \n
+V2C_AXIS top error:%d,%d,%d \n
+V2C_AXIS bottom error:%d,%d,%d \n
+Send data error \n
+002 Start Close Watch Dog \n
+003 Start Close Watch Dog \n
+Set gk Input Vol failed \n
+Set gk Output Vol failed \n
+Set RTP FDT Failed \n
+001 Enter into GetOSDMask \n
+GetOsdMask ,%d,%d \n
+utf-8
+UTF-16LE
+osd text is too long.%d,%d \n
+g_pDBManager->SetOsdInfo nRet = %d \n
+g_objVideoEncoder[%d]->SetOsdInfo nRet = %d \n
+Video width Error:%d,%d \n
+Video height Error:%d,%d \n
+Change is 2K Video \n
+Video Fps Change:%d,%d,%d \n
+pReqMsg->Fps:%d \n
+Send Refrech Rec Audio Failed(%d,%d) \n
+g_objVideoEncoder reset encoder failed:%d \n
+SetVideoNormIntoDB failed:%d \n
+Request Video Stream:%d,%d,%d,%d,%d \n
+Send Data Error,%d,%d\n
+key frame ask ,Ch:%d,Request\n
+KEY Frame ask nChannel:%d!\n
+001 CheckCryptThread,nFacModedb=%d\n
+002 avencode,chDaYunKey=%s,chLicense=%s\n
+EncodeKeyStatus OK,Welcome use DyIPC!\n
+Ohh,NO!,YOU can not use this soft!\n
+Again check md5 failed:%d \n
+reboot
+/var/Yshutter
+%3.0f\n
+Clock Get Time Failed \n
+pthread_timedjoin_np failed:%d \n
+/dev/spksw
+Can't open /dev/spksw\n
+000 RequestAudioBeep\n
+001 RequestAudioBeep\n
+002 RequestAudioBeep \n
+Init Pthread Attr Failed:%d \n
+pthread_attr_setstacksize Failed:%d \n
+Create AudioBeepThread Thread Failed,Ret= %d \n
+InitFaceDetectionFun failed:%d \n
+Set Alarm MBFDT Failed \n
+capture a SIGALRM signal %d,%d \n
+HANDLER %d,PTZ is running \n
+/proc/self/exe
+%s/%s
+./res/En/di.wav
+open %s file failed \n
+Malloc memory failed \n
+../../../../gm/Cn/di.wav
+/var/alarmcall
+/var/noticecall
+/var/wifierrorcall
+/var/wificonfiging
+/var/wificonfingOK
+/var/wifiTestLinkOK
+/var/custom_wav
+./res/Compatible/NULL.wav
+show player Compatible sound detection old player
+/mnt/mtd/ipc/cfg/En.wav
+Now is En Voice
+/mnt/mtd/ipc/cfg/Cn.wav
+cfg English
+cfg Chinese
+Others process application reset gk encode\n
+/tmp/RunAvEncode
+ProcessExit\n
+Old version player
+New Cn or En player
+/mnt/mtd/ipc/cfg/config_cst.cfg
+g_nOldVersionPlayerVoiceUse:%d ,version show:%s\n
+Call Init Video Buffer failed ,channel:%d\n
+pthread_attr_init Failed:%d \n
+Create Check Crypt Thread Failed :%d,%d \n
+AVMaker Get Osd Info Failed \n
+g_objVideoEncoder[i].SetOsdText \n
+ini cfg loading\n
+CustomCfgStatusRt g_nLanguageType:%d\n
+Cst cfg,nCstAInputVol:%d,nCstAOutputVol=%d\n
+001:Use cfg default:VolumeFromCfg,%d\n
+002:Use db default:VolumeFromDB,%d\n
+002:Use db default:GetOutAudioVolumeFromDB,%d\n
+GetAudioCfgWifiFlag =%d \n
+/mnt/mtd/ipc/cfg/DyVoiceRecog.bin
+/tmp/RunOneTimeRec
+Great Audio config \n
+Audio Enc Param:%d,%d,%d \n
+Get Video info failed \n
+Capture W,H:%d,%d \n
+request video
+request  audio stream
+stop video
+stop audio
+Set AV Param
+Get AV Param
+Set OSD Info
+Get Osd Info
+SnapShot Jpg Image
+Request Motion Detect Data
+Request Audio Beep 
+Request Audio Detect 
+Request Video Zoom Operate 
+Request Stop Wacth Dog 
+Get OSD Mask Info 
+Set OSD Mask
+Video Covert Capture Axis
+Capture Covert Video Axis
+Request Stop Rcger
+Request Video Flip
+MB FDT
+SNAP FDT
+RTP FDT
+Set GK IO VOL
+Set GK Image Param
+Set GK ISP DayNight Mode
+Set Aud Function
+Get Aud Function
+Get Y or Shutter Function
+FUN_SET_KEY_FRAME_FROM_APP
+FUN_EXIT_PROCESS
+Create Socket Failed,%d,%d \n
+Get Image Attr From DataBase Failed :%d \n
+001 InitImageIspParam :%d,%d \n
+002 InitImageIspParam :%d,%d,%d,%d \n
+/tmp/SamplingModeDay
+/tmp/SamplingModeNight
+avencode Start Video Encoder failed:%d,%d \n
+avencode Start Audio Encoder failed:%d \n
+/tmp/runavencode
+Create VideoEncodeThread failed:%d,%d \n
+Create AudioEncodeThread failed:%d,%d \n
+ pThreadAliveManager rc=%d,%d ,Thread creation failed\n
+/tmp/givenewpic
+mem_alloc = %d \n
+Can't Find pMSGHEADER->funid = %d \n
+004 pMSGHEADER->funid = %d \n
+005 pMSGHEADER->funid = %d \n
+001 Exit avencode Process \n
+002 Exit avencode Process \n
+002.1 Exit avencode Process \n
+002.2 Exit avencode Process \n
+003 Exit avencode Process \n
+004 Exit avencode Process \n
+005 Exit avencode Process \n
+006 Exit avencode Process \n
+006.1 Exit avencode Process \n
+007 Exit avencode Process \n
+010 Exit avencode Process 
+./res/En/alarm.wav
+./res/En/regvoc.wav
+./res/En/Please_wait_for_WiFi_connecting.wav
+./res/En/Wifi_connect_failed_please_configure_again.wav
+./res/En/Reset_Success.wav
+./res/En/Upgrade_success_please_poweroff_and_remove_tf_card.wav
+./res/En/Please_use_mobile_phone_for_WiFi_configuration.wav
+/tmp/xm_autorun/sound/wifi_link.wav
+/tmp/xm_autorun/sound/custom.wav
+./res/En/Internet_connected_Welcome_to_use_cloud_camera.wav
+./res/En/WiFi_connect_success.wav
+./res/Compatible/clear.amr
+./res/Compatible/set.amr
+../../../../gm/ExGuide/Reboot_Success_En.wav
+../../../../gm/ExGuide/WiFi_recognize_success_En.wav
+../../../../gm/ExGuide/Password_error_please_configure_again_En.wav
+../../../../gm/Cn/alarm.wav
+../../../../gm/Cn/regvoc.wav
+../../../../gm/Cn/Please_wait_for_WiFi_connecting.wav
+../../../../gm/Cn/Wifi_connect_failed_please_configure_again.wav
+../../../../gm/Cn/Reset_Success.wav
+../../../../gm/Cn/Upgrade_success_please_poweroff_and_remove_tf_card.wav
+../../../../gm/Cn/Please_use_mobile_phone_for_WiFi_configuration.wav
+../../../../gm/Cn/Internet_connected_Welcome_to_use_cloud_camera.wav
+../../../../gm/Cn/WiFi_connect_success.wav
+../../../../gm/ExGuide/Reboot_Success_Cn.wav
+../../../../gm/ExGuide/WiFi_recognize_success_Cn.wav
+../../../../gm/ExGuide/Password_error_please_configure_again_Cn.wav
+./res/Compatible/di.wav
+./res/Compatible/peng.wav
+./res/Compatible/si.wav
+./res/Compatible/dingding.wav
+CStreamer
+9CStreamer
+001 Call Stream Destory Function 
+002 Call Stream Destory Function 
+stream.cpp
+call CStreamer funciton \n
+TimeStamp is overflow:%llx,%llx,%d,%d \n
+TimeStamp Reset:%d,%d,%llx,%llx,%llx \n
+DivnEaplsePts is Too big:%llx,%llx,%llx\n
+SendStream
+SetParam
+Start_Encode
+StopMJPEGEncode
+SetMjpegEncoder
+StartMJPEGEncode
+InitVideoEncoder
+video_sys_init
+isp_init
+DeinitVideoEncoder
+RequestKeyFrame
+ReadVideoFrame
+InitVideoBuffer
+GetCapWH
+SnapShot
+SetCapFlip
+SetFDTFlag
+SetDayNightMode
+SetVideoBrightness
+SetVideoContrast
+SetVideoSaturation
+SetVideohue
+AdjustEncoderFps
+13video_encoder
+video.cpp
+Video Encode TimeStamp older:0x%x,0x%x \n
+Buffer is too Small :%d,%d\n
+001 Call Video Encoder Destory Function 
+002 Call Video Encoder Destory Function 
+000 SetParam \n
+Video kbps:%d \n
+gadi_venc_set_bitrate failed:%d \n
+001 SetParam gadi_venc_set_framerate:%d \n
+gadi_venc_set_framerate failed:%d \n
+gadi_venc_set_h264_gopn failed:%d \n
+001 SetParam \n
+InitVideoEncoder,gadi_venc_get_h264_qp_config err!
+1 stream qp setting:%d \n
+InitVideoEncoder,gadi_venc_set_h264_qp_config err!
+0830 001 Start Encoder:%d \n
+002 Start Encoder:%d \n
+003 Start Encoder:%d \n
+gadi_venc_start_stream failed:%d \n
+004 Start Encoder \n
+005 Start Encoder:%d \n
+StopMJPEGEncode failed:%d \n
+Stop MJPEG Encode failed:%d \n
+gadi_venc_set_stream_format error :%d\n
+gadi_venc_set_mjpeg_config error :%d\n
+StartMJPEGEncode failed:%d,%d \n
+StartMJPEGEncode failed:%d \n
+sdk sys init\n
+gadi_sys_set_log_level(GADI_SYS_LOG_LEVLE_INFO) failed!\n
+gadi_sys_init() failed!\n
+gadi_sys_load_firmware() failed!\n
+sdk isp init\n
+sdk vi/vout/venc init\n
+gadi_isp_init: error %d\n
+gadi_isp_open: error %d\n
+sdk vi/vout/venc open\n
+gadi_vin_open error\n
+gadi_vout_open error\n
+gadi_venc_open error\n
+sdk vi diable\n
+gadi_vi_enable error\n
+sdk set vout/vi/venc\n
+gadi_vout_set_params error\n
+gadi_vout_set_params end!\n
+Set Vi Fps = %d gadi_vi_set_params \n
+gadi_vin_set_params error\n
+gadi_venc_map_bsb\n
+gadi_venc_map_bsb error\n
+gadi_venc_map_dsp\n
+gadi_venc_map_dsp error\n
+gadi_venc_set_stream_format:%d,%d \n
+InitVideoEncoder,gadi_venc_get_h264_qp_config streamId:%d err!\n
+Initialize [get]stream qp setting:%d,qpMaxOnI:%d,qpMinOnI:%d,qpMaxOnP:%d,qpMinOnP:%d\n
+stream 0 qp setting to inittialize \n
+stream 1 qp setting to inittialize \n
+stream others qp setting to inittialize \n
+Initialize stream qp setting:%d,qpMaxOnI:%d,qpMinOnI:%d,qpMaxOnP:%d,qpMinOnP:%d\n
+gadi_vi_enable error.\n
+gadi_isp_load_param: error %d\n
+gadi_isp_start: error %d\n
+Call InitVideoEncoder Finished \n
+gadi_venc_stop_stream failed:%d \n
+gadi_vi_exit = %d \n
+gadi_vout_exit = %d \n
+gadi_venc_exit = %d \n
+RequestKeyFrame \n
+gadi_venc_query :%d \n
+TimeStamp is Repeat :0x%x,0x%x,%u,%u \n
+000 Init Video Buffer :%d\n
+001 Init Video Buffer :%d\n
+Init Share Mem failed \n
+002 Init Video Buffer \n
+003 Init Video Buffer \n
+gadi_vi_get_resolution failed:%d \n
+SetMjpegEncoder failed:%d \n
+Wait Snap Time Out:%d,%s \n
+000 SnapShot Status is error :%d\n
+/tmp/goke_hardware_version
+/tmp/sensor_id
+1034
+2053
+cVideoModeFromCfg:%d\n
+Not support flip param,Illegal parameter:%d\n
+001 SetCapFlip \n
+002 SetCapFlip \n
+SetCapFlip :%d %d,%d \n
+001 SetFDTFlag %d,%d \n
+002 SetFDTFlag %d,%d \n
+gadi_isp_set_day_night_mode:%d\n
+gadi_isp_set_meter_mode:%d\n
+gadi_vi_set_framerate:%d,%d\n
+Can't from setdaynightmode gadi_vi_set_framerate :%d,%d \n\n\n\n
+set video brightness ,if >0:%d,+ADC:%d\n
+SetVideoBrightness failed :%d\n
+gadi_isp_set_contrast_attr 2 contrastAttr,enableAuto:%d,manualStrength:%d,autoStrength:%d\n
+gadi_isp_get_ae_attr:%d\n
+gadi_isp_set_ae_attr:%d,aeAttr,shutterTimeMin:%d,shutterTimeMax:%d,gainMax:%d,gainMin:%d\n
+gadi_set_auto_local_wdr_mode:%d\n
+Can't from setdaynightmode gadi_vi_set_framerate :%d,%d\n
+SetVideoContrast  :%d\n
+SetVideoContrast failed :%d\n
+SetVideoSaturation failed :%d\n
+SetVideohue failed :%d\n
+001 AdjustEncoderFps:%d,%d,%d \n
+gadi_venc_set_framerate failed:%d,%d \n
+VoiceRegThread
+onRecognizerBegin
+onRecognizerEnd
+ConfigWiFi
+StartVoiceRecognition
+ParsePCMData
+ProcessStopVoiceRegReq
+VoiceRecognition.cpp
+----VoiceRegThread is going...\n
+i want exit!!! 
+Av encode exit!
+----VoiceRegThread exit.\n
+----onRecognizerBegin] pRecog=0x%X\n
+-----onRecognizerEnd VR_SUCCESS nDataLen:%d-----\n
+chStrDecode=%s\n
+sum:%s\n
+p=%s\n
+pwd=%s,i:%d\n
+ssid:%s,psw:%s\n
+Found Did Sum to add,%s;%d\n
+/mnt/mtd/db/cid
+%03X
+CidStr:%s;SysDidSum:%s\n
+/var/VoiceConfigWiFi
+rm -rf  /var/TellVoiceRec
+Voice Set WiFi Failed:%d,%d \n
+-----onRecognizerEnd Start nDataLen:%d-----\n
+----onRecognizerEnd]%d. fSoundTime=%0.2f\n
+Start Voice Config \n
+touch /var/TellVoiceRec
+Create Voice Detect Thread Failed:%d \n
+Create Voice Detect Handle Failed \n
+touch /tmp/ExitRecogScript
+Stop Voice Detect ,%d,%d\n
+vr_writeData failed :%d\n
+ProcessStopVoiceRegReq,reboot avencode\n
+Call StopVoiceRcger Function \n
+Call ProcessStopVoiceRegReq Then Exit avecode \n
+canvas_init
+canvas_init_obj
+canvas_put_pixel
+canvas_get_pixel
+canvas_init_by_bmp24file
+osd/canvas.cpp
+create canvas failed: not free canvas.\n
+input invalid params %d %d - %d %d\n
+input invalid params.\n
+canvas_init_by_bmp24file: input invalid parameters.\n
+canvas_init_by_bmp24file: can not open fileName:%s.\n
+canvas_init_by_bmp24file: load fileName:%s error.\n
+canvas_init_by_bmp24file: fileName: %s error.\n
+_osd_show
+osd_set_display
+osd_set_enable
+osd/osd.cpp
+_osd_show: osd is null\n
+osd_set_enable: invalid params %d-%d\n
+osd_set_display: invalid font_size %d(%d-%d).\n
+osd_set_display: invalid params text null %d.\n
+ osd_s0_z0
+ osd_s0_z1
+ osd_s0_z2
+ osd_s1_z0
+ osd_s1_z1
+ osd_s1_z2
+ osd_s2_z0
+ osd_s2_z1
+ osd_s2_z2
+%s/%s%d
+/mnt/mtd/ipc/app/font
+sdk_osd_init
+sdk_osd_deinit
+sdk_osd_enable
+sdk_osd_set_area_params
+_get_colour_index
+osd/sdk_osd.cpp
+adi_osd_open error\n
+adi_osd_close error\n
+set_area_params error\n
+No colour space, only support 256 colour!!!\n
+U0(&#
+@@88552200%%##!!  
+Create Motion Detection Socket Failed :%d \n
+001 Enter into MotionDetectionThread 
+pda initilize error.
+gadi_pda_buffer_info error
+pda: open error
+gadi_pda_set_attr error
+gadi_pda_start_recv_pic error
+002 Enter into MotionDetectionThread,%d,%d  \n
+gadi_pda_get_data failed :%d\n
+Recevier is Exit:%d \n
+Select  Motion Data Failed:%d,%d \n
+Send Motion Data Failed:%d,%d \n
+pda stop error.
+gadi_pda_close error.
+Leave out MotionDetectionThread 
+pthread_attr_init failed:%d \n
+pthread_attr_setstacksize failed:%d \n
+StartMBThread 
+Create Motion Thread Failed:%d,%d \n
+001 Exit MB Thread 
+002 Exit MB Thread 
+[ERROR] invalid planeId=%d or areaId=%d.\n
+[ERROR] invalid area size %dx%d.\n
+[ERROR] osd area size [%d] is larger than pre-allocated memory [%d].\n
+[ERROR] set overlay insert info failed.
+[ERROR] get pda buffer info failed.
+[ERROR] get encode formate failed.
+[ERROR] encode stream[%d] is no exist.\n
+[ERROR] gadi_osd_init: malloc memory failed!
+[ERROR] gadi_osd_open: gadi_priv_driver_get_fd: retVal =%d\n
+[ERROR] map overlay memory failed.
+[ERROR] unmap overlay memory failed.
+[ERROR] get overlay info failed.
+[ERROR] invert Area is no align 16.
+[ERROR] No invert color mode [%d].
+[ERROR] gadi_dsp_init: malloc memory failed!
+/dev/gk_fw
+[ERROR] open firmware device failed.
+/dev/gk_video
+[ERROR] open  driver failed.
+/lib/firmware
+[ERROR] get firmware info failed.
+[ERROR] get chipid failed.
+[ERROR] map firmware memory failed.
+gk_fw.bin
+[ERROR] open %s failed.\n
+[ERROR] SEEK_SET failed
+[ERROR] fread zip_tag failed
+[ERROR] fread tag failed
+[PRI] firmware version:%u.\n
+[ERROR] fread data failed
+[ERROR] update fw failed.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7101.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7102.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7101S.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7102S.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7102C.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7102C_A.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7102C_T.
+[PRI] chip and firmware match:GK_CHIP_ID_GK7102C_W.
+[ERROR] chip and firmware not match!
+[ERROR] munmap fw memory failed.
+GOKEIPC_BZh91AY
+[ERROR] get firmware version failed.
+[ERROR] get driver info failed.
+[ERROR] get driver state failed.
+[ERROR] driver enter idle state failed.
+[ERROR] drv in wrong state %d\n
+[ERROR] wait interrupt timeout.
+R(13412) LIBC(uClibc) (gcc version 4.6.1 (crosstool-NG 1.18.0) ) 2018-03-09 17:22:13\n
+[ERROR] System thread[0x%lx] suspend falid.
+[ERROR] System thread[0x%lx] suspend error.
+/proc/%d/task/%d/stat
+[ERROR] file(%s) is no exist or can not read.
+%u %s %c %u %*u %*u %*u %*u %*u %*u %*u %*u %*u %Lu %Lu %Lu %Lu %*u %*u %*u %*u %Lu %Lu %Lu %*u %*u %*u %*u %*u %*u %*u %*u %*u %*u %*u %*u %*u %*u %*u %u %u %*u %*u %*u %*u %*u %*u
+GOKE ADI: %s
+[ERROR] get fd failed
+[ERROR] stop encode %d failed.\n
+[ERROR] load firmware failed
+[ERROR] [gadi_sys_get_log_level] : NULL pointer
+[ERROR] Invalid log level, please set it in the range of (0~%d).\n
+[ERROR] gadi_sys_sem_create: out of memory
+[ERROR] sem_post
+[ERROR] sem_destroy
+[ERROR] ERROR: pthread_attr_init
+[ERROR] pthread_attr_setstacksize
+[ERROR] gadi_sys_thread_create() error
+[ERROR] ERROR: linux_thread=%x\n
+[ERROR] pthread_cancel
+[ERROR] Params is NULL.
+[ERROR] gadi_sys_thread_resume() params error
+[ERROR] gadi_sys_wait_end_thread() error %d.
+\e[2J\e[0;0H
+ +-------+------+-------+---------+---------------+-------------------+
+ |  Tid  | Stat |  CPU  | Prioity |  Stack  Size  |    Thread Name    |
+ |\e[35m%6d\e[0m |   \e[36m%c\e[0m  |\e[33m%3d.%02d\e[0m%%|\e[32m%8d\e[0m | \e[33m%8d\e[0m KByte|\e[34m%18.18s\e[0m |\n
+%04d-%02d-%02d %02d:%02d:%02d
+13412
+[ERROR] get dsp2 interrupe times failed.
+[ERROR] get digital zoom failed.
+[ERROR] Calculate DPTZ I parameters failed!
+[ERROR] set digital zoom failed.
+[ERROR] get 2nd digital zoom failed.
+[ERROR] Calculate DPTZ II parameters failed!
+[ERROR] set 2nd digital zoom failed.
+[ERROR] get system resource limit failed.
+[ERROR] set system resource limit failed.
+[ERROR] gadi_vo_init: malloc memory failed!
+[ERROR] Bad params.
+[ERROR] gadi_venc_open: open vi module first.
+[ERROR] gadi_venc_open: open vo module first.
+[ERROR] gadi_vo_open: gadi_dsp_media_get_fd: retVal =%d\n
+[ERROR] GK7102C only 3 streams.
+[ERROR] GK7102C_T only 2 streams.
+[ERROR] get encode stream info failed.
+[ERROR] start encode stream failed.
+[ERROR] stop encode failed.
+[ERROR] gadi_venc_force_idr:Force IDR for stream %d Failed!\n
+[ERROR] venc get bitrate failed
+[ERROR] venc_set_bitrate error: stream %d, mode:%d, avgBitrate:%d, vbrBitrate min [%d], max [%d].\n
+[ERROR] VENC: get framerate time failed, framerate:%d\n
+[ERROR] stream format %d, change frame interval %d/%d error\n
+[ERROR] get framerate failed,framerate time:%d.\n
+[ERROR] get source buffer info failed.
+[ERROR] get all source buffer type failed.
+[ERROR] get source buffer format failed.
+[ERROR] set channel params failed, not support.
+[ERROR] set all source buffer format failed.
+[ERROR] set all source buffer type failed
+[ERROR] get preview buffer format failed.
+[ERROR] set preview buffer formate failed.
+[ERROR] set preview buffer format failed.
+[ERROR] not support set channel 1 input window croping.
+[ERROR] set source buffer format failed.
+[ERROR] need channel 1 type in preview or encode.
+[ERROR] channel 1 width or height can not larger than orginal.
+[ERROR] need channel 2 type in preview or encode.
+[ERROR] channel 2 width or height can not larger than orginal.
+[ERROR] need channel 3 type in preview or encode.
+[ERROR] channel 3 width or height can not larger than orginal.
+[ERROR] need channel 4 type in preview or encode.
+[ERROR] channel 4 width or height can not larger than orginal.
+[ERROR] set stream formate failed, not support.
+[ERROR] can not set channel 0 smaller than 576P.
+[ERROR] set encode formate failed.
+[ERROR] get h264 config failed.
+[ERROR] get bit rate failed
+[ERROR] set h264 config error, reEncMode > 1
+[ERROR] set h264 config failed.
+[ERROR] set bit rate failed.
+[ERROR] venc_set_quality error: get quality failed stream %d\n
+[ERROR] venc_set_quality error: set quality failed stream %d\n
+[ERROR] venc_set_quality error: get gopn failed stream %d\n
+[ERROR] gadi_venc_set_h264_gop error: get gop failed stream %d\n
+[ERROR] gadi_venc_set_h264_gop error: set gop failed stream %d\n
+[ERROR] gadi_venc_get_h264_enc error: get enc failed stream %d\n
+[ERROR] gadi_venc_set_h264_enc error: get enc failed stream %d\n
+[ERROR] gadi_venc_set_h264_enc error: set enc failed stream %d\n
+[ERROR] gadi_venc_get_h264_bias error: get bias failed stream %d\n
+[ERROR] gadi_venc_set_h264_bias error: get bias failed stream %d\n
+[ERROR] gadi_venc_set_h264_bias error: set bias failed stream %d\n
+[ERROR] gadi_venc_get_h264_zeromv error: get zeromv failed stream %d\n
+[ERROR] gadi_venc_set_h264_zeromv error: get zeromv failed stream %d\n
+[ERROR] gadi_venc_set_h264_zeromv error: set zeromv failed stream %d\n
+[ERROR] gadi_venc_get_h264_reenc error: get stream[%d] reencode config.\n
+[ERROR] gadi_venc_set_h264_reenc error: set stream[%d] reencode config.\n
+[ERROR] gadi_venc_get_h264_iframe_size error: get stream[%d] iframe size.\n
+[ERROR] gadi_venc_set_h264_iframe_size_ctl error: set stream[%d] iframe size.\n
+[ERROR] gadi_venc_get_h264_mb_qp_ctl error: get stream[%d] mb qp ctl.\n
+[ERROR] gadi_venc_set_h264_mb_qp_ctl error: set stream[%d] mb qp ctl.\n
+[ERROR] get mjpeg config failed.
+[ERROR] invalid parameters,chromaFormat:0,1,quality:1~100,         input chromaFormat:%d,quality:%d
+set mjpeg config failed.\n
+[ERROR] gadi_venc_query:get stream info failed.
+[ERROR] gadi_venc_query:get stream format failed.
+[ERROR] get encode stream data error
+[ERROR] Map DSP memroy failed.
+[ERROR] Map BSB memroy failed.
+[ERROR] get map info failed.
+[ERROR] map info: addr or size is unavailable.
+[ERROR] gadi_venc_print_params: venc not open!
+[PRI] VI:
+[PRI] vi_mode:%d\n
+[PRI] vi_framerate:%d\n
+[PRI] vi_mirror:%d\n
+[PRI] vi_bayer:%d\n
+[PRI] VO:
+[PRI] vo[0]_mode:%d\n
+[PRI] vo[0]_dev:%d\n
+[PRI] vo[1]_mode:%d\n
+[PRI] vo[1]_dev:%d\n
+[PRI] BUF:%d\n
+[PRI] width:%d\n
+[PRI] height:%d\n
+[PRI] type:OFF
+[PRI] type:VOUT
+[PRI] type:ENCODE
+[PRI] STREAM:%d:\n
+[PRI] stream_id:%d:\n
+[PRI] stream_type:H264
+[PRI] width:%d:\n
+[PRI] height:%d:\n
+[PRI] buffer_index:%d\n
+[PRI] fps:%d:\n
+[PRI] keep_aspect:%d:\n
+[PRI] h264_gop_mode:%d:\n
+[PRI] h264_gop_M:%d:\n
+[PRI] h264_gop_N:%d:\n
+[PRI] h264_idr_interval:%d:\n
+[PRI] h264_profile:%d:\n
+[PRI] h264_bcr:%d:\n
+[PRI] h264_cbr_avg_bps:%d:\n
+[PRI] h264_vbr_min_bps:%d:\n
+[PRI] h264_vbr_max_bps:%d:\n
+[PRI] h264_adap_qp:%d:\n
+[PRI] h264_qp_min_I:%d:\n
+[PRI] h264_qp_min_P:%d:\n
+[PRI] h264_qp_weight_I:%d:\n
+[PRI] h264_qp_weight_P:%d:\n
+[PRI] h264_reenc_mode:%d:\n
+[PRI] stream_type:MJPEG
+[PRI] mjpeg_quality:%d:\n
+[PRI] mjpeg_chromaformat:%d:\n
+[PRI] CLOSE
+[ERROR] gadi_venc_get_encoder_state:dsp limit failed.
+[ERROR] encoder state:invalid!
+[ERROR] encoder state:limit capability!
+[ERROR] encoder state:limit vout!
+[ERROR] encoder state:limit memory!
+[ERROR] bad parameter.
+[ERROR] Get ROI config failed!
+[ERROR] Map ROI memroy failed.
+[ERROR] set qp roi config failed.
+/tmp/sensor_hw.bin
+[ERROR] get vi source number failed.
+[ERROR] Please check sensor driver!
+[ERROR] set source as current vi source failed.
+[ERROR] vi: get vi source info failed.
+[ERROR] vi: retrieve video info failed!
+[ERROR] set vi current source failed.
+[ERROR] set vi source video mode failed.
+[ERROR] set vi source mirror mode failed.
+[ERROR] get vi source info failed.
+[ERROR] VI: get framerate time failed, framerate:%d\n
+[ERROR] set vi source frame rate failed.
+[ERROR] get vi source frame rate failed.
+[ERROR] get vi soruce video info failed.
+[ERROR] set vi shutter time failed.
+[ERROR] set vi gain failed.
+[ERROR] gadi_vi_init: malloc memory failed!
+[ERROR] gadi_vi_open: gadi_dsp_media_get_fd: retVal =%d\n
+[ERROR] gadi_dsp_media_get_state: retVal =%d\n
+[ERROR] gadi_vi_open: error media state state =%d\n
+[ERROR] memory alloc fail!
+[ERROR] fread %s failed\n
+[ERROR] Fail to set sensor params.
+[ERROR] set vi params failed, not support.
+[ERROR] get vi operation mode failed.
+[ERROR] set operation mode failed.
+[ERROR] enter preview failed.
+[ERROR] gadi_dsp_media_get_state fail
+[ERROR] enter free failed.
+[ERROR] set mirror mode, bad parameters: mirror[%d] bayer[%d]\n
+[ERROR] set ircut failed.
+[ERROR] Reset image sensor failed.
+[ERROR] get interrupe times failed.
+/tmp/lcd_hw.bin
+/sys/class/gpio/export
+[ERROR] %s doesn`t exist!\n
+/sys/class/gpio/gpio%d
+[ERROR] Open %s failed!.\n
+[ERROR] Write %s error!\n
+/sys/class/gpio/gpio%d/active_low
+[ERROR] Open %s failed!\n
+[ERROR] Write %s error.\n
+/sys/class/gpio/gpio%d/direction
+[ERROR] Open file %s failed!\n
+high
+/sys/class/gpio/gpio%d/value
+[ERROR] Write value error.
+[ERROR] set_vout_ex: failed.
+[ERROR] Input wrong vo resolution:%d\n
+[ERROR] get  resolution mode value failed.
+/sys/class/backlight/goke-pwm-bl/brightness
+[ERROR] Can't open brightness to write
+[ERROR] Can't write brightness
+[ERROR] GK_MEDIA_IOC_VO_UPDATE_SPI_CMD_PARA
+[ERROR] set i80 or rgb error
+[ERROR] get vo sink num failed.
+[ERROR] Please load vo driver!
+[ERROR] get vo sink info failed.
+[ERROR] select vo device failed.
+[ERROR] GK_MEDIA_IOC_VO_CONFIGURE_SINK
+[ERROR] input invalid vo mode Value[0x%x]!\n
+[ERROR] vo_check_params error
+[ERROR] vo_get_sink_id error
+[ERROR] gadi_vout_open:get driver fd failed:%d\n
+[ERROR] gadi_vout_open:get chipId failed:%d\n
+[ERROR] need specfy correct channel id:%d\n
+[ERROR] need specify correct channel id:%d\n
+[ERROR] invalid parameters:resoluMode%d, deviceType:%d\n
+[ERROR] gadi_vout_set_params:get chipId failed:%d\n
+[ERROR] gadi_vout_set_params:not support vout:%d.\n
+[ERROR] gadi_vout_set_params:not support device:%d.\n
+[ERROR] vout channel:%d is not in used.\n
+[ERROR] Set freeze failed!
+[ERROR] Set resume failed!
+[ERROR] gadi_vout_select_fb:not support vout:%d.\n
+[ERROR] Select framebuffer failed!
+[ERROR] gadi_vout_set_i80_params: Only Display-A supports I80 !
+[ERROR] MEDIA_IOC_VO_UPDATE_I80_CMD_PARA
+480i
+576i
+480p
+576p
+720p
+720p30
+720p50
+720p25
+1080i
+1080i50
+1080p
+1080p50
+1080P24
+1080P25
+1080p30
+960x240
+320x240
+320x288
+360x240
+360x288
+480x640
+480x800
+hvga
+wvga
+240x400
+wsvga
+960x540
+480x272
+240x320
+[ERROR] Dma chain init failed.
+[ERROR] Mmap failed.
+[ERROR] Frame info create failed.
+[ERROR] Audio handle malloc failed!
+/dev/ai_dev
+/dev/ao_dev
+[ERROR] open AIO device failed.
+[ERROR] AEC idle!
+[ERROR] Can't set AI attribute, AI device isn't in the disabled state.
+[ERROR] FrameSamples or frameNum is invalid.
+[ERROR] Only support single sound mode.
+[ERROR] Munmap failed.
+[ERROR] Frame info release failed.
+[ERROR] Dma chain free failed.
+[ERROR] Sets AI device attributes failed.
+[ERROR] Can't gets attributes, attributes is not set.
+[ERROR] AI gets attributes failed.
+[ERROR] Can't enable AI, AI device isn't in the disabled state.
+[ERROR] AI enable failed.
+[ERROR] AI disalbe failed.
+[ERROR] AI set gain failed.
+[ERROR] Ai get gain failed.
+[ERROR] AEC has not registered.
+[ERROR] AEC Init failed.
+[ERROR] Can't set AO attribute,AO device isn't in the disabled state.
+[ERROR] Sets AO device attributes failed.
+[ERROR] Can't gets AO attributes, attributes is not set.
+[ERROR] Gets AO device attributes failed.
+[ERROR] Can't enable AO,AO device isn't in the disabled state. 
+[ERROR] AO enalbe failed.
+[ERROR] AO disable failed.
+[ERROR] The length of frame is invalid.
+[ERROR] AO set volume failed.
+[ERROR] AO get volume failed.
+[ERROR] Can't set AO attribute, AO device isn't in the disabled state.
+[ERROR] AO bind AI failed.
+[ERROR] Can't unbind, AO not bind AI.
+[ERROR] AO unbind AI failed.
+[ERROR] get ao query failed.
+[ERROR] invalid Fd.
+[ERROR] get ai cache size failed.
+[ERROR] get ao cache size failed.
+[ERROR] Invalid AEC!
+[ERROR] AEC has already been register.
+[ERROR] AEC malloc failed!
+[ERROR] AEC busy!
+[ERROR] Invalid AEC handle.
+[ERROR] gadi_pda_set_attr: MB parameter error,value:%d\n
+[ERROR] gadi_pda_set_attr: ALG parameter error,value:%d\n
+[ERROR] gadi_pda_set_attr: SAD parameter error,value:%d\n
+[ERROR] gadi_pda_set_attr: md sda buffer number parameter error,value:%d\n
+[ERROR] gadi_pda_set_attr: md frame intval number parameter error,value:%d\n
+[ERROR] Get PDA attr
+[ERROR] Set PDA attr
+[ERROR] gadi_pda_set_attr: mallco failed
+[ERROR] gadi_pda_set_attr: mallco failed,size:0x%xKB\n
+[ERROR] gadi_pda_capture_buffer: module not init
+[ERROR] gadi_pda_capture_buffer: bad parameter
+[ERROR] pda:get status error
+[ERROR] pda:requires video in preview or encode status. error code:0x%x\n
+[ERROR] gadi_pda_init: module has inited
+[ERROR] gadi_pda_open: gadi_priv_driver_get_fd: ret = %d\n
+[ERROR] pda: map error 1
+[ERROR] pda:map error 2
+[ERROR] pda:pda_init not enough memory
+[ERROR] pda:md_motbuf pthread create failed.
+[ERROR] gadi_pda_buffer_info: module not init
+[ERROR] gadi_pda_buffer_info: parameter error
+[ERROR] gadi_pda_open: module not init
+[ERROR] gadi_pda_open: bad paramer
+[ERROR] gadi_pda_close: module not init
+[ERROR] gadi_pda_close: bad paramer
+[ERROR] gadi_pda_get_attr: module not init
+[ERROR] gadi_pda_get_attr: bad paramer
+[ERROR] gadi_pda_set_attr: module not init
+[ERROR] gadi_pda_set_attr: bad paramer
+[ERROR] gadi_pda_start_recv_pic: module not init
+[ERROR] gadi_pda_start_recv_pic: bad paramer
+[ERROR] gadi_pda_start_recv_pic: bad status, attr not seting
+[ERROR] gadi_pda_stop_recv_pic: module not init
+[ERROR] gadi_pda_stop_recv_pic: bad paramer
+[ERROR] gadi_pda_get_data: module not init
+[ERROR] gadi_pda_get_data: bad paramer
+[ERROR] gadi_pda_get_data: PDA no running
+[ERROR] gadi_pda_release_data: module not init
+[ERROR] gadi_pda_release_data: bad paramer
+%s/color_reg.bin
+/etc/sensors
+%s/color_matrix.bin
+%s/lens_shading.bin
+\r%s\n
+Image library version (gcc version 4.6.1 (crosstool-NG 1.18.0) (uClibc)) v2.1.0 #svn r12890 Fri Oct 20 10:37:38 CST 2017
+[ERROR] Unmap BSB memroy failed.
+[ERROR] Unmap DSP memroy failed.
+[ERROR] open driver failed.
+GADI:ISP_IMAGEQUALITY
+=======================================
+[GK]DE-MBLK 4x4 basing on 1/16 orig pic version: v2.1.0
+[ERROR]pOrig_idx is NULL.
+[ERROR]  driver is not ready.
+Get senosr tyep failed\n
+[ERROR] media driver is not ready.
+[ERROR] get vi source video mode failed.
+%s/%s.bin
+[ERROR] %s cannot be opened!\n
+[ERROR] malloc error,name :%s,size:%d \n
+[ERROR] data head:0x%x  error, \n
+[ERROR] data length:0x%x--0x%x  error, \n
+[ERROR] Load CC table error:%d\n
+[ERROR] Sensor data type:0x%x,length:%d\n
+[ERROR] parse file %s failed,size:%d\n
+[Loading] sensor bin:%s.bin\n
+GADI_ISP_TUNNING_DATA_ADJ Error
+GADI_ISP_TUNNING_DATA_CHROMA_SCALE Error
+gadi_get_sensor_exposure_lines: input param is NULL
+gadi_get_sensor_exposure_lines: input wrong sensor type !
+%s/%s.bin\n
+Save sensor bin data to SDK
+Write %s error \n
+preview_proc
+threadproc_2
+tuning_process
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: Fail to query stream info in tuning.\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: Fail to query stream format in tuning.\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: stop stream[%d]\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: get driver state failed.\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: venc_stop_stream: driver state:%d\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: get encode stream info failed.\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: venc_stop_stream: stream:%d is not encoding\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: stop encode failed.\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: Stop encoding for stream 0x%x.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: tuning_venc_stop_stream error, streams:%d\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: start stream[%d]\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: get encode formate failed.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: get digital zoom failed.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: get vi soruce video info failed.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: get source buffer format failed.\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: DPTZ Type I : zoom_factor_x 0x%x, zoom_factor_y 0x%x,offset_x 0x%x, offset_y 0x%x.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: Calculate DPTZ I parameters failed!\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: set digital zoom failed.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: get 2nd digital zoom failed.\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: DPTZ Type II : source %d, input window %dx%d, offset %dx%d.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: Calculate DPTZ II parameters failed!\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: set 2nd digital zoom failed.\n\e[0;0m\n
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: start encode stream failed.\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: tuning_venc_start_stream error, streams:%d\n\e[0;0m\n
+\e[0;36m[TUNING INFOR] FILE: tuning/src/tuning.c, LINE: %d: Stream [%d] encoding started\n\e[0;0m\n
+tunning: read jpeg frame error
+tunning:Read steam number: %d\n
+tunning:no stream available!
+\ndump_data:
+address[0x%08x] will be alined to 0x%08x!\n
+offset too big! 0x%x < 0x%x\n
+size too big! 0x%x < 0x%x\n
+stdout
+write
+\t0x%08x
+tunning: map error 1
+tunning: map error 2
+read yuv buffer falied
+Tuning malloc yuv buffer failed,width:%d,height:%d\n
+Tuning : yuv picture width:%d, height:%d\n
+error->stride size smaller than width!,stride:%d,width:%d,height:%d\n
+bind
+listen
+accapt
+tunning:start picture transfer...!
+tunning:send Y data fail
+tunning:send UV data fail
+tunning: stop send preview data
+socket
+tunning:Waiting client to connect
+tunning:Connect success!
+select error:%s!\n
+tunning:stop
+tunning:3A ISP infor unvisible
+tunning:statistic_mode =%d\n
+tunning: status error!
+Raw capture started
+tuning_venc_stop_stream
+tunning: enable preview failed
+gk_init_image_capture 
+gk_start_image_capture 
+GK_MEDIA_IOC_READ_RAW_INFO Start
+GK_MEDIA_IOC_READ_RAW_INFO
+GK_MEDIA_IOC_READ_RAW_INFO End
+get_jpeg_stream() \n
+Raw capture stopped
+sum_r:%d, sum_g:%d, sum_b:%d\n
+0x%x, 0x%x, 0x%x, 0x%x\n
+bayer patten:%d\n
+max_r:0x%x, max_g:0x%x, max_b:0x%x\n
+min_r:0x%x, min_g:0x%x, max_b:0x%x\n
+avg_r:%d, avg_g:%d, avg_b:%d\n\n
+gk_stop_image_capture
+gk_stop_image_capture error!
+tunning: leave capture picture failed
+tuning_venc_start_stream
+tunning: BLC over
+[ERROR] tunning: get gop failed stream %d\n
+[ERROR] tunning: set gop failed stream %d\n
+day ...
+night ...
+\e[0;31m[TUNING ERR] FILE: tuning/src/tuning.c, LINE: %d: Fail to open %s.\n\e[0;0m\n
+tunning:pthread_setschedparam
+map private buffer fail!
+tunning:create thread fail
+tunning:create oreview thread fail
+bin file name :%s\n
+size is %d\n
+\nHandle next connect...
+socked id:%d\n
+recv
+id_requie:%d\n
+Load sensor info,bin:0x%x\n
+sensor bin: Length:0x%x\n
+send sensor data not finished
+send sensor data finished
+tunning:Connetc success
+dataArray is %d\n
+Frames number is :%d\n\n
+gk_init_image_capture\n
+gk_start_image_capture\n
+tunning: read raw data error
+tunning:raw addr = %p\n
+tunning:bits resolution = %d\n
+tunning:resolution: (w:d)(%d_%d)\n
+get_raw\n
+get_jpeg_stream\n
+tunning:send raw frame failed
+capute: jpeg size:%dKB\n
+tunning:send jpeg frame fail!
+send_pic_stream2\n
+gk_stop_image_capture\n
+tunning: enable capture picture failed
+send still picture over
+tunning: capture picture over
+tunning: error id number
+tunning:id num =%d\n
+tunning:malloc buffer failed
+dump_dsp.bin
+tunning:write error
+tunning:transfer dsp dump data fail
+tunning:dsp dump finish
+\nNew Bin File
+layer3 %d\n
+sendBuffer BinGet %d\n
+Recv sensor data finished
+binoffset is %d\n
+Wrong size
+gk_auto_load_sensor_param BinGet : %d\n
+matrix_values %d\n
+y_offset %d\n
+u_offset %d\n
+v_offset %d\n
+black_level %d\n
+Wrong binFile Option
+tunning:stop preview
+dataArray[0] %d\n
+dataArray[1] %d\n
+Wrong CHIP or IQ Tool
+Right CHIP and IQ Tool
+Wrong CMD
+tunning:close black/wight
+tunning:open black/wight
+Setting
+tunning:all number is %d\n
+tunning:send buffer fail
+tunning: bad picxel Detection!
+tunning:pixel map w = %d,h =%d,%d\n
+tunning: get tcp data error
+Set cmd %d%d%d%d\n\n
+Wrong CHIPPIN %d\n\n
+Black Level Correction set
+Right CHIPPIN %d\n\n
+r_offset  %d\n
+gr_offset %d\n
+gb_offset %d\n
+b_offset  %d\n
+Color Correction!
+Tone Dynamic Curve\n 
+Color Matrix
+Set CHIPPIN %d\n\n
+White Balance !
+D_Gainn
+Exposure controlling
+Chroma Rate
+brightness     %d\n
+saturation     %d\n
+hue            %d\n
+sharpenStatus  %d\n
+sharpenLevel   %d\n
+contrast       %d\n
+Color Adjust set
+FPN Correction!
+Bad Pixels Correction
+CFA Leakage
+Antialiasing
+CFA denoise
+Sharpening Setting
+pix_sad_thresh %d\n
+nz_mpix_thresh %d\n
+3D denoise
+AAA Set
+ AAA setting
+AE Tile Configuration!
+AWB Chunk Setting
+AF Chunk Setting
+Auto Focus statistic 2
+Exposure set 
+gain_index is %d \n
+shutter_index is %d \n
+dgain is %d \n
+Exposure controlling Setting
+Set awb_control_mode
+awb_control_mode %d\n
+AWBspeed %d\n
+Set AEControl
+AECTarget %d\n
+autoKnee strength %d\n
+speedLevel%d\n
+VPS stage0 Set
+VPS stage1 Set
+VPS stage1 finished
+VPS stage2 Set
+VPS 3D Debug Tool
+VPS 3D IQ Tool
+VPS stage2 finished
+VPS stage3 Set
+VPS stage3 finished
+VIDEO
+Video Parameter set 
+Set Encoder
+data.layer3 is %d \n
+dataArray[0] is %d \n
+dataArray[1] is %d \n
+dataArray[2] is %d \n
+dataArray[3] is %d \n
+PGA parameter set 
+Set LowBit
+sharpness_low_bitrate_ratio                 : %d\n
+dnr3d_low_bitrate_ratio                     : %d\n
+vps_3d_low_bitrate_ratio                    : %d\n
+vps_contrast_low_bitrate_ratio              : %d\n
+sharpen_property_low_bitrate_up_ratio       : %d\n
+sharpen_property_low_bitrate_down_ratio     : %d\n
+cfa_denoise_property_low_bitrate_up_ratio   : %d\n
+cfa_denoise_property_low_bitrate_down_ratio : %d\n
+dnr3d_property_low_bitrate_ratio            : %d\n
+sharpness_low_bitrate_param                 : %d\n
+dnr3d_low_bitrate_param                     : %d\n
+vps_3d_low_bitrate_param                    : %d\n
+vps_contrast_low_bitrate_param              : %d\n
+sharpen_property_low_bitrate_up_param       : %d\n
+sharpen_property_low_bitrate_down_param     : %d\n
+cfa_denoise_property_low_bitrate_up_param   : %d\n
+cfa_denoise_property_low_bitrate_down_param : %d\n
+dnr3d_property_low_bitrate_param            : %d\n
+tolerance_low_bitrate                       : %d\n
+delay_frames_low_bitrate                    : %d\n
+WDR set
+globalwdr set
+localwdr set
+tuning_LE_str.enable               %d\n
+tuning_LE_str.radius               %d\n
+tuning_LE_str.luma_weight_shift    %d\n
+tuning_LE_str.luma_weight_red      %d\n
+tuning_LE_str.luma_weight_green    %d\n
+tuning_LE_str.luma_weight_blue     %d\n
+Lense Warp set
+Hori Config : %d\n
+Hori Level  : %d\n
+Vert Config : %d\n
+Lense Shade set
+detect_flag  %d\n
+correct_flag %d\n
+restore_flag %d\n
+/etc/sensors/lens_shading.bin
+shutter_index = %d\n
+ae_target = %d\n
+Light strength is okay.
+r_offset:%d; \n
+gr_offset:%d; \n
+gb_offset:%d; \n
+b_offset: %d;\n
+Cali lens shading started
+vignette table file open error!
+vignette table file write error!
+Cali lens shading stopped
+vignette_cal_exit
+lens_shading.bin cannot be opened
+read lens_shading.bin error
+vignette_info.enable = %d\n
+Comp lens shading start
+gk_isp_set_lens_shading_compensation error!
+DEMOSAIC set
+grad_clip_thresh   = %d\n
+grad_noise_thresh  = %d\n
+act_thresh         = %d\n
+act_diff_thresh    = %d\n
+case HIST Apply!
+histogram timer : %d\n\n
+Apply histtimer
+hist data 0-15 Can not Apply
+Bindata set
+saveConfig 
+Bin file day %d\n\n
+RGBindex %d\n
+\n RGB YUV 
+\n ChromaScale 
+Bin file Save Encode Par
+\n option %d\n
+Load!
+case Color Load!
+Load CHIPID : %d\n\n
+Load cmd %d%d%d\n\n
+Black Level Correction Load
+blc_avg_r %d\n
+blc_avg_g %d\n
+blc_avg_b %d\n
+dgain %d\n
+White Balance Gains
+irDayNight %d\n
+image sharpness    %d\n
+wdrEnable      %d\n
+wdrRange       %d\n
+Color Adjust Load
+case Noise Load!
+chroma_median enable %d\n
+chroma_median cb_str %d\n
+chroma_median cr_str %d\n
+Chroma Median Filter
+tuning_sharp_str %d \n
+fir_strength :%d\n
+Sharpening Load
+tuning_3d_str %d %d %d %d %d %d  \n
+case AAA Load!
+AAA setting
+AE Chunk Setting
+gain_index=%d,shutter_index=%d,dgain=%d\n
+Exposure controlling Loading
+Load awb_mode 
+case VPS Load!
+VPS stage0 Load
+VPS stage1 Load
+VPS stage2 Load
+vps_yuv3d_merge_en %d\n
+vps_yuv3d_en %d\n
+vps_yuv3d_y_flt_en %d\n
+vps_yuv3d_uv_flt_en %d\n
+vps_yuv3d_tcnt_disp_en %d\n
+vps_uv_2d_mode %d\n
+vps_alpha_y_max %d\n
+vps_noise_y                          %d\n
+vps_noise_uv                       %d\n
+vps_expand_tcnt_clip       %d\n
+vps_expand_tcnt_round    %d\n
+vps_expand_tcnt_val          %d\n
+vps_expand_d_edge            %d\n
+vps_expand_d_clip            %d\n
+vps_tcnt_sum_th1               %d\n
+vps_tcnt_sum_th2               %d\n
+vps_tcnt_sum_bit_mode    %d\n
+VPS3DCnt %d\n
+VPS stage3 Load
+sendBuffer %d : %d\n
+tuning_vps_contrast %d %d %d %d \n
+case VIDEO Load!
+streamId is %d\n
+Video Parameter load 
+Load Encoder
+venc[0] fps %d\n
+venc[1] fps %d\n
+venc[2] fps %d\n
+venc[3] fps %d\n
+vi      fps %d\n
+Lost fps[0] %d\n
+Lost fps[1] %d\n
+Lost fps[2] %d\n
+Lost fps[3] %d\n
+Fps Parameter load 
+sendBuffer[0] %d\n
+sendBuffer[1] %d\n
+sendBuffer[2] %d\n
+PGA parameter load 
+Get LowBit
+sendBuffer[%d] : %d\n
+case WDR Load!
+globalwdr Load
+localwdr Load
+tuning_LE_str.str               %d\n
+tuning_LE_str.low_or_high       %d\n
+Lense Warp get
+Lense Shade get
+shutter_idx = %d\n
+ae_target   = %d\n
+antiflicker = %d\n
+enable      = %d\n
+detect_finished = %d\n
+case HIST Load!
+histogram ID : %d\n\n
+Can not histtimerconfig in Load Area
+Read Hist data
+Hist Number %d\n
+id%d: stage3_info.vps_prelut_en = %d\n
+id%d: stage3_info.vps_contrast_histram_en = %d\n
+id%d: stage3_info.vps_contrast_histram_id = %d\n
+/dev/debug
+open /dev/debug error
+GK_DEBUG_IOC_GET_DEBUG_FLAG
+debug_flag 0x%08x\n
+GK_DEBUG_IOC_GET_MEM_INFO
+apb_start: 0x%08x\n
+apb_size:  0x%08x\n
+mmap returns 0x%08x\n
+id%d: vps_stg3_contrast_regs_data.cnfg_reg_vps_contrast_histram_en = %d\n
+id%d: vps_stg3_contrast_regs_data.cnfg_reg_vps_contrast_histram_id = %d\n
+sendBuffer[%d]:0x%x\n
+Tunning:Get error id number....
+\a$\a.\a8\aB\aL\aW\aa\ak\au\a
+W1Eܙ
+dfiΤ
+o10̤
+k}0I
+|IJf{5
+zc;iy\e`
+t^}Ct
+l(qF
+"nLT
+<wi1m
+h\rgThj)
+^M\v!^
+$\eS0>
+Q0BSQ
+\tM\aS
+c5L?\a
+KA<cK$
+Jp=,JK
+iGo3\aGK
+z!Ey
+Br)3B0
+tn@W`
+@!Ǽ?h
+$_>B
+\b>$%
+`<r6\r<?0
+;՜g;
+E8,0
+]7UL
+68qy6
+5ŞN5
+S3[\f\f3)y
+1EFj1
+-TZP-J
+(Iiq(3
+\\'\bl&'
+$vٯ$
+ }$:
+k1"|%
+d [:7 +
+Z\f*}I\f`
+mD\v7
+F\nÉ8\nFh*\nRZ
+gl\tD`_\t
++\t2H
+Q\b.eF\bf
+/\b3B$\b
+\a\aFw\a
+b\a|yX\a
++:\a\v.0\a
+MB}9\e
+M={!\e
+MAy\n\e
+Mfmu
+]8lf
+MzjN
+y}Ti?
+M2h/
+Mie\b
+r}=c
+m}\b_
+=\rYM
+]%W-
+c}4V
+b}GU
+a}[T
+Y}[M
+=JKZ
+=zJK
+v]GI3
+M}H$
+R}RG\f
+o]\nE
+n]LD
+k]yB
+i]gA
+J}Y@x
+=P?`
+-J>I
+-I=2
+a]M<
+^]_:
+Y]K7
+}|g6
+-=5f
+-a4O
+-B30
+t|n2
+o|K0
+M]\b0
+-A-|
+-I,]
+v=\f,U
+-V+>
+r=h*
+a|.*
+n=\r)
+A]d(
+g=x&
+V|q%k
+-=%c
+w\\\n%[
+u\\q$D
+-?$<
+t\\\f$4
+_=x#
+Q|G#
+n\\&"
+M|k!
+k\\<!
+J|, 
+}x4\e
+{pb\r
+yp+\r
+8y\f9
+rph\f1
+(V\f)
+OXE\f!
+\rz8`\v
+\ry8A\v
+\rw8"\v
+\n}\rFX
+\nn\rcp
+\nf\rs8
+\n^\rbp
+\nV\rr8
+\nN\rap
+(}\n?\r
+(n\n7\ro8`\n/\r
+(R\n'\rn8C\n
+\rm8'\n
+\fWpv\t
+\fe8i\t
+\fVp\\\t
+\fwPB\t
+\fvP)\t{\fuP
+\tl\ftP
+\b\\\fRp
+\bT\f_8
+\bL\fQp
+\bE\f^8
+\b5\f]8
+\b-\foP
+\f[8~\b
+\fZ8f\b
+\vMp[\b
+\vkPO\b
+\vLpD\b
+\viP-\b
+\vW8"\b
+\vJp\v\b
+\az\vbP
+\aj\vaP
+\ab\vEp
+u\aR\v
+j\aK\v_P`\aC\v
+V\a;\v^PL\a3\v
+B\a+\v
+8\a$\vM8.\a
+\a\f\v[P
+\nSPq
+x\nRP_
+h\n:pN
+X\nC8<
+Q\n9p4
+A\nOP#
+1\nA8
+"\nMP
+\tFPr
+~\ts0\\
+v\t1pT
+n\tr0M
+f\tq0F
+O\to00
+?\tn0"
+0\tm0
+(\tAP\f
+\t\tj0
+t\b)pu
+l\b_0o
+]\b^0c
+M\b]0W
+E\b]0Q
+6\b7PE
+.\b[0?
+\bZ03
+\bY0(
+\a\b&p"
+c\aO0
+<\aM0
+\aK0~
+{uoic]WQKE?93-'!                  
+jR>.                                                
+                                                                
+                                         $*08@LXdt
+\a1\aO\ak\a
+\ak\aO\a1\a
+the value must be 0 or 1 \n
+ic_param_load_isp failed!\n
+Wait for listen loop thread failed!!\n
+Wait for main loop thread failed!!\n
+Failed to start listen loop!!
+/proc/goke/video_sync
+error: hal_get_sensor_info
+error: hal_get_chip_id
+error msg
+isp1
+isp0
+isp3
+isp2
+\a\b\t\n\v\f\r
+ "$%')+-/13579;=?ADFHKMORTWY\\^adfilnqtwy|
+ $(,048<@DHLPTX\\`dhlptx|
+Error invalid alpha [0.0, 1.0].
+GK_MEDIA_IOC_MAP_DSP
+bpc.raw
+write(5)
+raw picture written to %s\n
+ERR: shading_fix_ratio > 1024
+Error: Unknown bayer pattern!
+Calibration fail: Max/Min ratio exceed threshold %d\n
+/dev/i2c-0
+can't open i2c device
+Error: Unable to set slave address!\n
+Error: Unable to set 7-bit address mode!\n
+lens init ready!
+O_O 0x%X,0x%X,0x%X\n
+lens move error!
+lens_gpio_get
+lens_gpio_config
+gpio_clr
+lens_gpio_set
+%s: Can't open value sys file!\n
+%s: Can't open export sys file!\n
+%s: Can't open direction sys file!\n
+/dev/spidev0.0
+can't open spi device
+can't set spi mode
+can't set bits per word
+can't set spi max speed hz
+tuning_get_vps_contrast_str
+\a\b\t\r
+r: GK_MEDIA_IOC_IMG_DNR3D_MBLK_3D_DENOISE_CONFIG
+error: GK_MEDIA_IOC_IMG_DNR3D_MV_STABILIZER_NEW_SETUP
+GK_MEDIA_IOC_IMG_SET_AAA_STATIC_FREQ
+stage0:Send to kernel 0x%08x, 0x%08x, 0x%08x, 0x%08x\n
+GK_MEDIA_IOC_IMG_SET_VPS_STG0_CONTROLLER
+error: set vps stage0 failed
+GK_MEDIA_IOC_IMG_SET_VPS_STG1_YUV2D
+ERROR: set vps mode failed
+GK_MEDIA_IOC_IMG_GET_VPS_STG1_YUV2D
+error: set vps mode failed
+GK_MEDIA_IOC_IMG_SET_VPS_STG2_YUV3D_K_COEF_LUT
+GK_MEDIA_IOC_IMG_GET_VPS_STG2_YUV3D
+GK_MEDIA_IOC_IMG_SET_VPS_STG3_CONTRAST
+error: set vps stage3 failed
+GK_MEDIA_IOC_IMG_GET_VPS_STG3_CONTRAST
+GK_MEDIA_IOC_GET_QP_LIMIT_EX
+error: get qp_limit failed
+GK_MEDIA_IOC_CHANGE_QP_LIMIT_EX
+error: set qp_limit failed
+GK_MEDIA_IOC_GET_H264_BIAS_PARAM_EX
+error: get h264_bias param failed
+GK_MEDIA_IOC_SET_H264_BIAS_PARAM_EX
+error: set h264_bias param failed
+GK_MEDIA_IOC_GET_H264_ZMV_PARAM_EX
+error: get h264_zmv param failed
+GK_MEDIA_IOC_SET_H264_ZMV_PARAM_EX
+error: set h264_zmv param failed
+GK_MEDIA_IOC_GET_H264_ENC_PARAM_EX
+error: get h264_enc param failed
+GK_MEDIA_IOC_SET_H264_ENC_PARAM_EX
+error: set h264_enc param failed
+GK_MEDIA_IOC_GET_IFRAME_CTL_EX
+error: get h264 iframe size control failed
+GK_MEDIA_IOC_SET_IFRAME_CTL_EX
+error: set h264 iframe size control failed
+GK_MEDIA_IOC_GET_REENC_PARAMS_EX
+error: get h264 reencode paramers failed
+GK_MEDIA_IOC_SET_REENC_PARAMS_EX
+error: set h264 reencode paramers failed
+error: get gk_isp_get_encode_param failed, invalid stream id.
+GK_MEDIA_IOC_GET_DIGITAL_ZOOM_EX
+GK_MEDIA_IOC_SET_DIGITAL_ZOOM_EX
+%d  %d \n
+start set parameters
+gain_index = %d r = %d b = %d \n
+[GK]%s()\n
+Output results
+reA is %f\n
+reB is %f\n
+_template_convert_to_hw_config
+(Fddddd\n
+2PZddd
+<Pddd
+(<Pdd
+(<Pdd
+(<Pdd
+(<Pdd
+(<PddPZdddddd<FZddddd\n
+2Pdddd
+<Zddd
+(Pddd
+(Fddd
+(<ddd
+(<ddd
+2dddddd
+2ddddd
+2Pddd
+< (9)
+isp3a/src/drv/isp_drv_priv.c
+shift < 5
+Error! Unknown FIR dir %d
+Fine_find_peak!
+ap_histogram_equalization_u32
+Bad xa input to routine ap_calc_spline_data
+Error: NULL pointer in function %s.\n
+Error: poor input histogram in function %s.\n
+Error: index is beyond array length.
+/tmp/aaa
+listen socket uninit\n
+cannot bind srv socket\n
+cannot listen
+comm socket uninit
+cannot connect to the server
+cannot accept client connect request
+Create Standard key Error
+Create Message Queue Error
+Send Message Error
+vr_decodeString
+vr_decodeWiFi
+vr_decodeSSIDWiFi
+vr_decodePhone
+vr_decodeFSSSIDWiFi
+vr_bs_composeBlock
+vr_decodeZSSSIDWiFi
+vr_decodeXZXXX
+vr_decodeInfoType(_data, _dataLen) == IT_STRING
+voiceRecog.c
+dataLen < _resultLen
+dataLen == macLen
+vr_decodeInfoType(_data, _dataLen) == IT_SSID_WIFI
+dataLen == ssidLen
+vr_decodeInfoType(_data, _dataLen) == IT_PHONE
+dataLen == imeiLen
+blockCount <= 4 && blockIdx < 4
+59 == _blockDataLen-1
+vr_decodeInfoType(_data, _dataLen) == 2
+fvp_getAnalyserIndicator
+msq_currDiscoveryingSignal
+msq_endRecognizeSignal
+mmsq_addQueue
+fvp_addSignalAnalyser
+loopSignalInBlock
+loopBlock
+msq_startDiscoverySignal
+vd_process
+fsd_detect
+sd_addFreqSignalDetector
+mmsq_startRecognizeSignal
+mmsq_endRecognizeSignal
+vrr_getListener
+vrr_setListener
+vrr_setFreqs
+pvp_realProcess
+bdw_write
+bdw_flush
+_idx < _this->analyserCount
+voiceRecognizer.c
+!_this->currDiscoveryDiscarded
+signal != ((void *)0) && signal->recognizeFinished == 0 && signal->discoveryFinished == 1
+_this->queueCount < 2
+rs recorrect data, before to after:
+ecc check %s\n
+_this->analyserCount < 2
+_preRealRSBufRealOnly != ((void *)0)
+mayErrorIdx >= lastStartSignalCount
+_blockIdx < _blockCount
+_signals[signalIdx].idxes[0] >= 0
+_this->currDiscoveryDiscarded == 0
+_this->currSignal == ((void *)0)
+_this->currSignal != ((void *)0)
+_this->currSignal->startPos == _this->prePeakSampleIdx
+maybeSignalQueue
+%d-%d
+sumAmp >= 0
+signalDetector init:%f(take %d ms)\n
+!currSignal->discoveryFinished
+currSignal == ((void *)0) || currSignal->discoveryFinished
+add 30k noise data to init recognizer\n
+_this->detectorCount < 2
+_this->inRecognizingSignal == 0
+minNewSignalIdx >= 0
+_this->inRecognizingSignal == 1
+_this->recogningMaySignals[i] == ((void *)0) || _this->recogningMaySignals[i]->endPos <= _this->indicatePos
+_this->recogningMaySignals[i] == msq_startRecognizeSignal(_this->maybeSignalQueues[i])
+_this->recogningMaySignals[i]->endPos <= _this->maybeSignal.endPos
+_idx < _this->freqsCount
+real voice recognizer thread start:%d\n
+pvp_realProcess thread start work
+readDataLen + bufferDataPos <= bd_getMaxBufferSize(&data)
+error error: signal %d(start:%lld-curr:%lld-end:%lld) is out of date(%lld-%lld) ------------------\n
+processPos <= recognizePos
+bufferDataPos <= bd_getMaxBufferSize(&data)
+bufferDataPos == bd_getMaxBufferSize(&data)
+processPos == recognizePos
+bufferDataLen == _this->bufferSize
+voiceRecognizer
+b_init2
+b_reset
+buffer.c
+struct Buffer
+cq_push_
+cq_pop_
+memcmp(_this->m_arrContainer+(_this->m_iRear*_this->sizeofT), elem, _this->sizeofT) == 0
+circleQueue.c
+memcmp(_this->m_arrContainer+(_this->m_iFront*_this->sizeofT), elem, _this->sizeofT) == 0
+memcmp(elem, _this->m_arrContainer+(_this->m_iRear*_this->sizeofT), _this->sizeofT) == 0
+0123456789abcdefReal FFT optimization must be even.\n
+kiss fft usage error: improper alloc\n
+zyxwvutsrqponmlkjihgfedcba9876543210123456789abcdefghijklmnopqrstuvwxyz
+vector_push_back
+vector_append_vector
+memcmp(_this->data_+_this->size_ * _this->sizeofT, t, _this->sizeofT) == 0
+my_vector.c
+_this->sizeofT == _that->sizeofT
+printData
+rsEncode
+\t\a\n\n
+try error recoveryed data len:%d\n
+recoveryed data len:%d\n
+_data[i] >= 0 && _data[i] <= 15
+rs_emon.c
+_dataLen <= 13
+recovery:%d\n
+bs_removeWeakestBlock
+fi_timesLast
+fi_realTimesFirst
+fi_removeSmallMatch
+fi_addTime
+fi_timesFirst
+fari_onFFTAmpsRange
+bs_hasBlock
+pd_onBlock
+fats_onFFTAmpsRange
+bs_onFFTEvent
+sa_setFreqs
+sa_analyEventsIdxOff
+sa_analyValidSignals3
+sa_analyFFT
+_blockCount <= 3
+signalAnalyserTimeMatch2.c
+minPeakIdx >= 0 && minPeakIdx < _blockCount
+_this->realEventCount > 0 && _this->timesStart >= 0 && _this->timesStart < _this->timesEnd && _this->timesStart < _this->realEventCount && _this->timesEnd <= _this->realEventCount
+signalAnalyserTimeMatch2.h
+_this->realEventCount > 0
+leftIdx >= 0 && rightIdx < _this->realEventCount
+_this->timesEnd == _this->realEventCount
+_this->rangeCurrAvgCount == 6
+_this->unsedBlockIdx >= 0 && _this->unsedBlockIdx < 3-1
+*_isEndBlock?_this->allBlockFinished:1
+abs(_blockFI->frequencyY - _this->blockFreqY) <= 1
+_amps->maxFreqIdx <= _amps->fftSize/2
+_this->freqY2FreqIdx != ((void *)0) && _this->freqY2FreqIdxSize > 0
+_this->longTermAvgAmplitude != 0
+_this->unsedBlockIdx < 3 && (_this->unsedBlockIdx < 0 || _this->unsedBlockIdx == _this->okBlockIdx)
+_this->okBlockIdx == 1
+removedFIIdx == 1
+_this->unsedBlockIdx >= 1
+fi_realTimesCount(&_this->blockFIs[0]) > 0
+_this->freqY2IdxCacheCount < 150
+range %d (%d, %d) cal diviation (%d, %d)\n
+abs(siganlMaxEvent->p1.frequencyY-currEvent->p1.frequencyY) <= _this->maxFreqYDistance
+abs(signalStartEvent->p1.frequencyY-currEvent->p1.frequencyY) <= _this->maxFreqYDistance
+minDeviationIdx >= 0
+%d match next block signal too long\n
+i == 0 || (k >= 0 && preMatchs[k].rangeIdx == curMatchs[j].rangeIdx)
+curMatchs[matchIdx].rangeIdx == targetIdx
+preSignalIdxInPreMatches.idxes[prex] >= 0
+prex == preSimilarCount
+similarCount <= 0
+too many time range can not match signal
+similarCount > 0 || trs_maybeError(&currSignalIdx)
+isFullBlock?_this->blocks[_this->blockCount].signalCount>=15:1
+_this->eventStat.p1 != ((void *)0)
+blockHead->frequencyY > 0 && blockTail->frequencyY > 0
+analyFreqTop3Time+analyFreqValidTime==analyFreqTime
+_this->analyseFreqTop3TotalTime+_this->analyseFreqValidTotalTime==_this->analyFreqTotalTime
+_this->firstRangeValidFreqAmplitudeTime >= (currEventIdx - (768 - 10+1))
+_this->firstRangeValidFreqAmplitudeTime < _this->firstValidFreqAmplitudeTime
+SignalAnalyser
+B c0
+s2R"
+b$C4 
+S6r&
+x@\ba
+P\n3:
+<`\fA
+>2.Q
+P%@Fpg`
+RwbVr
+ftGd$T
+Wfvv
+F4VL
+DXeH
+uJTZ7j
+ɍ&|\ald\\EL
+n6~UNt^
+bitsSet
+bitsGet
+0123456789abcdefbyteEnd == byteStart + 1
+util.c
+lq_push
+lq_pop2
+lq_pop
+lq_check
+pa_init
+(_this->size_ == 0 && _this->first == ((void *)0) && _this->last == ((void *)0)) || (_this->size_ == 1 && _this->first == _this->last && _this->first->next == ((void *)0) && _this->first->pre == ((void *)0)) || (_this->size_ > 1 && _this->first->pre == ((void *)0) && _this->last->next == ((void *)0) && _this->first->next->pre == _this->first && _this->last->pre->next == _this->last)
+my_poolAlloc.c
+_item != ((void *)0) && _item->next == ((void *)0) && _item->pre == ((void *)0)
+_this->first == ((void *)0) && _this->size_ == 0
+_item != ((void *)0) && ((_item->next != ((void *)0))?(_item->next->pre == _item):(_item == _this->last)) && ((_item->pre != ((void *)0))?(_item->pre->next == _item):(_item == _this->first))
+_item->next->pre == _item
+_item->pre->next == _item
+_this->last->next == ((void *)0)
+((itor->pre == ((void *)0) && itor == _this->first) || (itor->pre->next == itor)) && ((itor->next == ((void *)0) && itor == _this->last) || (itor->next->pre == itor))
+_fdestory == ((void *)0)
+Invalid sample rate or frame size!\n
+Invalid ns parameter!\n
+Invalid aec fixed parameter!\n
+Invalid aec float parameter!\n
+Invalid agc parameter!\n
+Not find ai device\n
+Not find ao device\n
+CreateHandle failed!
+InitializeHandle failed!
+ConfigureHandle failed!
+malloc memory failed!
+create webrtc aecm failed!\n
+Initialize webrtc aecm failed!\n
+Configure webrtc aecm failed!\n
+WebRtcAecm_BufferFarend() failed.
+WebRtcAecm_Process() failed.
+webrtc_agc_process() failed!\n.
+create webrtc agc failed!\n
+Initialize webrtc gac failed!\n
+Configure webrtc agc failed!\n
+AP: fill in farend data failed.\n
+AP: aec[Float] Process failed.\n
+AP: aec[Float] get echo flags failed.\n
+AP: create  aec[Float] handle failed!\n
+Initialize  aec[Float]  failed!\n
+WebRtcAecm_AlignedFarend
+\f\aZ\a~\a
+\aM\a\b\a
+\n\aE\a
+\a6\bz\b
+#\em\e
+\em\e#\e
+\em\e#\e
+#\em\e
+self != ((void *)0)
+aecm/aecm_core.c
+.$//021-2!3\r4
+6m708
+>3?m?
+?@䌀浯潦瑲潎獩e
+shiftFromNearToNoise >= 0
+aecm/aecm_core_c.c
+shiftFromNearToNoise < 16
+WebRtcAgc_AddMic
+\r\a>\aq\a
+\b<\t|\t
+\n'\vu\v
+*),^-
+9l;\f=
+>n@1B
+O$RcT
+w {~~
+}{yvtrpnljhf
+stt->maxLevel > stt->maxAnalog
+agc/legacy/analog_agc.c
+targetGainIdx < 32
+WebRtcAgc_CalculateGainTable
+<\t>{?
+WebRtcAgc_AddFarendToDigital
+agc/legacy/digital_agc.c
+stt != ((void *)0)
+g"?V6'?J
+5?Bh9?
+M?=MQ?1
+T?SHX?
+\tj?^
+n?\b\tq?G
+{?(;|?
+:}?$
+~?mN
+=q\e\r>\e/
+x)>}
+f>\rql>
+1w>HP|>I
+>殥>TR
+>mž>7
+@ProcessBlock
+NonLinearProcessing
+fff?
+k?\nף=fff?
+n?)\\
+=WebRtcAec_ProcessFrames
+WebRtcAec_GetDelayMetricsCore
+WebRtcAec_GetEchoStats
+WebRtcAec_SetConfigCore
+WebRtcAec_SetSystemDelay
+WebRtc_available_read(aec->far_buf) > 0
+aec/aec_core.c
+WebRtc_available_read(aec->far_buf_windowed) > 0
+aec->num_bands == num_bands
+median != ((void *)0)
+std != ((void *)0)
+erl != ((void *)0)
+erle != ((void *)0)
+a_nlp != ((void *)0)
+nlp_mode >= 0 && nlp_mode < 3
+delay >= 0
+WebRtcAec_ResampleLinear
+size <= 2 * 80
+aec/aec_resampler.c
+resampInst != ((void *)0)
+inspeech != ((void *)0)
+outspeech != ((void *)0)
+size_out != ((void *)0)
+g"?6
+|,>1
+g"?m
+g"?m
+)ü'WÑõ4ÝÀÛb
+AþQc«Þ»Åa·$n:BMÒà
+I.ê\tÑ
+)§>è
+5õ.»D
+p&´_~A9
+m6~Ï'Ë\t·OF?f
+_ê-u'ºÇëåñ{=\a9÷
+kû_±
+0Fü{k«ðÏ¼ 
+a^æ\e\be
+Ms'1
+VÊs¨É`â{À
+NormalizeRealBufferC
+NoiseEstimationC
+\a\t\n\v\r
+ !"$%&()*,-./12346789;<=>?ABCDEGHIJKMNOPQRTUVWXYZ\\]^_`abcdfghijklmnopqrtuvwxyz{|}~
+WebRtcNsx_CalcParametricNoiseEstimate
+ '%\\)
+2'5Z7\\95;
+C'EGFZGaH\\IMJ5K
+b\ncZc
+d'epe
+g hah
+j5knk
+oDoto
+[\bm\n|\f
+475Y6m7q8f9L:!;
+>%?t?
+?@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+?t?%?
+;!;L:f9q8m7Y675
+|\fm\n[\bF
+P\a[\bd\tm\nu\v|\f
+#l$G% &
+(h)3*
+0y1!2
+>%?O?t?
+?@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+?t?O?%?
+2!2y1
+*3*h)
+& &G%l$
+\r|\fu\vm\nd\t[\bP\aF
+                                                                                                                                                                                                 
+                                                                                                                                                                                                 
+                                                                                                                                                                                                 
+WebRtcNsx_DataSynthesis
+                                                                
+) R { 
+ \e!C!j!
+")"O"t"
+"\a#+#O#s#
+$#$F$h$
+%3%T%u%
+&8&X&x&
+'3'R'q'
+'\t('(D(b(
+)/)L)h)
+*.*J*f*
+*_*:*
+)d)B)
+(z(Y(9(
+'b'D'''\n'
+&{&`&D&)&
+%p%W%>%$%\f%
+$z$b$K$4$
+#j#T#?#*#
+"p"\\"I"5"""
+!x!f!T!B!0!
+ r a Q @ 0   
+  圀扥瑒乣硳偟潲散獳潃敲
+inst->normData >= 0
+ns/nsx_core.c
+tabind < 9
+tabind > -9
+counter < 201
+freq_index >= 0
+freq_index < 129
+inst->energyIn > 0
+inst->anaLen > 0
+inst->anaLen2 > 0
+inst->anaLen % 16 == 0
+inst->anaLen2 % 8 == 0
+inst->blockLen10ms > 0
+inst->blockLen10ms % 16 == 0
+inst->magnLen == inst->anaLen2 + 1
+inst->initFlag == 1
+(num_bands - 1) <= 2
+inst->overdrive > 0
+inst->stages >= 7
+WebRtcNsx_SpeechNoiseProb
+normTmp >= 0
+ns/nsx_core_c.c
+BinarySpectrumFix
+WebRtc_SoftResetDelayEstimatorFarend
+WebRtc_SoftResetDelayEstimator
+WebRtc_set_lookahead
+WebRtc_lookahead
+WebRtc_enable_robust_validation
+WebRtc_last_delay_quality
+q_domain < 16
+utility/delay_estimator_wrapper.c
+self->binary_handle != ((void *)0)
+WebRtc_AllocateFarendBufferMemory
+WebRtc_InitBinaryDelayEstimatorFarend
+WebRtc_SoftResetBinaryDelayEstimatorFarend
+WebRtc_AddBinaryFarSpectrum
+WebRtc_InitBinaryDelayEstimator
+WebRtc_SoftResetBinaryDelayEstimator
+WebRtc_ProcessBinarySpectrum
+UpdateRobustValidationStatistics
+WebRtc_binary_last_delay
+WebRtc_binary_last_delay_quality
+utility/delay_estimator.c
+shift_size > 0
+handle != ((void *)0)
+self->history_size == self->farend->history_size
+-ʬ9X
+^\b@7;
+\fQ\f~
+G(B\a
+\b%:\e
+xݲ\tx
+A\a85R
+\tx Y
+[(?3
+%G'\v
+0\ap\tH\n(\vh\f
+|!B#b%R&2'r)J+j-Z.:/z1F3f5V7v9N;n=^?~CaEQGqKiMYOySeWu[m_}gso{
+{Þ}¾
+\bj\t2\n
+\fS\r\e
+ a!#"
+#g$'%
+&g'&(
+1m2&3
+6o7$8
+;V<\a=
+?s@ A
+AyB%C
+CzD#E
+s\nt^t
+v"wkw
+x\byIy
+zAz|z
+z%{\\{
+{)|Y|
+}8}a}
+~>~^~~~
+~~~^~>~
+}a}8}
+|Y|)|
+{\\{%{
+z|zAz
+yIy\by
+wkw"w
+t^t\nt
+E#EzD
+C%CyB
+A As@
+=\a=V<
+8$8o7
+3&3m2
+(&(g'
+%'%g$
+"#"a!
+\n2\nj\t
+WebRtcSpl_MaxAbsValueW16C
+WebRtcSpl_MaxAbsValueW32C
+WebRtcSpl_MaxValueW16C
+WebRtcSpl_MaxValueW32C
+WebRtcSpl_MinValueW16C
+WebRtcSpl_MinValueW32C
+WebRtcSpl_MaxAbsIndexW16
+WebRtcSpl_MaxIndexW16
+WebRtcSpl_MaxIndexW32
+WebRtcSpl_MinIndexW16
+WebRtcSpl_MinIndexW32
+length > 0
+signal_processing/min_max_operations.c
+libVerion:%s
+201710191408
+open %s\n
+%s%s%s
+hdKSFHK*&@DJSFH@^askahhcdjkyelejh$PanYuanYiDaYunLinksKey!
+%s-%2.2X%2.2X%2.2X
+%4d%02d%02d%02d%02d%02d
+license%s.xml
+%s-%X%X%X-%08d
+%d;%s;%s;%s;%s;
+LICENSE
+/dev/mem
+open failed 
+mmap error 
+QZ^&
+\a7Ç\r
+ $(,048<@DHLPTX\\`dhlptx|
+ $(,048<@DHLPTX\\`dhlptx|
+ $(,048<@DHLPTX\\`dhlptx|
+{uplgc_[WSOLIFC@=;8641/-+)(&$#! 
+~}}|{{zyyxwwvuutssrrqppoonmmllkjjiihhggfeeddccbbaa``__^]]\\\\[[[ZZYYXXWWVVUUTTSSSRRQQPPOOONNMMMLLKKJJJIIHHHGGGFFEEEDDDCCBBBAAA@@@???>>>===<<<;;;:::999988877766665554444333222211110000///.....----,,,,++++****)))))(((((''''&&&&&%%%%%$$$$$######"""""!!!!!!     
+\e\e\e\e\e\e\e
+ $(,048<@DHLPTX\\`dhlptx|
+@@
+@@@@@@@@@@@𐄁𐀁𐀁
+ GOKE ISP3A
+\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a
+\a\a\a\a\a
+\a\a\a\a
+\a\a\a\a
+\a\a\a\a\a
+\a\b\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+\n\n\n\n\n
+\n\n\n\n\n
+ $$0
+\v\f\f\f\f\f\v\f\f\f
+\v\f\f\f\f\f\v\f\f\f
+\f \f\f
+\f \f\f
+\f \f\f
+\f \f\f
+\f\f\f\v\f\f 
+\f\f\f\v\f\f 
+\f\f\f\v\f\f 
+\f\f\f\v\f\f 
+\f\f\f\v\f\f 
+\v\f\f\v
+\v\f\f\v
+\v\f\f\v
+\v\f\f\v
+\v\f\f\v
+\v\f\f\v
+ \v\f\f\v
+ \v\f\f\v
+ \v\f\f\v
+ \v\f\f\v
+\v\f\f \v
+\v\f\f \v
+\v\f\f \v
+\v\f\f \v
+\v\f\f 
+VWWXYZ[[
+VWWXYZ[[
+VWWXYZ[[
+VWWXYZ[[
+VWWXYZ[[
+VWWXYZ[[
+VWWXYZ[[~
+hkmpsuxz}
+VWWXYZ[[~
+hkmpsuxz}
+VWWXYZ[[~
+hkmpsuxz}
+VWWXYZ[[~
+hkmpsuxz}
+VWWXYZ[[~
+hkmpsuxz}
+VWWXYZ[[~
+hkmpsuxz}
+VWWXYZ[[y{|~
+eiw|
+[]_adfhjmoqsvxz|
+VWWXYZ[[y{|~
+eiw|
+[]_adfhjmoqsvxz|
+VWWXYZ[[y{|~
+eiw|
+[]_adfhjmoqsvxz|
+VWWXYZ[[y{|~
+eiw|
+[]_adfhjmoqsvxz|
+VWWXYZ[[y{|~
+eiw|
+[]_adfhjmoqsvxz|
+VWWXYZ[[y{|~
+eiw|
+[]_adfhjmoqsvxz|
+VWWXYZ[[y{|~
+\\`mqux|
+QSUWY[]_`bdfhjlnprtvxy{}
+VWWXYZ[[y{|~
+\\`mqux|
+QSUWY[]_`bdfhjlnprtvxy{}
+VWWXYZ[[y{|~
+\\`mqux|
+QSUWY[]_`bdfhjlnprtvxy{}
+VWWXYZ[[y{|~
+\\`mqux|
+QSUWY[]_`bdfhjlnprtvxy{}
+VWWXYZ[[y{|~
+\\`mqux|
+QSUWY[]_`bdfhjlnprtvxy{}
+VWWXYZ[[y{|~
+\\`mqux|
+QSUWY[]_`bdfhjlnprtvxy{}
+FGGHIJKKy{|~
+\\`hkorvy}
+LNPRSUWYZ\\^`aceghjlnpqsuwxz|~
+FGGHIJKKy{|~
+\\`hkorvy}
+LNPRSUWYZ\\^`aceghjlnpqsuwxz|~
+FGGHIJKKy{|~
+\\`hkorvy}
+LNPRSUWYZ\\^`aceghjlnpqsuwxz|~
+FGGHIJKKy{|~
+\\`hkorvy}
+LNPRSUWYZ\\^`aceghjlnpqsuwxz|~
+FGGHIJKKy{|~
+\\`hkorvy}
+LNPRSUWYZ\\^`aceghjlnpqsuwxz|~
+FGGHIJKKy{|~
+\\`hkorvy}
+LNPRSUWYZ\\^`aceghjlnpqsuwxz|~
+fgghijkky{|~
+\\`cfilpsvy|
+HIKLNPQSTVXY[\\^`acdfhiklnpqstvxy
+fgghijkky{|~
+\\`cfilpsvy|
+HIKLNPQSTVXY[\\^`acdfhiklnpqstvxy
+fgghijkky{|~
+\\`cfilpsvy|
+HIKLNPQSTVXY[\\^`acdfhiklnpqstvxy
+fgghijkky{|~
+\\`cfilpsvy|
+HIKLNPQSTVXY[\\^`acdfhiklnpqstvxy
+fgghijkky{|~
+\\`cfilpsvy|
+HIKLNPQSTVXY[\\^`acdfhiklnpqstvxy
+fgghijkky{|~
+\\`cfilpsvy|
+HIKLNPQSTVXY[\\^`acdfhiklnpqstvxy
+FGGHIJKKtuwxyz|}~
+SV[^adhknqtx{~
+DEGHJLMOPRTUWXZ\\]_`bdeghjlmoprtu
+FGGHIJKKtuwxyz|}~
+SV[^adhknqtx{~
+DEGHJLMOPRTUWXZ\\]_`bdeghjlmoprtu
+FGGHIJKKtuwxyz|}~
+SV[^adhknqtx{~
+DEGHJLMOPRTUWXZ\\]_`bdeghjlmoprtu
+FGGHIJKKtuwxyz|}~
+SV[^adhknqtx{~
+DEGHJLMOPRTUWXZ\\]_`bdeghjlmoprtu
+FGGHIJKKtuwxyz|}~
+SV[^adhknqtx{~
+DEGHJLMOPRTUWXZ\\]_`bdeghjlmoprtu
+FGGHIJKKtuwxyz|}~
+SV[^adhknqtx{~
+DEGHJLMOPRTUWXZ\\]_`bdeghjlmoprtu
+FGGHIJKKqstuvwxyz}
+OQX[^`cehjmpruwz>?@BCDFGHIKLMOPQRTUVXYZ[]^_`bcdf
+FGGHIJKKqstuvwxyz}
+OQX[^`cehjmpruwz>?@BCDFGHIKLMOPQRTUVXYZ[]^_`bcdf
+FGGHIJKKqstuvwxyz}
+OQX[^`cehjmpruwz>?@BCDFGHIKLMOPQRTUVXYZ[]^_`bcdf
+FGGHIJKKqstuvwxyz}
+OQX[^`cehjmpruwz>?@BCDFGHIKLMOPQRTUVXYZ[]^_`bcdf
+FGGHIJKKqstuvwxyz}
+OQX[^`cehjmpruwz>?@BCDFGHIKLMOPQRTUVXYZ[]^_`bcdf
+FGGHIJKKqstuvwxyz}
+OQX[^`cehjmpruwz>?@BCDFGHIKLMOPQRTUVXYZ[]^_`bcdf
+FGGHIJKK\\]^__`abcdfgiklnoqstvwy{>?ACDFGIKLNOQSTV+,-.//012334567789:;;<=>??@ABCCD
+FGGHIJKK\\]^__`abcdfgiklnoqstvwy{>?ACDFGIKLNOQSTV+,-.//012334567789:;;<=>??@ABCCD
+FGGHIJKK\\]^__`abcdfgiklnoqstvwy{>?ACDFGIKLNOQSTV+,-.//012334567789:;;<=>??@ABCCD
+FGGHIJKK\\]^__`abcdfgiklnoqstvwy{>?ACDFGIKLNOQSTV+,-.//012334567789:;;<=>??@ABCCD
+FGGHIJKK\\]^__`abcdfgiklnoqstvwy{>?ACDFGIKLNOQSTV+,-.//012334567789:;;<=>??@ABCCD
+FGGHIJKK\\]^__`abcdfgiklnoqstvwy{>?ACDFGIKLNOQSTV+,-.//012334567789:;;<=>??@ABCCD
+j\aj\aj\aj\aj\aj\aj\aj\aj\aj\a%\a
+\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b
+\ay\aj\a[\aK\a;\a,\a
+\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\v~\vf\vN\v6\v
+\nh\nN\n5\n
+\tr\t[\tD\t.\t
+\br\b_\bL\b9\b'\b
+\a}\am\a^\aO\a@\a1\a#\a
+\rb\r@\r
+\fz\f[\f<\f
+\vp\vT\v9\v
+\np\nX\nA\n+\n
+\tm\tZ\tG\t4\t!\t
+\bv\bf\bV\bG\b7\b(\b
+\aw\aj\a^\aR\aF\a:\a.\a#\a
+\b\b\b\b\b\b\b
+\f\f\f\f\f
+U\vI\n
+\bI\bD\b
+\af\a=\aF\a!\a
+\n]\nC\n
+\tU\t%\t
+\b]\b<\b
+\aj\aU\aA\a/\a
+moruwz|
+moruwz|
+moruwz|
+moruwz|
+moruwz|
+moruwz|
+yz|}
+_acehjlnqsuwz|~
+yz|}
+_acehjlnqsuwz|~
+yz|}
+_acehjlnqsuwz|~
+yz|}
+_acehjlnqsuwz|~
+yz|}
+_acehjlnqsuwz|~
+yz|}
+_acehjlnqsuwz|~
+yz|}
+lptx|
+TVXZ\\^`bdfhjlmoqsuwy{}
+yz|}
+lptx|
+TVXZ\\^`bdfhjlmoqsuwy{}
+yz|}
+lptx|
+TVXZ\\^`bdfhjlmoqsuwy{}
+yz|}
+lptx|
+TVXZ\\^`bdfhjlmoqsuwy{}
+yz|}
+lptx|
+TVXZ\\^`bdfhjlmoqsuwy{}
+yz|}
+lptx|
+TVXZ\\^`bdfhjlmoqsuwy{}
+yz|}
+gknruy|
+OQSUVXZ\\]_acdfhjlmoqstvxz{}
+yz|}
+gknruy|
+OQSUVXZ\\]_acdfhjlmoqstvxz{}
+yz|}
+gknruy|
+OQSUVXZ\\]_acdfhjlmoqstvxz{}
+yz|}
+gknruy|
+OQSUVXZ\\]_acdfhjlmoqstvxz{}
+yz|}
+gknruy|
+OQSUVXZ\\]_acdfhjlmoqstvxz{}
+yz|}
+gknruy|
+OQSUVXZ\\]_acdfhjlmoqstvxz{}
+yz|}
+beilorvy|
+JLNOQRTVWYZ\\]_abdegijlmoqrtuwyz|
+yz|}
+beilorvy|
+JLNOQRTVWYZ\\]_abdegijlmoqrtuwyz|
+yz|}
+beilorvy|
+JLNOQRTVWYZ\\]_abdegijlmoqrtuwyz|
+yz|}
+beilorvy|
+JLNOQRTVWYZ\\]_abdegijlmoqrtuwyz|
+yz|}
+beilorvy|
+JLNOQRTVWYZ\\]_abdegijlmoqrtuwyz|
+yz|}
+beilorvy|
+JLNOQRTVWYZ\\]_abdegijlmoqrtuwyz|
+tuvwyz{|~
+Z]adgjnqtwz~
+FHJKMNPRSUVXY[]^`acefhikmnpqsuvx
+tuvwyz{|~
+Z]adgjnqtwz~
+FHJKMNPRSUVXY[]^`acefhikmnpqsuvx
+tuvwyz{|~
+Z]adgjnqtwz~
+FHJKMNPRSUVXY[]^`acefhikmnpqsuvx
+tuvwyz{|~
+Z]adgjnqtwz~
+FHJKMNPRSUVXY[]^`acefhikmnpqsuvx
+tuvwyz{|~
+Z]adgjnqtwz~
+FHJKMNPRSUVXY[]^`acefhikmnpqsuvx
+tuvwyz{|~
+Z]adgjnqtwz~
+FHJKMNPRSUVXY[]^`acefhikmnpqsuvx
+]^_`acdefghijlmnoqsvxz|
+NPSVX[]`behjmort;<>?@ACDEFHIJLMNOQRSUVWXZ[\\^_`ac
+]^_`acdefghijlmnoqsvxz|
+NPSVX[]`behjmort;<>?@ACDEFHIJLMNOQRSUVWXZ[\\^_`ac
+]^_`acdefghijlmnoqsvxz|
+NPSVX[]`behjmort;<>?@ACDEFHIJLMNOQRSUVWXZ[\\^_`ac
+]^_`acdefghijlmnoqsvxz|
+NPSVX[]`behjmort;<>?@ACDEFHIJLMNOQRSUVWXZ[\\^_`ac
+]^_`acdefghijlmnoqsvxz|
+NPSVX[]`behjmort;<>?@ACDEFHIJLMNOQRSUVWXZ[\\^_`ac
+]^_`acdefghijlmnoqsvxz|
+NPSVX[]`behjmort;<>?@ACDEFHIJLMNOQRSUVWXZ[\\^_`acgghhiiijjkkkllmmmnnooopppqqrrrsstuuvwxxyz{||}~
+PQQRSTTUVWXXYZ[\\]^`acefhiklnpqstABDEGIJLMOPRTUWX--./0112345567899:;<==>?@@ABCDDEgghhiiijjkkkllmmmnnooopppqqrrrsstuuvwxxyz{||}~
+PQQRSTTUVWXXYZ[\\]^`acefhiklnpqstABDEGIJLMOPRTUWX--./0112345567899:;<==>?@@ABCDDEgghhiiijjkkkllmmmnnooopppqqrrrsstuuvwxxyz{||}~
+PQQRSTTUVWXXYZ[\\]^`acefhiklnpqstABDEGIJLMOPRTUWX--./0112345567899:;<==>?@@ABCDDEgghhiiijjkkkllmmmnnooopppqqrrrsstuuvwxxyz{||}~
+PQQRSTTUVWXXYZ[\\]^`acefhiklnpqstABDEGIJLMOPRTUWX--./0112345567899:;<==>?@@ABCDDEgghhiiijjkkkllmmmnnooopppqqrrrsstuuvwxxyz{||}~
+PQQRSTTUVWXXYZ[\\]^`acefhiklnpqstABDEGIJLMOPRTUWX--./0112345567899:;<==>?@@ABCDDEgghhiiijjkkkllmmmnnooopppqqrrrsstuuvwxxyz{||}~
+PQQRSTTUVWXXYZ[\\]^`acefhiklnpqstABDEGIJLMOPRTUWX--./0112345567899:;<==>?@@ABCDDE??@@AAABBCCCDDEEEFFGGGHHHIIJJJKKLMMNOPPQRSTTUVWX<==>?@@ABCDDEFGHIJLMOQRTUWXZ\\]_`23568:;=>@ACEFHI%%&'())*+,--./0112345567889:;<<=??@@AAABBCCCDDEEEFFGGGHHHIIJJJKKLMMNOPPQRSTTUVWX<==>?@@ABCDDEFGHIJLMOQRTUWXZ\\]_`23568:;=>@ACEFHI%%&'())*+,--./0112345567889:;<<=??@@AAABBCCCDDEEEFFGGGHHHIIJJJKKLMMNOPPQRSTTUVWX<==>?@@ABCDDEFGHIJLMOQRTUWXZ\\]_`23568:;=>@ACEFHI%%&'())*+,--./0112345567889:;<<=??@@AAABBCCCDDEEEFFGGGHHHIIJJJKKLMMNOPPQRSTTUVWX<==>?@@ABCDDEFGHIJLMOQRTUWXZ\\]_`23568:;=>@ACEFHI%%&'())*+,--./0112345567889:;<<=??@@AAABBCCCDDEEEFFGGGHHHIIJJJKKLMMNOPPQRSTTUVWX<==>?@@ABCDDEFGHIJLMOQRTUWXZ\\]_`23568:;=>@ACEFHI%%&'())*+,--./0112345567889:;<<=??@@AAABBCCCDDEEEFFGGGHHHIIJJJKKLMMNOPPQRSTTUVWX<==>?@@ABCDDEFGHIJLMOQRTUWXZ\\]_`23568:;=>@ACEFHI%%&'())*+,--./0112345567889:;<<=

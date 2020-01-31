@@ -1,0 +1,731 @@
+get smartp2p param
+set smartp2p param
+preset pos 
+ptz oper
+get image param
+get osd
+get wifi
+get audio param
+get ntp param
+get zonetime and time
+set image param
+set osd
+set wifi
+set audio param
+set ntp
+set zonetime and time
+reboot
+get factory test flag
+set factory test flag
+get net attr
+set net attr
+get http  port
+set http port
+get rtsp port
+set rtsp port
+get rtsp auth
+set rtsp auth
+get mac addres
+set mac address
+Stop Sd Card
+Format SD Card
+get wifi attr
+dev reset
+get network mac
+get ddns param
+set ddns param
+get network type
+set dev name
+get dev info
+get default ip
+set default ip
+ptz ex oper
+FUN_RESTOREDB_TO_CONFILE
+FUN_UPDATELEDDISPLAYSTATUS
+fun_whiyte_led_date_oper
+fun_whiyte_led_date_get_oper
+FUN_SET_CARDIPCAMERA_DISPLAY_LED
+_Md5EncodeThread
+_thread_Pop_Voice_Ask
+AddVoicePlayEventToQueue
+_thread_WiFi_Ap_Manager
+InitializeDevCtrl
+CheckAndConfigNetWork
+main
+DevManager.cpp
+devctrl Md5EncodeThread,dyKey=%s,Cidstr=%s\n
+EncodeKeyStatus OK,Welcome use DyIPC!
+Ohh,NO!,YOU can not use this soft!
+Again check md5 failed:%d \n
+/var/TellVoiceRec
+/mnt/mtd/ipc/cfg/DyVoiceRecog.bin
+g_VoicePopEventQueue get:%d ,%d ,%d\n
+Pop push same voice play,say err\n
+-D--g_b32BitFlagStatusVoicePlay:%x ; b32BitPop:%x\n
+player ,Call_Service->nRt:%d stRes:%d\n
+Player Error:%d,Will Try \n
+-C--g_b32BitFlagStatusVoicePlay:%x ; b32BitPop:%x\n
+-A--g_b32BitFlagStatusVoicePlay:%x ; b32BitFlagBefore:%x\n
+-B--g_b32BitFlagStatusVoicePlay:%x ; b32BitFlagBefore:%x\n
+Push PushVoicePlayTime:%d\n
+-Thread WiFi Ap Manager Start-\n
+/mnt/mtd/db/cid
+ifconfig ra0 0.0.0.0
+/mnt/mtd/ipc/script/exitap.sh
+/var/ap_lan_exit.bin
+eth0
+/var/ap.bin
+/tmp/ap.cfg
+ssid=
+ssid=HAP-%s
+channel=
+channel=%d\n
+cp -rf /tmp/ap.cfg /mnt/mtd/ipc/cfg/
+chmod 777 /mnt/mtd/ipc/cfg/ap.cfg
+------_thread_WiFi_Ap_Manager exit-----\n
+/mnt/mtd/ipc/cfg/LicenseCfg
+Dayun Data Exsit!!
+31122017112215292601509614121375
+11122017080218340701501219484074
+9fb58071a45a4de092b8dcdfbc258fed
+echo "%s" >/mnt/mtd/db/cid
+echo "%s" > /mnt/mtd/ipc/cfg/PhyMac
+/mnt/mtd/ipc/cfg/exitlic
+/proc/ptz_type_use
+echo 1 > /proc/ptz_type_use
+/gm/bin/wpa_cli -ira0 reconfigure
+/gm/bin/wpa_cli -ira0 reconnect
+CheckWiFiLink ,pthread_attr_init Failed:%d \n
+telnetd
+/usr/sbin/telnetd
+/tmp/HelpMeSetupCid
+/var/alarmcall
+/var/noticecall
+/var/wifierrorcall
+/var/wificonfiging
+/var/wificonfingOK
+/var/wifiTestLinkOK
+/var/custom_wav
+/var/p2p_ing_wav
+/var/p2p_ok_wav
+/var/reset_wav
+/var/update_wav
+/var/clear.amr
+/var/set.amr
+/var/reboot
+/tmp/udp_use_process.bin
+/tmp/p2pOK
+/tmp/p2pERR
+/var/run/ircutstatus
+/var/VoiceConfigWiFi
+echo 12 >/proc/gpiopin;echo 1 > /proc/gpiopowner
+echo 12 >/proc/gpiopin;echo 0 > /proc/gpiopowner
+ g_pThreadWiFiAPManager ,Thread creation failed\n
+/mnt/mtd/ipc/app/version
+cp /mnt/mtd/ipc/app/version    /mnt/mtd/ipc/cfg
+/mnt/mtd/ipc/app/script/dhcp.sh
+/mnt/mtd/ipc/script/dhcp.sh
+rm -rf /mnt/mtd/ipc/script/dhcp.sh
+ln -s /mnt/mtd/ipc/app/script/dhcp.sh /mnt/mtd/ipc/script/dhcp.sh
+/gm/bin/wext.bin
+/mnt/mtd/ipc/app/cfg/ap_wext.cfg
+rm -rf /mnt/mtd/ipc/cfg/ap.cfg
+ln -s /mnt/mtd/ipc/app/cfg/ap_wext.cfg  /mnt/mtd/ipc/cfg/ap.cfg
+/mnt/mtd/ipc/app/cfg/ap.cfg
+ln -s /mnt/mtd/ipc/app/cfg/ap.cfg  /mnt/mtd/ipc/cfg/ap.cfg
+/mnt/mtd/ipc/app/cfg/dhcpd.cfg
+rm -rf /mnt/mtd/ipc/cfg/dhcpd.cfg
+ln -s /mnt/mtd/ipc/app/cfg/dhcpd.cfg  /mnt/mtd/ipc/cfg/dhcpd.cfg
+/mnt/mtd/ipc/app/script/runap.sh
+rm -rf /mnt/mtd/ipc/script/runap.sh
+ln -s /mnt/mtd/ipc/app/script/runap.sh  /mnt/mtd/ipc/script/runap.sh
+/mnt/mtd/ipc/app/script/exitap.sh
+rm -rf /mnt/mtd/ipc/script/exitap.sh
+ln -s /mnt/mtd/ipc/app/script/exitap.sh  /mnt/mtd/ipc/script/exitap.sh
+/mnt/mtd/ipc/script/GET_WIFI_AP_MODE_S.sh
+rm -rf /mnt/mtd/ipc/script/GET_WIFI_AP_MODE_S.sh
+/var/DEV_UDP_TEMPORARY
+killall wpa_supplicant
+killall udhcpc
+killall rtspd
+rm -rf /var/ap.bin
+rm -rf /var/ap_exit.list
+killall captive_server
+killall hostapd
+killall udhcpd
+/gm/bin/wpa_supplicant -Dwext -B -ira0 -c/mnt/mtd/ipc/cfg/wpa_supplicant.conf -P /var/pid_wpa_s
+/gm/bin/wpa_supplicant -Dnl80211  -B -ira0 -c/mnt/mtd/ipc/cfg/wpa_supplicant.conf -P /var/pid_wpa_s
+/mnt/mtd/ipc/cfg/Cn.wav
+/mnt/mtd/ipc/cfg/En.wav
+/mnt/mtd/ipc/cfg/config_cst.cfg
+/tmp/playerOldMode
+/mnt/mtd/ipc/app/drive/goke_hardware_ver.ko
+/tmp/goke_hardware_version
+pthread_attr_init Failed:%d \n
+ pThreadUserDbModifi rc=%d,%d ,Thread creation failed\n
+wait for db ctrl sucessful\n
+cp  /share/%s   /etc/localtime  2>&1
+check hardware version:0x%X ,%d\n
+insmod  /mnt/mtd/ipc/app/drive/whiteled.ko
+/tmp/38board.bin
+/tmp/autoalarm.bin
+HardWare Use:%d,LightLedMode:%d\n
+insmod /mnt/mtd/ipc/app/drive/gpioctrl.ko
+ pThreadManager rc=%d,%d ,Thread creation failed\n
+ NTPTimeSyncThread rc=%d,%d ,Thread creation failed\n
+ _thread_Pop_Voice_Ask rc=%d,%d ,Thread creation failed\n
+ g_pThreadMd5Decode ,Thread creation failed\n
+CreateLocalListenSocet failed,errno:%d!! \n
+Dev ,RecvServiceData nRecvSize < ERR_NONE && abs(nRecvSize) == ERR_BUFSIZE\n
+devctrl msg:nRecvSize=%d pMsgHead->funid=%d\n
+HandleGetSpeaker
+HandleSetSpeaker
+dev_audio/dev_audio.cpp
+InAudio Volume From DB:%d,%d \n
+InAudio Flag From DB:%d,%d \n
+OutAudio Volume From DB:%d,%d \n
+OutAudio Flag From DB:%d,%d \n
+reset talk hardware\n
+start talk hardware\n
+stop talk hardware\n
+set talk volume\n
+set volume talk:%d,volume mic:%d\n
+Call Error Function audio:%d,%d\n
+volume talk:%d,set volume mic:%d\n
+talk hardware cmd not support cmd\n
+r.0.0.0
+u.0.0.0
+_Thread_BroadcastDiscover
+GREAT_BroadcastDiscover
+/proc
+/proc/%s/status
+%*s %s
+create socket fail\n
+old:%02x:%02x:%02x:%02x:%02x:%02x\nnew:%02x:%02x:%02x:%02x:%02x:%02x \n
+/filesystemversion
+/var/wifilinksSeacherw
+/mnt/mtd/ipc/cfg/version
+dev_net/broadcast.cpp
+Create Listen Socket Failed %d,%d\n
+bind Socket Failed %d,%d\n
+setsockopt Failed errno:%d\n
+DYDiscover app select failed,ret:%d errno:%d  \n
+DYDiscover app recv failed,ret:%d errno:%d  \n
+/var/ap_exit.list
+killall runarp
+/mnt/mtd/ipc/app/script/runarp ra0
+/mnt/mtd/ipc/app/script/runarp eth0
+CMD_GET_REQ_X USED 720P  8M Falsh!\n
+netp2p getPidByName:%d\n
+/mnt/mtd/ipc/app/netp2p
+killall netp2p
+echo 3 > /proc/sys/vm/drop_caches
+avencode
+001 REQUEST_STOP_RCGER \n
+002 REQUEST_STOP_RCGER \n
+rtspd getPidByName:%d\n
+/mnt/mtd/ipc/app/rtspd
+/mnt/mtd/ipc/app/rtspd&
+%02X:%02X:%02X:%02X:%02X:%02X
+CMD_GET_REQ_X sendto ret:%d,sendto errno = %d stSendAddress.sin_port=0x%X,nListenSock:%d\n
+sendto errno = %d stSendAddress.sin_port=0x%X\n
+It is Admin ,Can change[Roleid=%d] add by Peter.Pan !\n
+127.0.0.1
+sendto errno = %d \n
+g_pThreadBroadcastDiscover ,Thread creation failed\n
+/mnt/mtd/ipc/app/netp2p&
+factorytest exit, getPidByName:%d\n
+/tmp/factorytest
+killall factorytest
+ConfigPhyMac
+ReadGateWayFromRouteFile
+AnalyIpFilter
+RefreshNetInfo
+ConfigFactoryModeMac
+HandleGetNetAttr
+HandleSetNetAttr
+HandleSetMacAddr
+HandleGetNetworkMacAddr
+BroadcastSearchTooloolSetNetAttr
+ifconfig  %s  | sed '1d  3d 4d 5d 6d 7d '| awk ' { $1=null;print }' >/tmp/IpAdr_Mask
+/tmp/IpAdr_Mask
+ifconfig dev  error:
+errno %s\n
+addr:
+Mask:
+RbtMac
+ifconfig eth0 down;ifconfig eth0 hw ether %s 2>&1
+ifconfig eth0 hw ether %s ;ifconfig eth0 up
+ifconfig eth0 hw ether %s;ifconfig eth0 up 
+ifconfig eth0 0.0.0.0
+libportmap.so
+PORTM_Init
+PORTM_Query
+PORTM_Del
+PORTM_Add
+dev_net/dev_net.cpp
+From System mac:%s\n
+Found same Mac ,Check none,%s:%s\n
+Found illegal Mac ,Check error,%s:%s\n
+ifconfig eth0 down
+ifconfig eth0 hw ether %s
+echo %s > /var/ethmacaddress
+/mnt/mtd/ipc/app/script/setmac.sh  %s
+%d[%d-%d]
+%d%d[%d-%d]
+%d[%d-%d][0-9]
+%d[0-9]
+[%d-%d][0-9]
+/proc/net/route
+%08X
+get_gateway = %s \n
+killall -9 dyipc.cgi
+killall -9 config.cgi
+killall -9 dyvifapp
+killall -9 mjpgstream.cgi
+killall -9 yrtspd
+pIpFilter :%s \n
+000 chFilterString=%d,%d,%s,%s,%ul ,%ul\n
+^(%d.%d.%d.(%s))$
+001 chFilterString=%s \n
+ReadGateWayFromRouteFile Failed:%d,%d \n
+/etc/resolv.conf
+nameserver
+ReadDnsFromResolvFile Failed:%d,%d \n
+GetIPAndMask Failed:%d,%d \n
+RefreshNetInfo :IP:%s,MASK:%s \n
+/var/tmpNetLan
+/var/tmpNetWiFi
+ConfigNetWork,falg:%d,mode:%d\n
+/var/ethmacaddress
+/tmp/UserMACSet
+-Config Factory Mac:%s-\n
+%X:%X:%X:%X:%X:%X
+chStrMac:%s\n
+[MAC set Only!=%d]
+/tmp/xm_autorun/NetWork
+chDhcp=%d\n
+/mnt/mtd/ipc/script/dhcp.sh eth0 %s-%s
+/mnt/mtd/ipc/script/dhcp.sh ra0 %s-%s 
+ifconfig eth0 %s
+ifconfig eth0 %s netmask %s
+route add default gw %s
+echo 'nameserver %s'> /etc/resolv.conf 
+echo 'nameserver %s'>> /etc/resolv.conf 
+echo 1 > /var/NetFlag
+ifconfig ra0 %s
+ifconfig ra0 %s netmask %s
+ipAddress =%s \n
+Invalid Param Value:%d \n
+1:Use new IP interface --\n
+2:chIpAddrEx=%s ;chMaskEx=%s\n
+udhcpc -a -b -i eth0 -x hostname:%s  -t 15
+udhcpc -a -b -i ra0 -x hostname:%s  -t 15
+dhcp failed
+route add default gw %s 2>&1
+2:Use new IP interface --\n
+3:chIpAddrEx=%s ;chMaskEx=%s\n
+ifconfig eth0 netmask %s
+ifconfig ra0 netmask %s
+3:Use new IP interface --\n
+route del default
+mac is same 
+Enter into HandleSetMacAddr function caller \n
+001 _ chNewMacAddress=%s ,chOldMacAddress=%s\n
+Reboot Error For Set MAC
+Set Mac Not Reboot:%d,%d,%d,%d \n
+[ HandleGetNetworkMacAddr 2017-06-07 ]eth0=%s  ra0=%s\n
+/mnt/mtd/bin/ddnsinterip
+InterIP=
+/etc/webserver/ipfilter.conf
+$HTTP["remoteip"] =~ "
+" {   \n$HTTP["remoteip"] !~ "
+"{\nurl.access-deny = ("")\n                }\n                }
+0.0.0.0
+001-Use new IP interface --\n
+001-chIpAddrEx=%s ;chMaskEx=%s\n
+udhcpc -a -b -i eth0 -x hostname:%s-%s  -t 15
+udhcpc -a -b -i ra0 -x hostname:%s-%s  -t 15
+socket() error.\n
+long link ETHTOOL_GLINK failed: %s\n
+short link ETHTOOL_GLINK failed: %s\n
+PepManagerExit
+GK7102NightAndDayCtrl
+PepManagerInit
+IRCut_Polling
+dev_peripher/dev_peripher.cpp
+Exit Peripher end\n
+/dev/whiteled
+Can't open /dev/whiteled\n
+gk7102 night and day ctrl mode:%d\n
+GK7102NightAndDayCtrl ->Call Error Function image,%d,%d,%d\n
+turn on white led
+/tmp/Ignorealarmwithwhiteled
+Get LDR Value Failed:%d \n
+Go to AVMAKER SET\n
+touch /tmp/SamplingModeDay
+touch /tmp/SamplingModeNight
+GOKE CHIP Supprot ,set New IR LED
+/tmp/gm_ex_version
+/var/Yshutter
+/tmp/givenewpic
+echo %d >/var/ADCSampleValue
+the db ReadSensitivity =%d is error\n
+/tmp/PanDebug
+[ IRCutMode is MODE_TIMING ],nSec_now=%d,nSec_sta=%d,nSec_end=%d\n
+[ IrCutTime Input,nSHour || nEHour ],To other day !!
+[DEBUG FLAG],nIputTimeMode=%d\n
+[001 - nSec_now >nSec_sta&&nSec_now<nSec_end] cMask=%d\n
+[ Must be Night mode !\n ]
+[ 002 - else ] cMask=%d\n
+Built Date: 
+ g_pThreadCtrlWhiteLed rc=%d ,Thread creation failed\n
+nDbRetErr=%d\n
+SetLightLedModeIntoDB=%d\n
+echo %d >/proc/gpiopin;echo %d > /proc/gpiopowner
+/tmp/sd/sd.fail
+/tmp/sd/sd.ok
+alive_event
+_HeartbeatThread
+get_ip_str
+HeartbeatThreadGreat
+dev_protocol/dev_alive.cpp
+FACT_Update] failed to create g_pAliveData->ddns_sock\n
+FACT_Update] %d Failed to bind socket\n
+FACT_Update] 3time Failed to bind g_pAliveData->ddns_sock\n
+g_pAliveData->_sock:%d,g_pAliveData->_ip%s:%d\n
+FACT_Update] failed to sendto %d\n
+nIpRt:%d,ip:%s,nPortRtnPortRt:%d,nInvRt:%d\n
+alive.hapsee.cn
+hostname %s\n
+address \n
+%s \n
+Alive ip error try get\n
+use custom ip:%s:pror:%d,inv:%d\n
+1022.2.237build20190626
+build
+send heartbeat packets\n
+ g_pThreadHeartbeatThread ,Thread creation failed\n
+thread running\n
+UpdateTimeFromNTP
+FromServerTimeSynTime
+NTPTimeSyncThread
+SetSysStartTime
+HandleSetNTP
+ntpdate %s
+dev_protocol/dev_protocol.cpp
+ntp time:%s\n
+step time server
+adjust time serve
+ntp-sz.chl.la
+time.nuri.net
+time.windows.com
+ntp.aliyun.com
+ntp4.aliyun.com
+time-b.nist.gov
+ap wifi out url get time\n
+qq.com
+ret:%d,GMT time:%s\n
+google.com
+baidu.com
+hapsee.com
+sina.com
+www.iotcare.cn
+hapsee.cn
+date -s "%s"
+ZoneTimeName:%s\n
+getnettime OK\n
+%04d-%02d-%02d %02d:%02d:%02d
+start time:%s
+ntp task end\n
+/mnt/mtd/app/webserver/config/conf.d/auth.conf
+"method"  => "digest"
+"method"  => "basic"
+mkdir /etc/webserver/
+/etc/webserver/auth.conf
+##  Authentication modules\n
+server.modules += ( "mod_auth" )\n
+auth.backend      = "plain"\n
+auth.backend.plain.userfile = "/etc/webserver/lighttpd.user"\n
+$HTTP["url"]!~"^(/onvif).*$|^(/mjpeg/snap.cgi).*$"{\n
+$HTTP["url"]=~"^(?!/onvif).*$"{\n
+auth.require = ( "" => \n
+"method"  => "digest",\n
+"realm"   => "IPCamera Login",\n
+"require" => "valid-user"\n
+chmod 755  /etc/webserver/auth.conf
+_CallZoomFocus
+_thread_tour
+CheckPosFlagStatus
+_thread_goto_POS
+SaveAndCheckPtzPreset
+PresetPosForRealTimeHandle
+PtzManagerInitEx_Goke710x
+HandlePTZ
+HandlePTZ_Ex
+HandlePresetPos
+HandleSetPtzTourAttr
+HandleGetStartGotoPresetPosRealTime
+HandleGetStartGotoPresetPos
+dev_ptz/dev_ptz.cpp
+Call haly fail\n
+Open the Tour Db Error\n
+pHaystack=%s\n
+chIndex_temp%d=%s  \n 
+pHaystack_Interval=%s\n
+chInterval_temp%d=%s \n 
+TIMES=%d \n
+<-------  Wait for the next task :%d  ------>\n
+/var/run/ptztourstatus
+Remaining Second:%d\n
+PtzEx
+/proc/fortune
+status=
+/var/run/ptzruning
+/proc/ptzmiddleuse
+txt:%s]\n
+ptzmiddleuse=
+Check Pos Flag show,Flag:%d\n
+Thread_goto_POS (x,y)=(%d,%d)\n
+callstatic void *_thread_goto_POS(void *arg) over!
+ptz moving ,hold ptz done end!\n
+PTZ moving ,hold process end!\n
+1:Set pos CMD error\n
+2:Read pos CMD error\n
+3:Pos ok send Stop CMD error\n
+Pos=%d nPreSetNum=%d nXPos=%d, nYPos=%d\n
+selfgotopos9
+4:Write data to db of selfgotopos9 error\n
+find ptz pos real time\n
+Initialize PTZ global parameter\n
+show ptz selfmove:%d,move to Pos=%d\n
+PTZ_MIDDLE_EX ,think no Pos\n
+PTZ call logic logic number= HW_PTZ_SENDPTZ_ID ,nRet=%d\n
+DevHandle.cpp,HandlePTZ]: %s:%d SendData(resp...)=%d nVSpeed=%d nHSpeed=%d eDirect=%d\n
+p2p APP speed or delay time of sencode;%d\n
+ g_pThreadIdForPtzEX rc=%d ,Thread creation failed in Ptz ex\n
+DevHandle.cpp,HandlePTZ_Ex]: %s:%d SendData(resp...)=%d nVSpeed=%d nHSpeed=%d eDirect=%d\n
+DevHandle.cpp,HandlePresetPos]: pReq->nOperType=%d\n
+DevHandle.cpp,HandlePresetPos]: PTZ_PRESET_POS_QUERY nPos=%d nX=%d nY=%d\n
+%d nPreSetNum=%d\n
+%d nPreSetNum=%d nX=%d,nY=%d\n
+PTZ_PRESET_POS_TOUR,PTZTourRunning=%d,TourEnableFlag=%d\n
+ _thread_tour g_pThreadPTZTour=%d ,Thread creation failed\n
+resp,%d, nOperType=%d, stResp.retvalue=%d\n
+nRet=%d,nEnable=%d,chIndex=%s,chInterval=%s
+stResp.nPos = %d\n
+nX=%d,nY=%d Name=%s\n
+SendData nRet= %d\n
+UserDbModification
+/mnt/mtd/db/ipcsys.db
+dev_system/dbctrl.cpp
+CreateListenSocet failed!! \n
+HandleReSet
+RestoreDBToConfigFile
+FunFormatSdCard
+RebootAfterStoppingRecord
+UnIniUsbDevice
+001 HandleReSet 
+003 HandleReSet FacSeting.cfg >1 
+sed -i 's/def=0/def=1/g' /mnt/mtd/ipc/cfg/FacSeting.cfg
+rm -rf /mnt/mtd/ipc/cfg/DyVoiceRecog.bin
+rm -rf /mnt/mtd/ipc/cfg/iChano
+Create Thread Failed:%d \n
+dev_system/dev_system.cpp
+006 HandleReSet :%d\n
+%d-%d-%d %d:%d:%d\n
+cp  /share/%s         /etc/localtime  2>&1
+HYPTZAging
+/mnt/mtd/app/HYPTZAging/HYPTZAging &
+ProductionTools
+/mnt/mtd/app/ProductionTools/ProductionTools &
+cat /tmp/GkChipID
+/etc/webserver
+Create %s failed \n
+/etc/webserver/lighttpd.user
+Open %s failed \n
+%s:%s\n
+/mnt/mmc
+/dev/mmcblk0
+no tfCrad,Not do\n
+sd_detect getPidByName:%d\n
+/mnt/mtd/ipc/app/sd_detect&
+killall sd_detect
+rm /tmp/sd/sd.fail
+rm /tmp/sd/sd.ok
+umount success!
+umount failed!
+/mnt/mtd/ipc/app/sd/fdisk.sh /dev/mmcblk0
+/dev/mmcblk0p1
+vfat
+mount success!
+mount failed:%d!\n
+Mesg:%s\n
+Reboot After Stopping Record, nRet=%d\n
+Uninit USB\n
+ifconfig ra0 down
+/gm/bin/wpa_cli -ira0 disconnect
+/gm/bin/wpa_cli -ira0 terminate
+Get Back Http Port Failed 
+cat /tmp/Rj45Status
+%d %d * * %s reboot
+killall -14 netp2p
+CallDeepDeep
+WiFiIsErrorNoiceCall
+HandleSetOSD
+/tmp/ImageNightVisionState
+Alaram Beep  Request Failed,%d,%d \n
+dev_video/dev_video.cpp
+reset beep  request failed,%d,%d \n
+Not voice file!
+Call Error Function image
+stImageAttr[Flip,Mirror]=[%d,%d}\n
+Call Error Function GokeImageSetFlipAnsMirr
+pReq->stOsdInfo.stOsdInfo[i].nZoom = %d,i= %d \n
+002 pReq->stOsdInfo.stOsdInfo[i].nZoom :%d,%d \n
+003 pReq->stOsdInfo.stOsdInfo[i].nZoom :%d,%d \n
+001 start call service \n
+002 start call service \n
+003 end call service(%d,%d) \n
+call service failed(%d,%d) \n
+wpa_api_check_wifi_status
+SetWifiParmThread
+HandleGetWiFi
+HandleSetWiFi
+HandleGetWifiInfo
+HandleTestWifi
+HandleFromSsidParsingInfo
+iotcare_lan:%s:iotcare_lan
+wpa_cli -ira0 scan
+wpa_cli -ira0 scan_results |grep %s
+cat /mnt/mtd/ipc/cfg/wpa_supplicant.conf  |grep %s
+st_wifi_config.csWiFiEssid=%s\n
+st_wifi_config.csWiFiWepKey=%s\n
+/mnt/mtd/etc/WiFi_Old_Param
+WiFi Param File error:
+/mnt/mtd/ipc/cfg/getwifidate
+/mnt/mtd/ipc/cfg/wifidbtosysparam
+Use update or other fuction,db have wifi param,but sys no
+/mnt/mtd/dbback/WiFi_Old_Param
+mount /dev/mmcblk0p1 /var/sdcard
+/var/sdcard/wpa_supplicant.conf
+Found SD card have WiFi Conf File
+umount /var/sdcard
+chmod 777  /var/sdcard/wpa_supplicant.conf
+/mnt/mtd/etc/GetSDCardWiFi.sh
+/tmp/SDCardWiFiInfo
+-------------------SetWiFiInfoToDbFromSDCard-------------
+cp -vrf /var/sdcard/wpa_supplicant.conf  /mnt/mtd/service/DevManager
+mv /var/sdcard/wpa_supplicant.conf  /var/sdcard/wpa_supplicant.conf_OK
+Not Found SD card WiFi Conf File
+lsusb  |grep 7601
+/var/pid_hostapd
+/tmp/OperateElian
+iwconfig ra0| grep Not-Associated
+HAVE :AP
+ Associated :AP
+ifconfig  ra0 | grep HWaddr |grep 00-00-00-00-00-00-00
+COMPLETED
+ERR WIFI
+ps | grep %s | awk '{print $5}'
+"wpa_supplicant"
+wpa_cli -ira0 status | grep  wpa_state | cut -c  11-19
+dev_wifi/dev_wifi.cpp
+chPopenBuf:%s\n
+ASSOCI
+4WAY
+SCANN
+wpa_api_check_wifi_status,%s\n
+SetWiFi flag:%d\n
+test tool,stat:%d,CrrChkSta:%d\n
+/var/spk_wifi_call
+player ,WIFI OKJJ->nRt:%d stRes:%d\n
+touch /mnt/mtd/ipc/cfg/DyVoiceRecog.bin
+killall -14 IOTCare
+touch /tmp/linksp2paudio
+WiFi Security Mode not Empty\n
+wpa_cli -ira0 status > /tmp/CurrentStatusElian
+/tmp/CurrentStatusElian
+group_cipher=
+CCMP
+TKIP
+key_mgmt=
+WPA2
+WPA1
+/tmp/p2pIngConnet
+/tmp/p2pOKConnet
+Wlan OK.off wifi \n
+Get url time:%d\n
+/tmp/RunOneTimeRec
+FUN_EXIT_PROCESS error code:%d,%d\n
+nWifiCount=%d \n
+stResp.stWifiInfo[nWifiCount].chMAC=%s\n
+strcpy(stResp.stWifiInfo[nWifiCount].chSSID=%s\n
+%d-nAuthMode=%d\n
+DevHandle.cpp,HandleGetWiFi]: resp set, nRet=%d\n
+bRcgerIng:%d,bWiFiConfigured:%d\n
+Dev REQUEST_STOP_RCGER error,try again:nCallTimes,%d\n
+003 REQUEST_STOP_RCGER \n
+[Set WiFi Interface,key strlen:%d mode=%d]\n
+/mnt/mtd/ipc/app/script/apexitsearch.sh  %s OUT&
+from dbdate,ssid:%s,password=%s;auth=%d;enc=%d,aef=%d\n
+WiFi data set to dbdate end\n
+DevHandle.cpp,HandleSetWiFi]: resp set, nRet=%d\n
+nWifiEnable=%d\n
+after csWiFiEssid=%s\n
+after csWiFiKey=%s\n
+eWiFiSecurityMode=%d\n
+DevHandle.cpp,HandleGetWifiInfo]: resp set, nRet=%d\n
+logic call ,show state=%d \n
+DevHandle.cpp,HandleTestWifi]: resp set, nRet=%d\n
+pReq->chSSID=%s\n
+SysBroadcastSetWiFiOkNoticeiChanop2p->pData=%s\n
+Great Sock Faile   L= %d \n
+255.255.255.255
+send Pack faile :nRet=%d\n
+Create Standard key Error
+Create Message Queue Error
+Send Message Error
+fail to find week.
+fail to find month.
+%s %s %d %d:%d:%d %d
+****%s,%s*****\n
+monthcmp() or weekcmp() fail to use.
+select
+GET /index.html HTTP/1.1\r\n
+%s%s\r\n
+Host: 
+Connection: Keep-Alive\r\n
+Accept: */*\r\n
+Accept-Language: zh-cn\r\n
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\n
+Accept-Encoding: gzip, deflate\r\n
+Date:
+%04d-%02d-%02d %s
+/dev/ttySGK1
+Pelco485Init successful
+PelcoPtzCtrl :%d\n
+fd 232 error g_nfd:%d\n
+\r\f\v\t\a
+Can't Open Serial Port
+SetupSerial 1
+Unsupported data size\n
+Unsupported parity\n
+Unsupported stop bits\n
+com set error!\n
+libVerion:%s
+201710191408
+open %s\n
+%s%s%s
+hdKSFHK*&@DJSFH@^askahhcdjkyelejh$PanYuanYiDaYunLinksKey!
+%s-%2.2X%2.2X%2.2X
+%4d%02d%02d%02d%02d%02d
+license%s.xml
+%s-%X%X%X-%08d
+%d;%s;%s;%s;%s;
+LICENSE
+/dev/mem
+open failed 
+mmap error 
+QZ^&
+\a7Ç\r

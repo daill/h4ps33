@@ -1,0 +1,1230 @@
+AlarmParamInitialize
+HandleAlarmParamSet
+HandleAlarmParamGet
+HandleEmailParamSet
+HandleEmailParamGet
+HandleFtpParamSet
+HandleFtpParamGet
+AlarmFunHandle.cpp
+GetEmailParam from Db Error\n
+GetFtpParam from Db Error\n
+Email pic:%d \n
+/tmp/SupportShtSensor
+021 pReq->ActionInterval=%d\n
+022 pReq->AlaramTrigType=%d\n
+023 pReq->EnableAudioAlarm=%d\n
+024 pReq->EnableIOAlarm=%d\n
+025 pReq->IOInputNormalStatus=%d\n
+026 pReq->IOOutputNormalStatus=%d\n
+027 pReq->AudioAlarmSensitivity=%d\n
+Send data error \n
+Set Email Param :%d \n
+_thread_HandleSMTPTest
+HandleFTPTest
+HandleEmailTest
+HandleSetMDArea
+HandleGetMDArea
+HandleFTPTestResult
+HandleSMTPTestResult
+TestFtpServerGreateAuth
+ftp_client '%s' %d '%s' '%s' '/' '%s' '/mnt/mtd/etc/FacSeting.cfg' 
+%s_%x
+mailsend -f '%s' -smtp '%s' -port %d -user '%s' -pass '%s' -sub '%s' -M '%s' -auth -t '%s' -ehlo  +cc +bc
+ -starttls
+ -ssl
+AlarmHandle.cpp
+chCmd =%s \n
+Send data error:%d \n
+mkdir /tmp/ftp ;chmod  777 /tmp/ftp ;touch  /tmp/ftp/mkdir.db ;chmod 777 /tmp/ftp/mkdir.db
+ftp_client  %s %d %s %s  /tmp/ftp/    %s/TestGreate/  mkdir.db 
+Test Ftp Create Auth Failed:%d,%s\n
+sPathName in invalid:%s \n
+ftp_client  %s %d %s %s  /tmp/ftp/    %s  mkdir.db
+ftp_client  %s %d %s %s  /tmp/ftp/    %s/%04d%02d%02d/  mkdir.db
+rm -rf /tmp/ftp
+Test Ftp Server Dir Auth Success \n
+InitAlarmActionParam
+TestIsHaveLinkagePlan
+SetAlarmActionFlag
+GetAlarmActionFlag
+PushMessageToAlarmServer
+LinkageLamp
+AlarmLinkageThread
+DetectAVRecorderRunStatus
+RequestAlarmRecord
+AddAlarmEventToQueue
+SetScheduleEx
+GetScheduleEx
+AlarmLinkage.cpp
+004 AlarmLinkageThread %d\n
+005 g_LinkAction_Count:%d \n
+Invalid WIndex,TuIndex:%d,%d \n
+/var/pid_hostapd
+offline ,not support push\n
+Alarm PushMessageToAlarmServer\n
+/mnt/mtd/ipc/app/colink
+/mnt/mtd/ipc/app/colink.sh
+colink_sha256_push:%d\n
+%s. %d,%d
+ERR_STR_CallSERVER_FAILED
+IPC-CAMERA
+err:%d,DID:%s,Name=%s,lasttime2PushServer:%ld\n
+/tmp/38board.bin
+/tmp/autoalarm.bin
+/var/alarmrec
+/mnt/mmc/alarm_record
+/var/mailpic
+/var/ftppic
+/var/pre%d.jpg
+AlarmLink
+001 AlarmLinkageThread \n
+002 AlarmLinkageThread \n
+Reset IO OutPut To Normal Status \n
+*************Test Eaplse time *************\n
+TestIsHaveLinkagePlan is pass,g_nLinkFlag= %d\n
+ARC%04d%02d%02d%02d%02d%02d.mp4
+/dev/mmcblk0
+/mnt/mmc
+vfat
+/var/AVRecorder
+rm -rf %s
+ListenReqSock = %d \n
+echo 1 >> %s
+Invalid Status = %d \n
+.mp4
+%s/%s
+%s/%04d%02d%02d/%02d
+Requeset Alarm Recorder :%d \n
+%s/%04d%02d%02d/
+Start Test Ftp Thread Failed \n
+Call Start Record Failed,(%d,%d) \n
+Call Service Alarm Record %d\n
+RequestAlarmRecord failed ,nRet = %d\n
+Alaram Goto PreSet Failed,%d,%d \n
+Alaram Beep  Request Failed,%d,%d \n
+Exit AlarmLinkageThread %d \n
+AddAlarmEventToQueue %lu\n
+RequestSetAlarmServerPushMame
+RequestGetAlarmServer
+RequestSetAlarmServer
+SetAlarmServerInfo
+RequestMBInfoFromAVMaker
+RequestManualAlarm
+RequestStopListenAlarm
+RequestListenAlarm
+RequestAudioDetectFromAVMaker
+main
+Read_AlaramParam
+DetectAlarmInfo
+SendAlarmInfoToStream
+AlarmServer.cpp
+%s \n
+SetAlarmServerInfo Alarm Server Not Enabled \n
+SetAlarmServerInfo:%s \n
+g_stInfo[0]{%d,%d,'%s','%s','%s'} \n
+g_stInfo[1]{%d,%d,'%s','%s','%s'} \n
+g_stInfo[2]{%d,%d,'%s','%s','%s'} \n
+127.0.0.1
+Call Service Get Alarm Info Failed (%d,%d)\n
+find the same destion \n
+%02d.01.01 Built Date: %s
+2019-06-26T15:52
+Get Alarm Server Info Failed \n
+BIND Service Port:%d Failed \n
+Set Alarm Param
+Set Email Param
+Get Email Param
+Set Ftp Param
+Get Ftp Param
+Set Alarm Action Param
+Get Alarm Action Param
+Set Alarm Action Plan
+Get Alarm Action Plan
+Test Ftp Function
+Email Test
+Set Motion Detect Area
+Get Motion Detect  Area
+Request Alarm Data
+Request Stop Alarm Data
+Request FTP test Result
+Request SMTP test Result
+Manual trigger alarm
+Get Alarm Server
+Set Alarm Server
+Set Alarm Server Push Name
+001 Read_AlaramParam \n
+002 Read_AlaramParam \n
+003 Read_AlaramParam \n
+pthread_attr_init failed:%d \n
+pthread_attr_setstacksize failed:%d \n
+Create ArmLinkage Thread Failed:%d,errno \n
+a%d=AlarmInput:1&
+Call ALARMIO_INPUT_READ_ID failed:%d \n
+a%d=audioin:1&
+Read SHT20 Data Failed:%d,%d \n
+a%d=tempalarm:0&
+a%d=humalarm:0&
+a%d=ManualAlarm&
+MB%d:%d-%d-%d-%d-%d-%d
+a%d=
+/var/run/ircutstatus
+%04d-%02d-%02d %02d:%02d:%02d
+IOAlarm:1
+AudioInput:1
+MBAlarm:%d-%d-%d-%d-%d
+ManualAlarm
+TempAlarm:0
+HumAlarm:0
+alarmin:1
+audioin:1
+tempalarm:0
+humalarm:0
+keepalive
+SendData Failed \n
+Call Service Get Alarm Info Failed %d,%d\n
+AudioAlarmMsg:%s \n
+AudioAlarm
+Exit AlarmServer Proc :%d\n
+Create Standard key Error
+Create Message Queue Error
+Send Message Error
+push.iotcare.cn
+Server url error ,no found ip
+Great Socket Is Error: close socket error!
+Connet Net error:inet_pton error!
+ ip=%s ,connect error!\n
+GET /icp/mesger.html?did=%s&dname=%s&dsname=&etype=4 HTTP/1.1\r\n
+Accept: */*\r\n
+Accept-Language: zh-cn\r\n
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)\r\n
+Accept-Encoding: gzip, deflate\r\n
+%s%s\r\n
+Host: 
+Connection: Keep-Alive\r\n
+Send failed! The error code is=%d
+error info='%s'\n
+/tmp/colink.conf
+cStr:%s\n
+devid=
+apikey=
+port=
+testapi
+this is test server api,no change
+%s-api.coolkit.cn
+Now the nets ip:%s,port:%d,devid:%s,key:%s\n
+push server ip:%s\n
+SOCKET ERROR!
+INET_PTON ERROR
+CONNECT ERROR
+Host: %s:8081\n
+{"deviceid":"%s","ts":1}
+{"apikey":"%s","deviceid":"%s","ts":1}
+JSON:\n%s
+Authorization:Sign %s
+POST /api/push/smartLife HTTP/1.1\n
+Content-Type:application/json\n
+\ncache-control: no-cache\n
+Postman-Token: 56908fc0-6015-4bba-8701-a38958ae567c\n
+User-Agent: PostmanRuntime/7.6.0\n
+Accept: */*\n
+accept-encoding: gzip, deflate\n
+content-length: 
+Connection: keep-alive\n
+%02x
+---SHA256---\n  DATA: 
+BASE64: %s\n
+}\fUt]
+̡\f$o,
+vRQ>
+'8!\e.
+\r8STs\ne
+\njv.
+K£Ql
+LwH'
+NOʜ[
+o.htoc
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+%d-%s\n
+(%d) %s----------->s=%d\n
+Failed to creat socket
+Failed to set SO_RCVTIMEO
+\nxconnect] ====== ftp ret=%d error=x%X!======\n
+Failed to get SO_ERROR
+Connection is time out
+Disconnected
+PASV
+Failed to create socket
+Failed to set SO_REUSEADDR
+Failed to listen in PASV mode
+PORT %s,%s,%s,%s,%d,%d
+LIST
+QUIT
+CWD 
+MKD 
+Failed to create remote directory
+\e[32mhelp\e[0m\t--print this command list
+\e[32mpwd\e[0m\t--print the current directory of server
+\e[32mlist\e[0m\t--list the files and directoris in current directory of server
+\e[32mcd [directory]\e[0m\n\t--enter <directory> of server
+\e[32mmode\e[0m\n\t--change current mode, PORT or PASV
+\e[32mput [local_file] <file_name>\e[0m\n\t--send [local_file] to server as <file_name>
+\tif <file_name> isn't given, it will be the same with [local_file] 
+\tif there is any ' ' in <file_name>, write like this '\\ '
+\e[32mget [remote file] <file_name>\e[0m\n\t--get [remote file] to local host as<file_name>
+\tif <file_name> isn't given, it will be the same with [remote_file] 
+\e[32mlpwd\e[0m\t--print the current directory of local host
+\e[32mllist\e[0m\t--list the files and directoris in current directory of local host
+\e[32mlcd [directory]\e[0m\n\t--enter <directory> of localhost
+\e[32mquit\e[0m\t--quit this ftp client program
+USER 
+Failed to send USER
+PASS 
+Failed to send PASS
+Wrong password
+Wrong username
+list
+put 
+get 
+quit
+mode
+llist
+lpwd
+lcd 
+Invalid ftp port
+Invalid ftp server address!
+Failed to connect
+chdir:
+Failed to change local directory
+cd %s
+Failed to change remote directory
+put %s
+Failed to upload
+####11:%s\n
+Usage: %s <FTPServerIP> <port(def:21)> <usr_name(def:ftp)> <pw(def:ftp)> <src_dir> <dst_dir> <upload_file1> <upload_file2>... \n
+Only support 5 files for upload!
+xconnect
+opendir
+MKD %s\r\n
+PASV\r\n
+connection is closed by remote server\n
+%s.%s.%s.%s
+gethostbyname
+socket
+connect
+accept return:%s errno: %d\n
+Sorry, you can't use PORT mode. There is something wrong when the server connect to you.
+TYPE I\r\n
+TYPE A\r\n
+fd error
+SIZE %s\r\n
+get_remote_file_size: %d\n
+%s is existed and it is directory\n
+%s with %ld bytes is existed, abort(a)/delete(d)/resume(r)? enter for d:
+%s with %ld bytes is existed, abort(a)/delete(d)? enter for d:
+REST %ld\r\n
+open
+RETR %s\r\n
+received with %d bytes\n
+STOR %s\r\n
+localhost
+num:%d\n
+utf-8
+Missing file to attach
+aname
+Missing attachment name
+auth-plain
+auth-cram-md5
+auth-login
+auth
+Unknown flag: %s\n
+Missing BCc address/es
+Missing Cc address/es
+Missing character set
+Missing connect timeout with -ct
+content-type
+Missing content-type value
+content-disposition
+Missing content-dispostion value
+Invalid value for -content-disposition
+content-id
+Missing content-id value
+copyright
+domain
+Missing domain name
+Missing content dispostion value
+Invalid value for -disposition
+ehlo
+enc-type
+Missing encoding type
+embed-image
+Missing image for -embded-image
+Missing From address/es
+ Version: %.1024s\n\n
+@(#) mailsend v1.19
+ Copyright: %.1024s\n\n
+BSD. It is illegal to use this software for Spamming
+ (Compiled with OpenSSL version: %s)\n
+ usage: mailsend [options]
+ Where the options are:
+\n The options with * must be specified\n
+ Environment variables:\n  SMTP_USER_PASS for plain text password (-pass)\n
+info
+list_address
+Missing address list file
+Missing address log file
+Could not open log file %s for writing (%s)
+Missing SMTP Port with -port
+pass
+Missing password with -pass
+Missing custom header
+Missing text message
+mime-type
+Missing mime type
+msg-body
+Missing path of message body file
+name
+Missing Name with -n
+smtp
+Missing smtp server
+subject
+Missing subject with -sub
+starttls
+show-attach
+show-mime-types
+separator
+%d-Error: Missing separator\n
+%d-Error: Invalid separator character specified\n
+user
+mailsend Version: %.1024s\n
+Compiled with OpenSSL: %s\n
+Error: missing to addresses\n
+memory allocation problem for -to
+Error: missing to addresses for -rrr\n
+memory allocation problem for -rrr
+Error: missing to addresses for -rt\n
+memory allocation problem for -rt
+Error: missing return-path address for -rp\n
+read-timeout
+1-Error: missing to addresses for -read_timeout
+%d-Error: Unknown flag: %s\n
+1-Error: Unrecognized option: %s\n
+SMTP_USER_PASS
+3-Error: Options -ssl and -starttls are mutually exclusive
+1-Error: Please enter some necessary information.(-1)
+0-OK: Mail sent successfully
+1-Error: Could not send mail.(%d)\n
+  -copyright            - show copyright information
+  -4                    - Force to use IPv4 address of SMTP server
+  -6                    - Force to use IPv6 address of SMTP server
+  -smtp hostname/IP*    - Hostname/IP address of the SMTP server
+  -port SMTP port       - SMTP port
+  -domain    domain     - domain name for SMTP HELO/EHLO
+  -t    to,to..*        - email address/es of the recipient/s
+  -cc   cc,cc..         - carbon copy address/es
+  +cc                   - do not ask for Carbon Copy
+  -ct   seconds         - Connect timeout. Default is 5 seconds
+  -read-timeout seconds - Read timeout. Default is 5 seconds
+  -bc   bcc,bcc..       - blind carbon copy address/es
+  +bc                   - do not ask for Blind carbon copy
+  +D                    - do not add Date header
+  -f    address*        - email address of the sender
+  -sub  subject         - subject
+  -list_address file    - a file containing a list of email addresses
+  -log file             - write log messages to this file
+  -cs   character set   - for text/plain attachments (default is us-ascii)
+  -separator character  - separator used with -attach. Default is comma (,)
+                          If used must be specified before -attach
+  -enc-type type        - encoding type. base64, 8bit, 7bit etc.
+                          Default is base64. Special type is "none"
+  -aname name           - name of the attachment. Default is filename
+  -content-id id        - content-id in the attachment
+  -mime-type type       - MIME type
+  -dispostion val       - "attachment" or "inline". Default is "attachment"
+  -attach file,mime_type,[i/a] (i=inline,a=attachment)
+                        - attach this file as attachment or inline
+  -show-attach          - show attachment in verbose mode, default is no
+  -show-mime-types      - show the compiled in MIME types
+  -M    "one line msg"  - attach this one line text message
+  -content-type type    - Content type. Default: multipart/mixed
+  -msg-body path        - Path of the file to include as body of mail
+  -embed-image image    - Path of image to embed in HTML
+  -H    "header"        - Add custom Header
+  -name "Full Name"     - add name in the From header
+  -v                    - verbose mode
+  -V                    - show version info
+  -w                    - wait for a CR after sending the mail
+  -rt  email_address    - add Reply-To header
+  -rrr email_address    - request read receipts to this address
+  -rp                   - return-path address
+  -ssl                  - SMTP over SSL
+  -starttls             - use STARTTLS if the server supports it
+  -auth                 - try CRAM-MD5,LOGIN,PLAIN in that order
+  -auth-cram-md5        - use AUTH CRAM-MD5 authentication
+  -auth-plain           - use AUTH PLAIN authentication
+  -auth-login           - use AUTH LOGIN authentication
+  -user username        - username for ESMTP authentication
+  -pass password        - password for ESMTP authentication
+  -example              - show examples
+  -ehlo                 - force EHLO
+  -info                 - show SMTP server information
+  -help                 - shows this help
+  -q                    - quiet
+Forcing to use IPv4 address of SMTP server\n
+Forcing to use IPv6 address of SMTP server\n
+Will detect IPv4 or IPv6 automatically\n
+Could not connect to SMTP server "%s" at port %d
+[S] %s\n
+HELO
+%s %s\r\n
+[C] %s
+%s failed
+MAIL FROM: <%s>\r\n
+MAIL FROM failed: '%d %s'
+Too many lines from server\n
+Expected smtp code 220, got %d\n
+ESMTP
+Too many greeting lines\n
+STARTTLS
+Unknown STARTTLS response code %d\n
+failed to set socket to SSL\n
+SSL connection failed\n
+Could not start STARTTLS, SSL not initialized properly
+\r\n.\r\n
+\r\n[C] .\r\n
+Expected smtp code 250, got %d\n
+%s (%d) - Could not open temp file1 for writing (%s)
+smtp.c
+Oneline temp file2: * %s\n
+%s (%d) - Could not open temp file2 for writing (%s)
+%s (%d) - Could not open temp file for reading (%s)
+\r\n--%s\r\n
+none
+Content-Type: %s; charset=%s\r\n
+Content-Type: %s\r\n
+Content-Disposition: inline\r\n
+Content-Transfer-Encoding: %s\r\n\r\n
+base64
+[C] %s\n
+Mime-version: 1.0\r\n
+Content-Type: %s; charset=%s\r\n\r\n
+Content-Type: %s\r\n\r\n
+Could not open message body file: %s
+%s (%d) - Could not create temp file for MIME (%s)
+%s (%d) - MIME temp file: %s created successfully, FILE pointer=%x\n
+%s (%d) - Could not open file for %s reading (%s)
+%s (%d) - Writing Content to FILE pointer: %x\n
+--%s\r\n
+Content-Type: %s; name="%s"\r\n
+Content-Disposition: %s\r\n
+Content-Disposition: %s; filename="%s"\r\n
+Content-ID: <%s>\r\n
+X-Attachment-Id: %s\r\n
+%s (%d) - Could not encode attachment %s
+%s (%d) - failed to send attachment %s\n
+--%s--\r\n
+Content-type: %s; boundary="%s"\r\n
+Content-type: multipart/mixed; boundary="%s"\r\n
+Content-type: multipart/related; boundary="%s"\r\n
+Content-Type: multipart/related; boundary=%s\r\n
+Content-Type: multipart/alternative; boundary=%s\r\n\r\n
+Content-Type: text/html; charset=ISO-8859-1\r\n\r\n
+ii%d_%s
+<img src="cid:%s" alt="inline image %d"><br>\n
+Subject: %s\r\n
+From: %s <%s>\r\n
+From: %s\r\n
+Date: %s\r\n
+To: %s\r\n
+Cc: %s\r\n
+Reply-To: %s\r\n
+Disposition-Notification-To: %s\r\n
+X-Mailer: %s (%s)\r\n
+Unix
+X-Copyright: %s\r\n
+=========================================================================
+Type . in a new line and press Enter to end the message, CTRL+C to abort
+No To address/es specified
+No From address specified
+No domain specified
+Error: malloc failed in createTheMail()\n
+Connecting to %s:%d\n
+turn_on_raw_ssl: failed to set socket %d to SSL\n
+turn_on_raw_ssl: SSL connection failed\n
+AUTH
+CRAM-MD5
+\nError: No user name specified for 'AUTH %s'\n
+       use the flag '-user username'\n\n
+\nError: No password specified for user %s for 'AUTH %s'\n
+       user '-pass password' or env var SMTP_USER_PASS\n\n
+Using AUTH %s\n
+AUTH %s\r\n
+AUTH CRAM-MD5 failed: '%d %s'
+Could not encode CRAM-MD5
+%s Authentication succeeded\n
+Server does not support AUTH CRAM-MD5\n
+LOGIN
+AUTH LOGIN failed: '%d %s'
+Could not base64 encode user: %s
+Could not base64 encode passworf of user: %s
+Server does not support AUTH LOGIN\n
+PLAIN
+Could not base64 for AUTH-PLAIN for user: %s
+AUTH PLAIN %s\r\n
+AUTH PLAIN failed: '%d %s'
+PLAIN Authentication succeeded\n
+Server does not support AUTH PLAIN\n
+ * Server supports AUTH CRAM-MD5.
+ * Server supports AUTH LOGIN.\n
+ * Server supports AUTH PLAIN.\n
+ Use -auth or specify a mechanism that server supports. exiting.\n
+NOTIFY_RCPT
+NOTIFY_RCPT=%s\n
+RCPT TO: %s %s\r\n
+RCPT TO: <%s>\r\n
+RCPT TO: <%s> failed '%d:%s'\n
+RSET\r\n
+DATA failed: '%d %s'\n
+[C] QUIT\r\n
+[C] DATA\r\n
+Connecting to SMTP server: %s at Port: %d\n
+Connection timeout: %d secs\n
+Could not read greetings\n
+my huge entropy for rng.. blah
+%s: Error: 
+%s: 
+Error: mystrdup(): memory allocation problem\n
+initTheMail(): malloc failed\n
+ newAddress() malloc failed\n
+No To address/es specified. Speicfy with: -t to,to,..
+No From address specified. Specify with: -f
+No SMTP server address or IP specified. Specify with -smtp
+No domain specified. Specify with: -d
+mailto:
+Could not determine mime-type from input: %s\n
+Could not create SSL context\n
+Could not set cipher list %s\n
+SSL_new() failed\n
+buffer size of date must be > 31, it is %d\n
+%a, %d %b %Y %H:%M:%S 
+UTC time offset %d is larger than one day
+%+03d%02d
+%s%s
+Could not open file %s for reading (%s)\n
+Read error in guess_file_type\n
+text/plain
+%s\t%s\n
+Cipher: %s\n
+Certificate information:\n
+No peer certificate found\n
+Could not get subject name in certificate\n
+Subject: %s\n
+Could not get issuer name in certificate\n
+Issuer: %s\n
+Server Challenge: %s\n
+Could not base64 decode CRAM-MD5 challenge: %s
+Challenge After decoding: %s\n
+HMAC-MD5 of challenge: %s\n
+%s %s
+base64 encode: %s\n
+Taking base64 of "%s"\n
+Could not base64 encode: %s
+base64: %s\n
+Copyright (C) 2001-2015  Muhammad Muquit (http://www.muquit.com/)
+ o Redistributions of source code must retain the above copyright notice, 
+this list of conditions and the following disclaimer.
+ o Redistributions in binary form must reproduce the above copyright notice, 
+this list of conditions and the following disclaimer in the documentation 
+and/or other materials provided with the distribution.
+ o Neither the name of the author MUHAMMAD MUQUIT (http://www.muquit.com/)
+nor the names of its contributors may be used to endorse or promote 
+products derived from this software without specific prior written 
+permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGE.
+application/andrew-inset
+application/annodex
+atom
+application/atom+xml
+atomcat
+application/atomcat+xml
+atomsrv
+application/atomserv+xml
+application/bbolin
+application/cu-seeme
+davmount
+application/davmount+xml
+application/dicom
+application/dsptype
+application/ecmascript
+application/futuresplash
+application/hta
+application/java-archive
+application/java-serialized-object
+class
+application/java-vm
+application/javascript
+application/json
+application/m3g
+application/mac-binhex40
+application/mac-compactpro
+application/mathematica
+application/mbox
+application/msaccess
+application/msword
+application/mxf
+application/octet-stream
+application/oda
+application/ogg
+application/onenote
+onetoc2
+onetmp
+onepkg
+application/pdf
+application/pgp-encrypted
+application/pgp-keys
+application/pgp-signature
+application/pics-rules
+application/postscript
+epsi
+epsf
+eps2
+eps3
+application/rar
+application/rdf+xml
+application/rtf
+application/sla
+application/smil
+xhtml
+application/xhtml+xml
+application/xml
+xspf
+application/xspf+xml
+application/zip
+application/vnd.android.package-archive
+application/vnd.cinderella
+application/vnd.google-earth.kml+xml
+application/vnd.google-earth.kmz
+application/vnd.mozilla.xul+xml
+application/vnd.ms-excel
+xlam
+application/vnd.ms-excel.addin.macroEnabled.12
+xlsb
+application/vnd.ms-excel.sheet.binary.macroEnabled.12
+xlsm
+application/vnd.ms-excel.sheet.macroEnabled.12
+xltm
+application/vnd.ms-excel.template.macroEnabled.12
+application/vnd.ms-fontobject
+thmx
+application/vnd.ms-officetheme
+application/vnd.ms-pki.seccat
+application/vnd.ms-powerpoint
+ppam
+application/vnd.ms-powerpoint.addin.macroEnabled.12
+pptm
+application/vnd.ms-powerpoint.presentation.macroEnabled.12
+sldm
+application/vnd.ms-powerpoint.slide.macroEnabled.12
+ppsm
+application/vnd.ms-powerpoint.slideshow.macroEnabled.12
+potm
+application/vnd.ms-powerpoint.template.macroEnabled.12
+docm
+application/vnd.ms-word.document.macroEnabled.12
+dotm
+application/vnd.ms-word.template.macroEnabled.12
+application/vnd.oasis.opendocument.chart
+application/vnd.oasis.opendocument.database
+application/vnd.oasis.opendocument.formula
+application/vnd.oasis.opendocument.graphics
+application/vnd.oasis.opendocument.graphics-template
+application/vnd.oasis.opendocument.image
+application/vnd.oasis.opendocument.presentation
+application/vnd.oasis.opendocument.presentation-template
+application/vnd.oasis.opendocument.spreadsheet
+application/vnd.oasis.opendocument.spreadsheet-template
+application/vnd.oasis.opendocument.text
+application/vnd.oasis.opendocument.text-master
+application/vnd.oasis.opendocument.text-template
+application/vnd.oasis.opendocument.text-web
+pptx
+application/vnd.openxmlformats-officedocument.presentationml.presentation
+sldx
+application/vnd.openxmlformats-officedocument.presentationml.slide
+ppsx
+application/vnd.openxmlformats-officedocument.presentationml.slideshow
+potx
+application/vnd.openxmlformats-officedocument.presentationml.template
+xlsx
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+xltx
+application/vnd.openxmlformats-officedocument.spreadsheetml.template
+docx
+application/vnd.openxmlformats-officedocument.wordprocessingml.document
+dotx
+application/vnd.openxmlformats-officedocument.wordprocessingml.template
+application/vnd.rim.cod
+application/vnd.smaf
+application/vnd.stardivision.calc
+application/vnd.stardivision.chart
+application/vnd.stardivision.draw
+application/vnd.stardivision.impress
+application/vnd.stardivision.math
+application/vnd.stardivision.writer
+application/vnd.stardivision.writer-global
+application/vnd.sun.xml.calc
+application/vnd.sun.xml.calc.template
+application/vnd.sun.xml.draw
+application/vnd.sun.xml.draw.template
+application/vnd.sun.xml.impress
+application/vnd.sun.xml.impress.template
+application/vnd.sun.xml.math
+application/vnd.sun.xml.writer
+application/vnd.sun.xml.writer.global
+application/vnd.sun.xml.writer.template
+application/vnd.symbian.install
+application/vnd.tcpdump.pcap
+application/vnd.visio
+application/vnd.wap.wbxml
+application/vnd.wap.wmlc
+wmlsc
+application/vnd.wap.wmlscriptc
+application/vnd.wordperfect
+application/vnd.wordperfect5.1
+application/x-123
+application/x-7z-compressed
+application/x-abiword
+application/x-apple-diskimage
+bcpio
+application/x-bcpio
+torrent
+application/x-bittorrent
+application/x-cab
+application/x-cbr
+application/x-cbz
+application/x-cdf
+application/x-cdlink
+application/x-chess-pgn
+application/x-comsol
+cpio
+application/x-cpio
+application/x-csh
+application/x-debian-package
+udeb
+application/x-director
+application/x-dms
+application/x-doom
+application/x-dvi
+application/x-font
+pcf.Z
+woff
+application/x-font-woff
+application/x-freemind
+application/x-futuresplash
+application/x-ganttproject
+gnumeric
+application/x-gnumeric
+application/x-go-sgf
+application/x-graphing-calculator
+gtar
+application/x-gtar
+application/x-gtar-compressed
+application/x-hdf
+application/x-hwp
+application/x-ica
+application/x-info
+application/x-internet-signup
+application/x-iphone
+application/x-iso9660-image
+application/x-jam
+jnlp
+application/x-java-jnlp-file
+application/x-jmol
+chrt
+application/x-kchart
+application/x-killustrator
+application/x-koan
+application/x-kpresenter
+application/x-kspread
+application/x-kword
+latex
+application/x-latex
+application/x-lha
+application/x-lyx
+application/x-lzh
+application/x-lzx
+application/x-maker
+maker
+frame
+book
+fbdoc
+application/x-md5
+application/x-mif
+m3u8
+application/x-mpegURL
+application/x-ms-wmd
+application/x-ms-wmz
+application/x-msdos-program
+application/x-msi
+application/x-netcdf
+application/x-ns-proxy-autoconfig
+application/x-nwc
+application/x-object
+application/x-oz-application
+application/x-pkcs7-certreqresp
+application/x-pkcs7-crl
+application/x-python-code
+application/x-qgis
+application/x-quicktimeplayer
+application/x-rdp
+application/x-redhat-package-manager
+application/x-rss+xml
+application/x-ruby
+application/x-scilab
+xcos
+application/x-scilab-xcos
+application/x-sh
+sha1
+application/x-sha1
+shar
+application/x-shar
+application/x-shockwave-flash
+swfl
+application/x-silverlight
+application/x-sql
+application/x-stuffit
+sitx
+sv4cpio
+application/x-sv4cpio
+sv4crc
+application/x-sv4crc
+application/x-tar
+application/x-tcl
+application/x-tex-gf
+application/x-tex-pk
+texinfo
+application/x-texinfo
+texi
+application/x-trash
+application/x-troff
+roff
+application/x-troff-man
+application/x-troff-me
+application/x-troff-ms
+ustar
+application/x-ustar
+application/x-wais-source
+application/x-wingz
+application/x-x509-ca-cert
+application/x-xcf
+application/x-xfig
+application/x-xpinstall
+audio/amr
+audio/amr-wb
+audio/annodex
+audio/basic
+audio/csound
+flac
+audio/flac
+audio/midi
+midi
+mpga
+audio/mpeg
+mpega
+audio/mpegurl
+audio/ogg
+audio/prs.sid
+audio/x-aiff
+aifc
+audio/x-gsm
+audio/x-mpegurl
+audio/x-ms-wma
+audio/x-ms-wax
+audio/x-pn-realaudio
+audio/x-realaudio
+audio/x-scpls
+audio/x-sd2
+audio/x-wav
+chemical/x-alchemy
+chemical/x-cache
+cache
+chemical/x-cache-csf
+cbin
+chemical/x-cactvs-binary
+cascii
+ctab
+chemical/x-cdx
+chemical/x-cerius
+chemical/x-chem3d
+chemical/x-chemdraw
+chemical/x-cif
+cmdf
+chemical/x-cmdf
+chemical/x-cml
+chemical/x-compass
+chemical/x-crossfire
+csml
+chemical/x-csml
+chemical/x-ctx
+chemical/x-cxf
+chemical/x-embl-dl-nucleotide
+embl
+chemical/x-galactic-spc
+chemical/x-gamess-input
+gamin
+chemical/x-gaussian-checkpoint
+fchk
+chemical/x-gaussian-cube
+chemical/x-gaussian-input
+chemical/x-gaussian-log
+chemical/x-gcg8-sequence
+chemical/x-genbank
+chemical/x-hin
+istr
+chemical/x-isostar
+chemical/x-jcamp-dx
+chemical/x-kinemage
+chemical/x-macmolecule
+chemical/x-macromodel-input
+mmod
+chemical/x-mdl-molfile
+chemical/x-mdl-rdfile
+chemical/x-mdl-rxnfile
+chemical/x-mdl-sdfile
+chemical/x-mdl-tgf
+chemical/x-mmcif
+mol2
+chemical/x-mol2
+chemical/x-molconn-Z
+chemical/x-mopac-graph
+chemical/x-mopac-input
+mopcrt
+chemical/x-mopac-out
+chemical/x-mopac-vib
+chemical/x-ncbi-asn1
+chemical/x-ncbi-asn1-ascii
+chemical/x-ncbi-asn1-binary
+chemical/x-ncbi-asn1-spec
+chemical/x-pdb
+chemical/x-rosdal
+chemical/x-swissprot
+chemical/x-vamas-iso14976
+chemical/x-vmd
+xtel
+chemical/x-xtel
+chemical/x-xyz
+image/gif
+image/ief
+jpeg
+image/jpeg
+image/pcx
+image/png
+image/svg+xml
+svgz
+tiff
+image/tiff
+djvu
+image/vnd.djvu
+image/vnd.microsoft.icon
+wbmp
+image/vnd.wap.wbmp
+image/x-canon-cr2
+image/x-canon-crw
+image/x-cmu-raster
+image/x-coreldraw
+image/x-coreldrawpattern
+image/x-coreldrawtemplate
+image/x-corelphotopaint
+image/x-epson-erf
+image/x-jg
+image/x-jng
+image/x-ms-bmp
+image/x-nikon-nef
+image/x-olympus-orf
+image/x-photoshop
+image/x-portable-anymap
+image/x-portable-bitmap
+image/x-portable-graymap
+image/x-portable-pixmap
+image/x-rgb
+image/x-xbitmap
+image/x-xpixmap
+image/x-xwindowdump
+message/rfc822
+model/iges
+iges
+model/mesh
+mesh
+silo
+model/vrml
+vrml
+x3dv
+model/x3d+vrml
+model/x3d+xml
+x3db
+model/x3d+binary
+appcache
+text/cache-manifest
+text/calendar
+text/css
+text/csv
+text/h323
+html
+text/html
+shtml
+text/iuls
+text/mathml
+text
+text/richtext
+text/scriptlet
+text/texmacs
+text/tab-separated-values
+text/vnd.sun.j2me.app-descriptor
+text/vnd.wap.wml
+wmls
+text/vnd.wap.wmlscript
+text/x-bibtex
+text/x-boo
+text/x-c++hdr
+text/x-c++src
+text/x-chdr
+text/x-component
+text/x-csh
+text/x-csrc
+text/x-dsrc
+diff
+text/x-diff
+patch
+text/x-haskell
+java
+text/x-java
+text/x-lilypond
+text/x-literate-haskell
+text/x-moc
+text/x-pascal
+text/x-pcs-gcd
+text/x-perl
+text/x-python
+scala
+text/x-scala
+text/x-setext
+text/x-sfv
+text/x-sh
+text/x-tcl
+text/x-tex
+text/x-vcalendar
+text/x-vcard
+video/3gpp
+video/annodex
+video/dl
+video/dv
+video/fli
+video/gl
+mpeg
+video/mpeg
+video/MP2T
+video/mp4
+video/quicktime
+video/ogg
+webm
+video/webm
+video/vnd.mpegurl
+video/x-flv
+video/x-la-asf
+video/x-mng
+video/x-ms-asf
+video/x-ms-wm
+video/x-ms-wmv
+video/x-ms-wmx
+video/x-ms-wvx
+video/x-msvideo
+video/x-sgi-movie
+video/x-matroska
+x-conference/x-cooltalk
+sisx
+x-epoc/x-sisx-app
+x-world/x-vrml
+LINE: '%s'\n
+Message: %s\n
+Mime type: %s\n
+Disposition: %s\n
+Encoding type: %s\n
+Encoding type: none\n
+File path: %s\n
+File name: %s\n
+Attachment name: %s\n
+Content-ID: %s\n
+%s: %s\n
+%s (%d) - Memory allocation failed\n
+setget.c
+addAddressToList: malloc problem for newAddress()
+addAddressToList: malloc problem with allocateNode()
+addAddressToList: x malloc problem for newAddress()
+addAddressToList:malloc problem with allocateNode()
+Could not open address list file: %s
+Address> %s\n
+BCc:
+Label: %s\n
+Address: %s\n
+Separator: %c\n
+Could not parse attachment string: "%s"
+ntokens: %d\n
+Invalid string specified with -a "%s"
+Could not determine file type of %s
+Source buffer is NULL in safeStrcat()!\n
+buffer overflow detected! aborting\n
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+?456789:;<=
+\a\b\t\n\v\f\r
+ !"#$%&'()*+,-./0123
+%02x 
+%03o 
+%11d
+    
+%8d: 
+%8o: 
+%s (%d) - allocation size is specified as 0\n
+mutils.c
+libmutils.a-mutilsIsinname(), malloc failed\n
+Could open counter database lock file for writing:\n%s
+PATH
+%s (%d) - memory allocation problem\n
+Buffer overflow detected\n
+%s (%d) - memory allocation failed\n
+%s (%d) - logic flow in encode base64\n
+Possible data truncation in rfc822_base64(): %.80s
+%s (%d) - outbuf must have atlease %d bytes of space pre-allocated\n
+Could not stat file %s\n
+Error reading file: %s\n
+read error\n
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/X
+mailsendXXXXXX
+%s (%d) - Could not open tmp file %s for writing: %s\n
+mutils_temp.c
+%s (%d) - Could not open temp file %s\n
+TEMP
+TMPDIR
+/usr/tmp
+/var/tmp
+gettimeofday() failed
+%d-%b-%Y %X
+.%03u
+99-Bad-9999 99:99:99.999
+Socket Error: [%d]: %s\n
+> Setting read timeout to: %d seconds\n
+Error: Connection is closed unexpectedly\n
+Error: Invalid address: %s\n
+ Could not create socket\n
+Fatal select() error\n
+Error: Connection to %s:%d timed out after %d seconds\n
+malloc failed at: %s\n
+allocateNode() in sll.c
