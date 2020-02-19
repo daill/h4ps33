@@ -1,0 +1,633 @@
+000 0x00000028 0x00000028   5  12 () utf16le 4 \a(\e
+001 0x00000114 0x00008114  19  20 (.interp) ascii /lib/ld-uClibc.so.0
+002 0x00000198 0x00008198   5  24 (.hash) utf32le oj/B4
+003 0x00000208 0x00008208   5  24 (.hash) utf32le Epv5*
+004 0x00000254 0x00008254   4  20 (.hash) utf32le dc\aa
+005 0x00000314 0x00008314   8  36 (.hash) utf32le h zbkyT3
+006 0x00000568 0x00008568   4  20 (.hash) utf32le ,xW\n
+007 0x00000e69 0x00008e69  19  20 (.dynstr) ascii libcommunication.so
+008 0x00000e7d 0x00008e7d   4   5 (.dynstr) ascii bind
+009 0x00000e82 0x00008e82  21  22 (.dynstr) ascii __register_frame_info
+010 0x00000e98 0x00008e98  16  17 (.dynstr) ascii __errno_location
+011 0x00000ea9 0x00008ea9   6   7 (.dynstr) ascii system
+012 0x00000eb0 0x00008eb0   6   7 (.dynstr) ascii usleep
+013 0x00000eb7 0x00008eb7   6   7 (.dynstr) ascii memcpy
+014 0x00000ebe 0x00008ebe  19  20 (.dynstr) ascii _Jv_RegisterClasses
+015 0x00000ed2 0x00008ed2   4   5 (.dynstr) ascii send
+016 0x00000ed7 0x00008ed7   5   6 (.dynstr) ascii _fini
+017 0x00000edd 0x00008edd  13  14 (.dynstr) ascii ERROR_LOG_PRI
+018 0x00000eeb 0x00008eeb   6   7 (.dynstr) ascii strlen
+019 0x00000ef2 0x00008ef2   6   7 (.dynstr) ascii select
+020 0x00000ef9 0x00008ef9  25  26 (.dynstr) ascii _Z9MountDiskPKcS0_S0_mPKv
+021 0x00000f13 0x00008f13   6   7 (.dynstr) ascii access
+022 0x00000f1a 0x00008f1a   6   7 (.dynstr) ascii fclose
+023 0x00000f21 0x00008f21  10  11 (.dynstr) ascii setsockopt
+024 0x00000f2c 0x00008f2c   5   6 (.dynstr) ascii fopen
+025 0x00000f32 0x00008f32   5   6 (.dynstr) ascii fgets
+026 0x00000f38 0x00008f38   6   7 (.dynstr) ascii unlink
+027 0x00000f3f 0x00008f3f   6   7 (.dynstr) ascii memset
+028 0x00000f46 0x00008f46   9  10 (.dynstr) ascii inet_ntoa
+029 0x00000f50 0x00008f50   6   7 (.dynstr) ascii perror
+030 0x00000f57 0x00008f57   9  10 (.dynstr) ascii inet_addr
+031 0x00000f61 0x00008f61  13  14 (.dynstr) ascii DEBUG_LOG_PRI
+032 0x00000f6f 0x00008f6f  23  24 (.dynstr) ascii _Z17CreateListenSocetcs
+033 0x00000f87 0x00008f87   6   7 (.dynstr) ascii socket
+034 0x00000f8e 0x00008f8e   6   7 (.dynstr) ascii strstr
+035 0x00000f95 0x00008f95   6   7 (.dynstr) ascii listen
+036 0x00000f9c 0x00008f9c   6   7 (.dynstr) ascii strcpy
+037 0x00000fa3 0x00008fa3  23  24 (.dynstr) ascii __deregister_frame_info
+038 0x00000fbb 0x00008fbb  19  20 (.dynstr) ascii _Z8SendDataiPcjPKcj
+039 0x00000fcf 0x00008fcf  14  15 (.dynstr) ascii libhardware.so
+040 0x00000fde 0x00008fde  20  21 (.dynstr) ascii _Z14init_logic_layPv
+041 0x00000ff3 0x00008ff3  19  20 (.dynstr) ascii _ZN10CDBManagerD1Ev
+042 0x00001007 0x00009007  20  21 (.dynstr) ascii _ZN10CDBManagerC1EPc
+043 0x0000101c 0x0000901c  16  17 (.dynstr) ascii liblogmanager.so
+044 0x0000102d 0x0000902d   6   7 (.dynstr) ascii fwrite
+045 0x00001034 0x00009034   6   7 (.dynstr) ascii malloc
+046 0x0000103b 0x0000903b   5   6 (.dynstr) ascii fputs
+047 0x00001041 0x00009041   4   5 (.dynstr) ascii free
+048 0x00001046 0x00009046   4   5 (.dynstr) ascii atoi
+049 0x0000104b 0x0000904b  15  16 (.dynstr) ascii libdbmanager.so
+050 0x0000105b 0x0000905b  54  55 (.dynstr) ascii _ZN10CDBManager21QryUserInfoFromDBByIDEiP11USERINFOQRY
+051 0x00001092 0x00009092  36  37 (.dynstr) ascii _ZN10CDBManager17GetTestStatusModeEv
+052 0x000010b7 0x000090b7  46  47 (.dynstr) ascii _ZN10CDBManager19GetMacAddrFromSpcDBEP7MACADDR
+053 0x000010e6 0x000090e6   7   8 (.dynstr) ascii strncpy
+054 0x000010ee 0x000090ee   6   7 (.dynstr) ascii rindex
+055 0x000010f5 0x000090f5  36  37 (.dynstr) ascii _ZN10CDBManager17SetTestStatusModeEi
+056 0x0000111a 0x0000911a   6   7 (.dynstr) ascii statfs
+057 0x00001121 0x00009121   6   7 (.dynstr) ascii strcmp
+058 0x00001128 0x00009128   6   7 (.dynstr) ascii strchr
+059 0x0000112f 0x0000912f  15  16 (.dynstr) ascii libsqlite3.so.0
+060 0x0000113f 0x0000913f  14  15 (.dynstr) ascii pthread_create
+061 0x0000114e 0x0000914e   6   7 (.dynstr) ascii getpid
+062 0x00001155 0x00009155   7   8 (.dynstr) ascii strncmp
+063 0x0000115d 0x0000915d  12  13 (.dynstr) ascii pthread_join
+064 0x0000116a 0x0000916a  13  14 (.dynstr) ascii libbasefun.so
+065 0x00001178 0x00009178  14  15 (.dynstr) ascii detect_process
+066 0x00001187 0x00009187   6   7 (.dynstr) ascii signal
+067 0x0000118e 0x0000918e  16  17 (.dynstr) ascii libavsharemem.so
+068 0x0000119f 0x0000919f  22  23 (.dynstr) ascii _ZN13CircleAVFrameD1Ev
+069 0x000011b6 0x000091b6  55  56 (.dynstr) ascii _ZN13CircleAVFrame11ReadAVFrameEP18_AV_STREAM_HEADER_Rj
+070 0x000011ee 0x000091ee  29  30 (.dynstr) ascii _ZN13CircleAVFrame7InitMemEjc
+071 0x0000120c 0x0000920c   4   5 (.dynstr) ascii ftok
+072 0x00001211 0x00009211  22  23 (.dynstr) ascii _ZN13CircleAVFrameC1Ev
+073 0x00001228 0x00009228  12  13 (.dynstr) ascii gettimeofday
+074 0x00001235 0x00009235   5   6 (.dynstr) ascii fcntl
+075 0x0000123b 0x0000923b   8   9 (.dynstr) ascii recvfrom
+076 0x00001244 0x00009244   8   9 (.dynstr) ascii snprintf
+077 0x0000124d 0x0000924d  18  19 (.dynstr) ascii pthread_mutex_lock
+078 0x00001260 0x00009260   6   7 (.dynstr) ascii sendto
+079 0x00001267 0x00009267  20  21 (.dynstr) ascii pthread_mutex_unlock
+080 0x0000127c 0x0000927c  18  19 (.dynstr) ascii pthread_mutex_init
+081 0x0000128f 0x0000928f  21  22 (.dynstr) ascii pthread_mutex_destroy
+082 0x000012a5 0x000092a5  22  23 (.dynstr) ascii libserviceinterface.so
+083 0x000012bc 0x000092bc  28  29 (.dynstr) ascii _Z12Call_ServiceiPcjS_PjiPvj
+084 0x000012d9 0x000092d9  18  19 (.dynstr) ascii _Z12Init_ServicePv
+085 0x000012ec 0x000092ec  20  21 (.dynstr) ascii _Z15Release_Servicev
+086 0x00001301 0x00009301   9  10 (.dynstr) ascii libcfg.so
+087 0x0000130b 0x0000930b  17  18 (.dynstr) ascii CustomCfgStatusRt
+088 0x0000131d 0x0000931d  15  16 (.dynstr) ascii libpthread.so.0
+089 0x0000132d 0x0000932d  20  21 (.dynstr) ascii pthread_attr_destroy
+090 0x00001342 0x00009342  17  18 (.dynstr) ascii pthread_attr_init
+091 0x00001354 0x00009354  14  15 (.dynstr) ascii pthread_detach
+092 0x00001363 0x00009363   5   6 (.dynstr) ascii abort
+093 0x00001369 0x00009369   6   7 (.dynstr) ascii calloc
+094 0x00001370 0x00009370  25  26 (.dynstr) ascii pthread_attr_setstacksize
+095 0x0000138a 0x0000938a   4   5 (.dynstr) ascii stat
+096 0x0000138f 0x0000938f  14  15 (.dynstr) ascii libstdc++.so.6
+097 0x0000139e 0x0000939e   5   6 (.dynstr) ascii floor
+098 0x000013a4 0x000093a4   6   7 (.dynstr) ascii _ZdlPv
+099 0x000013ab 0x000093ab  48  49 (.dynstr) ascii _ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base
+100 0x000013dc 0x000093dc   5   6 (.dynstr) ascii ioctl
+101 0x000013e2 0x000093e2  14  15 (.dynstr) ascii __aeabi_atexit
+102 0x000013f1 0x000093f1   6   7 (.dynstr) ascii stdout
+103 0x000013f8 0x000093f8  20  21 (.dynstr) ascii __gxx_personality_v0
+104 0x0000140d 0x0000940d  65  66 (.dynstr) ascii _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+105 0x0000144f 0x0000944f   6   7 (.dynstr) ascii stderr
+106 0x00001456 0x00009456  17  18 (.dynstr) ascii __cxa_end_cleanup
+107 0x00001468 0x00009468  23  24 (.dynstr) ascii _ZNSt8ios_base4InitD1Ev
+108 0x00001480 0x00009480  48  49 (.dynstr) ascii _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base
+109 0x000014b1 0x000094b1  23  24 (.dynstr) ascii _ZNSt8ios_base4InitC1Ev
+110 0x000014c9 0x000094c9  47  48 (.dynstr) ascii _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+111 0x000014fd 0x000094fd   5   6 (.dynstr) ascii _Znwj
+112 0x00001503 0x00009503   9  10 (.dynstr) ascii libm.so.0
+113 0x0000150d 0x0000950d  13  14 (.dynstr) ascii libgcc_s.so.1
+114 0x0000151b 0x0000951b  14  15 (.dynstr) ascii __aeabi_dcmple
+115 0x0000152a 0x0000952a  22  23 (.dynstr) ascii __aeabi_unwind_cpp_pr0
+116 0x00001541 0x00009541  12  13 (.dynstr) ascii __aeabi_ui2d
+117 0x0000154e 0x0000954e  14  15 (.dynstr) ascii __aeabi_dcmplt
+118 0x0000155d 0x0000955d  12  13 (.dynstr) ascii __aeabi_dmul
+119 0x0000156a 0x0000956a  12  13 (.dynstr) ascii __aeabi_dadd
+120 0x00001577 0x00009577  14  15 (.dynstr) ascii __aeabi_dcmpgt
+121 0x00001586 0x00009586  14  15 (.dynstr) ascii __aeabi_dcmpge
+122 0x00001595 0x00009595  12  13 (.dynstr) ascii __aeabi_dsub
+123 0x000015a2 0x000095a2  11  12 (.dynstr) ascii __aeabi_i2d
+124 0x000015ae 0x000095ae  16  17 (.dynstr) ascii __aeabi_uidivmod
+125 0x000015bf 0x000095bf  12  13 (.dynstr) ascii __aeabi_d2iz
+126 0x000015cc 0x000095cc  22  23 (.dynstr) ascii __aeabi_unwind_cpp_pr1
+127 0x000015e3 0x000095e3  11  12 (.dynstr) ascii __aeabi_f2d
+128 0x000015ef 0x000095ef  15  16 (.dynstr) ascii __aeabi_idivmod
+129 0x000015ff 0x000095ff   9  10 (.dynstr) ascii libc.so.0
+130 0x00001609 0x00009609   7   8 (.dynstr) ascii tolower
+131 0x00001611 0x00009611   6   7 (.dynstr) ascii accept
+132 0x00001618 0x00009618   7   8 (.dynstr) ascii fprintf
+133 0x00001620 0x00009620   6   7 (.dynstr) ascii ferror
+134 0x00001627 0x00009627   6   7 (.dynstr) ascii msgsnd
+135 0x0000162e 0x0000962e  13  14 (.dynstr) ascii __uClibc_main
+136 0x0000163c 0x0000963c  13  14 (.dynstr) ascii gethostbyname
+137 0x0000164a 0x0000964a   6   7 (.dynstr) ascii msgget
+138 0x00001651 0x00009651  11  12 (.dynstr) ascii getsockname
+139 0x0000165d 0x0000965d   6   7 (.dynstr) ascii _edata
+140 0x00001664 0x00009664  11  12 (.dynstr) ascii __bss_start
+141 0x00001670 0x00009670  13  14 (.dynstr) ascii __bss_start__
+142 0x0000167e 0x0000967e  11  12 (.dynstr) ascii __bss_end__
+143 0x0000168a 0x0000968a   7   8 (.dynstr) ascii __end__
+144 0x00001692 0x00009692   4   5 (.dynstr) ascii _end
+145 0x00001697 0x00009697   6   7 (.dynstr) ascii ../lib
+146 0x0000169e 0x0000969e   8   9 (.dynstr) ascii dev_recv
+147 0x000016a7 0x000096a7  16  17 (.dynstr) ascii p2pkit_mutex_udp
+148 0x000016b8 0x000096b8   7   8 (.dynstr) ascii shandle
+149 0x000016c0 0x000096c0   6   7 (.dynstr) ascii cidmap
+150 0x000016c7 0x000096c7   9  10 (.dynstr) ascii devhandle
+151 0x000016d1 0x000096d1   8   9 (.dynstr) ascii isprintf
+152 0x000016da 0x000096da   7   8 (.dynstr) ascii GCC_3.5
+153 0x000016e2 0x000096e2  16  17 (.dynstr) ascii CXXABI_ARM_1.3.3
+154 0x000016f3 0x000096f3  10  11 (.dynstr) ascii CXXABI_1.3
+155 0x000016fe 0x000096fe  11  12 (.dynstr) ascii GLIBCXX_3.4
+156 0x00001838 0x00009838   4   5 (.gnu.version_r) ascii U&y\v
+157 0x00002e17 0x0000ae17   4   5 (.text) ascii \n @D
+158 0x000045eb 0x0000c5eb   4   5 (.text) ascii \n\vp`
+159 0x00004af4 0x0000caf4   5   6 (.text) ascii \t\t\t\t8
+160 0x00006568 0x0000e568   6   7 (.text) ascii DY018z
+161 0x0000691c 0x0000e91c   5   6 (.text) ascii DY01d
+162 0x00006c90 0x0000ec90   4   5 (.text) ascii DY01
+163 0x0000703c 0x0000f03c   4   5 (.text) ascii DY01
+164 0x00007258 0x0000f258   4   5 (.text) ascii DY01
+165 0x00007454 0x0000f454   4   5 (.text) ascii DY01
+166 0x00007780 0x0000f780   5   6 (.text) ascii DY01\\
+167 0x00007918 0x0000f918   5   6 (.text) ascii DY01\\
+168 0x00007a1c 0x0000fa1c   5   6 (.text) ascii DY01\\
+169 0x00008504 0x00010504   4   5 (.text) ascii DY01
+170 0x00009214 0x00011214   4   5 (.text) ascii DY01
+171 0x00009424 0x00011424   4   5 (.text) ascii DY01
+172 0x000094a8 0x000114a8   4   5 (.text) ascii DY01
+173 0x0000b180 0x00013180   4   5 (.text) ascii DY01
+174 0x0000b190 0x00013190   4   5 (.text) ascii DY02
+175 0x0000bee8 0x00013ee8   5   7 (.text)  utf8 DY01Խ
+176 0x0000c5e8 0x000145e8   4   5 (.text) ascii DY01
+177 0x0000c6bc 0x000146bc   4   5 (.text) ascii DY01
+178 0x0000c7ec 0x000147ec   6   7 (.text) ascii DY01ty
+179 0x0000c8dc 0x000148dc   4   5 (.text) ascii DY01
+180 0x0000c9d4 0x000149d4   5   7 (.text)  utf8 DY01Խ
+181 0x0000f0f4 0x000170f4   5   8 (.text)  utf8 LpK‐K
+182 0x000118bc 0x000198bc   4   7 (.text)  utf8 \n0kರ
+183 0x00012500 0x0001a500   7   8 (.rodata) ascii "\\\b\f\n\r\t
+184 0x00012508 0x0001a508   5   6 (.rodata) ascii u%04x
+185 0x00012510 0x0001a510   5   6 (.rodata) ascii false
+186 0x00012518 0x0001a518   4   5 (.rodata) ascii true
+187 0x00012520 0x0001a520   4   5 (.rodata) ascii null
+188 0x00012528 0x0001a528   4   5 (.rodata) ascii %.0f
+189 0x0001253c 0x0001a53c  26  27 (.rodata) ascii SendCmdToGetWifiScanThread
+190 0x00012558 0x0001a558  16  17 (.rodata) ascii GetDiskSpaceInfo
+191 0x0001256c 0x0001a56c  15  16 (.rodata) ascii Custom_Test_PTZ
+192 0x0001257c 0x0001a57c  22  23 (.rodata) ascii Custom_Test_GetP2PInfo
+193 0x00012594 0x0001a594  22  23 (.rodata) ascii Custom_Test_SetP2PInfo
+194 0x000125ac 0x0001a5ac  21  22 (.rodata) ascii Custom_Test_SetIpcMac
+195 0x000125c4 0x0001a5c4  21  22 (.rodata) ascii Custom_Test_GetIpcMac
+196 0x000125dc 0x0001a5dc  28  29 (.rodata) ascii Custom_Test_SetAutoNetUpdate
+197 0x000125fc 0x0001a5fc  21  22 (.rodata) ascii Custom_Test_RebootIPC
+198 0x00012614 0x0001a614  20  21 (.rodata) ascii Custom_Test_ReSetIPC
+199 0x0001262c 0x0001a62c   7   8 (.rodata) ascii r.0.0.0
+200 0x0001266c 0x0001a66c   7   8 (.rodata) ascii u.0.0.0
+201 0x000126ac 0x0001a6ac  32  33 (.rodata) ascii Custom_Test_GetRootfsUserVersion
+202 0x000126d0 0x0001a6d0  22  23 (.rodata) ascii Custom_Test_GetSysMode
+203 0x000126e8 0x0001a6e8  22  23 (.rodata) ascii Custom_Test_SetSysMode
+204 0x00012700 0x0001a700  30  31 (.rodata) ascii Custom_Test_SetIpcSysRunTelnet
+205 0x00012720 0x0001a720  30  31 (.rodata) ascii Custom_Test_GetIpcSysAdcSample
+206 0x00012740 0x0001a740  20  21 (.rodata) ascii Custom_Test_SpkSound
+207 0x00012758 0x0001a758  27  28 (.rodata) ascii Custom_Test_PtzBurnInSwitch
+208 0x00012774 0x0001a774  21  22 (.rodata) ascii Custom_Test_GetTfCard
+209 0x0001278c 0x0001a78c  27  28 (.rodata) ascii Custom_Test_GetLanguageType
+210 0x000127a8 0x0001a7a8  27  28 (.rodata) ascii Custom_Test_SetLanguageType
+211 0x000127c4 0x0001a7c4  27  28 (.rodata) ascii Custom_Test_PlayPCMBinVoice
+212 0x000127e0 0x0001a7e0  10  11 (.rodata) ascii setjsonret
+213 0x000127ec 0x0001a7ec   7   8 (.rodata) ascii msgname
+214 0x000127f4 0x0001a7f4   4   5 (.rodata) ascii NONE
+215 0x000127fc 0x0001a7fc   9  10 (.rodata) ascii requestid
+216 0x00012808 0x0001a808   5   6 (.rodata) ascii param
+217 0x00012810 0x0001a810  17  18 (.rodata) ascii /var/ap_exit.list
+218 0x00012824 0x0001a824  15  16 (.rodata) ascii ifconfig ra0 up
+219 0x00012834 0x0001a834  22  23 (.rodata) ascii CustomCmdInterface.cpp
+220 0x0001284c 0x0001a84c  22  23 (.rodata) ascii call wifi server err!\n
+221 0x00012864 0x0001a864   5   6 (.rodata) ascii %sp%d
+222 0x0001286c 0x0001a86c  12  13 (.rodata) ascii /dev/mmcblk0
+223 0x0001287c 0x0001a87c   8   9 (.rodata) ascii /mnt/mmc
+224 0x00012888 0x0001a888   4   5 (.rodata) ascii vfat
+225 0x00012890 0x0001a890  33  34 (.rodata) ascii echo 3 > /proc/sys/vm/drop_caches
+226 0x000128b4 0x0001a8b4  30  31 (.rodata) ascii \n\nllDiskTotalSize(%lld:%lld) \n
+227 0x000128d4 0x0001a8d4  25  26 (.rodata) ascii 002 DiskInfo(%ld:%ld) \n\n\n
+228 0x000128f0 0x0001a8f0  16  17 (.rodata) ascii killall avencode
+229 0x00012904 0x0001a904  16  17 (.rodata) ascii /tmp/RunAvEncode
+230 0x0001291c 0x0001a91c  13  14 (.rodata) ascii killall rtspd
+231 0x0001292c 0x0001a92c  23  24 (.rodata) ascii /mnt/mtd/ipc/app/rtspd&
+232 0x00012944 0x0001a944  29  30 (.rodata) ascii -Custom_Test_PTZ:result %d -\n
+233 0x00012964 0x0001a964  53  54 (.rodata) ascii Call FUN_PTZ_EX_OPER Service Failed.Error Code:%d,%d 
+234 0x0001299c 0x0001a99c  67  68 (.rodata) ascii GetP2PInfo enable=%d,APPID=%s,LICENSE=%s,COMPANYID=%s,COMPANKEY=%s\n
+235 0x000129e0 0x0001a9e0  13  14 (.rodata) ascii getp2pinfoRes
+236 0x000129f0 0x0001a9f0   6   7 (.rodata) ascii enable
+237 0x000129f8 0x0001a9f8   5   6 (.rodata) ascii appid
+238 0x00012a00 0x0001aa00   7   8 (.rodata) ascii license
+239 0x00012a08 0x0001aa08   9  10 (.rodata) ascii companyid
+240 0x00012a14 0x0001aa14   9  10 (.rodata) ascii compankey
+241 0x00012a20 0x0001aa20   8   9 (.rodata) ascii LinksKey
+242 0x00012a2c 0x0001aa2c  15  16 (.rodata) ascii /mnt/mtd/db/cid
+243 0x00012a3c 0x0001aa3c   8   9 (.rodata) ascii LinksCid
+244 0x00012a48 0x0001aa48   5   6 (.rodata) ascii db:%s
+245 0x00012a50 0x0001aa50  33  34 (.rodata) ascii Custom_Test_GetP2PInfo:%s,len=%d\n
+246 0x00012a74 0x0001aa74  10  11 (.rodata) ascii RvsRet=%d\n
+247 0x00012a80 0x0001aa80  26  27 (.rodata) ascii Custom_Test_SetP2PInfo:%s\n
+248 0x00012a9c 0x0001aa9c  45  46 (.rodata) ascii What? ,license=%s  companyid->valuestring=%s\n
+249 0x00012acc 0x0001aacc  31  32 (.rodata) ascii --nRet =%d ,stResp.retvalue=%d\n
+250 0x00012aec 0x0001aaec  15  16 (.rodata) ascii /var/noticecall
+251 0x00012afc 0x0001aafc   7   8 (.rodata) ascii %s:%d \n
+252 0x00012b04 0x0001ab04  25  26 (.rodata) ascii Custom_Test_SetIpcMac:%s\n
+253 0x00012b24 0x0001ab24   7   8 (.rodata) ascii MAC=%s\n
+254 0x00012b2c 0x0001ab2c  35  36 (.rodata) ascii echo "%s" > /mnt/mtd/ipc/cfg/PhyMac
+255 0x00012b50 0x0001ab50   9  10 (.rodata) ascii %s. %d,%d
+256 0x00012b5c 0x0001ab5c  25  26 (.rodata) ascii ERR_STR_CallSERVER_FAILED
+257 0x00012b78 0x0001ab78  13  14 (.rodata) ascii var mac='%s';
+258 0x00012b88 0x0001ab88  12  13 (.rodata) ascii getipcmacRes
+259 0x00012b98 0x0001ab98  25  26 (.rodata) ascii Custom_Test_GetIpcMac:%s\n
+260 0x00012bb4 0x0001abb4   8   9 (.rodata) ascii username
+261 0x00012bc0 0x0001abc0   8   9 (.rodata) ascii password
+262 0x00012bcc 0x0001abcc   5   6 (.rodata) ascii srvip
+263 0x00012bd4 0x0001abd4  12  13 (.rodata) ascii 47.254.23.76
+264 0x00012be4 0x0001abe4  19  20 (.rodata) ascii p2p ,domain->ip:%s\n
+265 0x00012bf8 0x0001abf8  34  35 (.rodata) ascii echo "%s" > /mnt/mtd/ipc/cfg/SrvIp
+266 0x00012c1c 0x0001ac1c  15  16 (.rodata) ascii /var/update_wav
+267 0x00012c2c 0x0001ac2c  30  31 (.rodata) ascii touch /mnt/mtd/ipc/cfg/upgrade
+268 0x00012c4c 0x0001ac4c  11  12 (.rodata) ascii /var/reboot
+269 0x00012c58 0x0001ac58  18  19 (.rodata) ascii /filesystemversion
+270 0x00012c6c 0x0001ac6c  24  25 (.rodata) ascii /mnt/mtd/ipc/cfg/version
+271 0x00012c88 0x0001ac88   9  10 (.rodata) ascii rootfsver
+272 0x00012c94 0x0001ac94   7   8 (.rodata) ascii userver
+273 0x00012c9c 0x0001ac9c  10  11 (.rodata) ascii getSysMode
+274 0x00012ca8 0x0001aca8   4   5 (.rodata) ascii Test
+275 0x00012cb0 0x0001acb0   4   5 (.rodata) ascii User
+276 0x00012cb8 0x0001acb8   7   8 (.rodata) ascii telnetd
+277 0x00012cc0 0x0001acc0  17  18 (.rodata) ascii /usr/sbin/telnetd
+278 0x00012cd4 0x0001acd4  50  51 (.rodata) ascii Custom_Test_SetIpcSysRunTelnet->telnet switch on \n
+279 0x00012d08 0x0001ad08  19  20 (.rodata) ascii /var/ADCSampleValue
+280 0x00012d1c 0x0001ad1c   9  10 (.rodata) ascii getAdcRes
+281 0x00012d30 0x0001ad30  14  15 (.rodata) ascii /var/alarmcall
+282 0x00012d40 0x0001ad40   6   7 (.rodata) ascii switch
+283 0x00012d48 0x0001ad48  50  51 (.rodata) ascii Call FUN_PTZ_OPER Service Failed.Error Code:%d,%d 
+284 0x00012d7c 0x0001ad7c  13  14 (.rodata) ascii /dev/whiteled
+285 0x00012d8c 0x0001ad8c  25  26 (.rodata) ascii Can't open /dev/whiteled\n
+286 0x00012da8 0x0001ada8  16  17 (.rodata) ascii getsdcardinfores
+287 0x00012dbc 0x0001adbc   6   7 (.rodata) ascii status
+288 0x00012dc4 0x0001adc4   5   6 (.rodata) ascii total
+289 0x00012dcc 0x0001adcc   4   5 (.rodata) ascii free
+290 0x00012dd4 0x0001add4   7   8 (.rodata) ascii 001 %s\n
+291 0x00012ddc 0x0001addc  18  19 (.rodata) ascii 002 TXT=%s,len=%d\n
+292 0x00012df0 0x0001adf0   8   9 (.rodata) ascii scanwifi
+293 0x00012e00 0x0001ae00  12  13 (.rodata) ascii UseresultCmd
+294 0x00012e10 0x0001ae10   6   7 (.rodata) ascii -1ssid
+295 0x00012e18 0x0001ae18  14  15 (.rodata) ascii scanwifiresult
+296 0x00012e28 0x0001ae28   6   7 (.rodata) ascii %dssid
+297 0x00012e30 0x0001ae30  13  14 (.rodata) ascii %dSignalLevel
+298 0x00012e40 0x0001ae40   9  10 (.rodata) ascii %dEncrypt
+299 0x00012e4c 0x0001ae4c  25  26 (.rodata) ascii scanwifiresult json:\n %s\n
+300 0x00012e68 0x0001ae68  31  32 (.rodata) ascii /mnt/mtd/ipc/cfg/config_cst.cfg
+301 0x00012e8c 0x0001ae8c   7   8 (.rodata) ascii no file
+302 0x00012e94 0x0001ae94   4   5 (.rodata) ascii %s%s
+303 0x00012e9c 0x0001ae9c  23  24 (.rodata) ascii /mnt/mtd/ipc/cfg/En.wav
+304 0x00012eb4 0x0001aeb4  23  24 (.rodata) ascii /mnt/mtd/ipc/cfg/Cn.wav
+305 0x00012ecc 0x0001aecc  19  20 (.rodata) ascii getLanguageModeResq
+306 0x00012ee0 0x0001aee0  12  13 (.rodata) ascii LanguageMode
+307 0x00012ef0 0x0001aef0  29  30 (.rodata) ascii touch /mnt/mtd/ipc/cfg/Cn.wav
+308 0x00012f10 0x0001af10  29  30 (.rodata) ascii touch /mnt/mtd/ipc/cfg/En.wav
+309 0x00012f30 0x0001af30  19  20 (.rodata) ascii /tmp/config_cst.cfg
+310 0x00012f48 0x0001af48  13  14 (.rodata) ascii language_type
+311 0x00012f58 0x0001af58  17  18 (.rodata) ascii cfg exsit,del it\n
+312 0x00012f6c 0x0001af6c  45  46 (.rodata) ascii cp -rf /tmp/config_cst.cfg  /mnt/mtd/ipc/cfg/
+313 0x00012f9c 0x0001af9c  15  16 (.rodata) ascii /var/p2p_ok_wav
+314 0x00012fac 0x0001afac   8   9 (.rodata) ascii pcm_type
+315 0x00012fb8 0x0001afb8  18  19 (.rodata) ascii /tmp/playerOldMode
+316 0x00012fcc 0x0001afcc  18  19 (.rodata) ascii Factory_thread_fuc
+317 0x00012fe0 0x0001afe0  12  13 (.rodata) ascii CallDeepDeep
+318 0x00012ff0 0x0001aff0  27  28 (.rodata) ascii TestCustomInterfaceRecvData
+319 0x0001300c 0x0001b00c   4   5 (.rodata) ascii main
+320 0x00013014 0x0001b014  15  16 (.rodata) ascii FactoryTest.cpp
+321 0x00013024 0x0001b024  23  24 (.rodata) ascii factory thread fuction\n
+322 0x0001303c 0x0001b03c  35  36 (.rodata) ascii Alaram Beep  Request Failed,%d,%d \n
+323 0x00013060 0x0001b060  17  18 (.rodata) ascii %s:%d data:%s,%d\n
+324 0x00013074 0x0001b074  27  28 (.rodata) ascii -\n msgname->valuestring=%s\n
+325 0x00013090 0x0001b090   7   8 (.rodata) ascii ptzctrl
+326 0x00013098 0x0001b098  13  14 (.rodata) ascii getp2pinfoReq
+327 0x000130a8 0x0001b0a8  10  11 (.rodata) ascii setp2pinfo
+328 0x000130b4 0x0001b0b4  12  13 (.rodata) ascii getipcmacReq
+329 0x000130c4 0x0001b0c4   9  10 (.rodata) ascii setipcmac
+330 0x000130d0 0x0001b0d0  12  13 (.rodata) ascii setnetupdate
+331 0x000130e0 0x0001b0e0   9  10 (.rodata) ascii rebootipc
+332 0x000130ec 0x0001b0ec   8   9 (.rodata) ascii resetsys
+333 0x000130f8 0x0001b0f8  15  16 (.rodata) ascii getrootfsuerver
+334 0x00013108 0x0001b108  13  14 (.rodata) ascii getsystemmode
+335 0x00013118 0x0001b118  13  14 (.rodata) ascii setsystemmode
+336 0x00013128 0x0001b128  10  11 (.rodata) ascii searchwifi
+337 0x00013134 0x0001b134  13  14 (.rodata) ascii getsdcardinfo
+338 0x00013144 0x0001b144  10  11 (.rodata) ascii getipcauth
+339 0x00013150 0x0001b150   6   7 (.rodata) ascii getadc
+340 0x00013158 0x0001b158   5   6 (.rodata) ascii wrspk
+341 0x00013160 0x0001b160   9  10 (.rodata) ascii ptzburnin
+342 0x0001316c 0x0001b16c  12  13 (.rodata) ascii whiteledctrl
+343 0x0001317c 0x0001b17c   9  10 (.rodata) ascii getcuscfg
+344 0x00013188 0x0001b188  18  19 (.rodata) ascii getLanguageModeReq
+345 0x0001319c 0x0001b19c  18  19 (.rodata) ascii setLanguageModeReq
+346 0x000131b0 0x0001b1b0  10  11 (.rodata) ascii PlayPcmBin
+347 0x000131bc 0x0001b1bc  58  59 (.rodata) ascii CallBackVideoConnCommandHanlder  function name: %s,cmd:%d\n
+348 0x000131f8 0x0001b1f8  37  38 (.rodata) ascii TEST Command_handler UnKnown CMD: %d\n
+349 0x00013220 0x0001b220  30  31 (.rodata) ascii factory tools buildtime:%s-%s\n
+350 0x00013240 0x0001b240  11  12 (.rodata) ascii Jun 26 2019
+351 0x0001324c 0x0001b24c   8   9 (.rodata) ascii 15:52:30
+352 0x00013258 0x0001b258   6   7 (.rodata) ascii @%s:%s
+353 0x00013260 0x0001b260  11  12 (.rodata) ascii lan mac:%s\n
+354 0x0001326c 0x0001b26c  14  15 (.rodata) ascii IPC have cid \n
+355 0x0001327c 0x0001b27c  15  16 (.rodata) ascii ICA0700000318A4
+356 0x0001328c 0x0001b28c  20  21 (.rodata) ascii socket create error\n
+357 0x000132a4 0x0001b2a4  11  12 (.rodata) ascii bind error\n
+358 0x000132b0 0x0001b2b0  20  21 (.rodata) ascii Server listen error\n
+359 0x000132c8 0x0001b2c8  48  49 (.rodata) ascii  _thread_fuc_New  rc=%d ,Thread creation failed\n
+360 0x000132fc 0x0001b2fc  30  31 (.rodata) ascii select nListenSock+1 :readfds\n
+361 0x0001331c 0x0001b31c  22  23 (.rodata) ascii  accept tmpsock = %d \n
+362 0x00013334 0x0001b334  26  27 (.rodata) ascii Receives the Header error\n
+363 0x00013350 0x0001b350  10  11 (.rodata) ascii %s ;%d;%d\n
+364 0x0001335c 0x0001b35c  14  15 (.rodata) ascii DYFacCustomCfg
+365 0x0001336c 0x0001b36c  13  14 (.rodata) ascii \r\n\n%s\r\n\n%s\r\n\n
+366 0x0001337c 0x0001b37c  15  16 (.rodata) ascii user psw error!
+367 0x0001338c 0x0001b38c  24  25 (.rodata) ascii FactroyUpdateSoftwareApp
+368 0x000133a8 0x0001b3a8  30  31 (.rodata) ascii cp /gm/tools/flashcp /usr/bin/
+369 0x000133c8 0x0001b3c8  35  36 (.rodata) ascii cp /gm/bin/flash_eraseall /usr/bin/
+370 0x000133ec 0x0001b3ec  28  29 (.rodata) ascii touch /tmp/bProcessGuardExit
+371 0x0001340c 0x0001b40c  21  22 (.rodata) ascii killall \tProcessGuard
+372 0x00013424 0x0001b424  15  16 (.rodata) ascii killall \tcolink
+373 0x00013434 0x0001b434  20  21 (.rodata) ascii killall -14 avencode
+374 0x0001344c 0x0001b44c  19  20 (.rodata) ascii killall \tAVRecorder
+375 0x00013460 0x0001b460  20  21 (.rodata) ascii killall \tAlarmServer
+376 0x00013478 0x0001b478  17  18 (.rodata) ascii killall \tAVRecSch
+377 0x0001348c 0x0001b48c  16  17 (.rodata) ascii killall \tIOTCare
+378 0x000134a0 0x0001b4a0  21  22 (.rodata) ascii killall \tcolinkwtg.sh
+379 0x000134b8 0x0001b4b8  30  31 (.rodata) ascii /mnt/mtd/ipc/script/allexit.sh
+380 0x000134d8 0x0001b4d8  34  35 (.rodata) ascii echo 3 >  /proc/sys/vm/drop_caches
+381 0x000134fc 0x0001b4fc  19  20 (.rodata) ascii killall -9 avencode
+382 0x00013510 0x0001b510  27  28 (.rodata) ascii ls -alh /var/tmp_update.zip
+383 0x0001352c 0x0001b52c  25  26 (.rodata) ascii /mnt/mtd/etc/FwFailureLog
+384 0x00013548 0x0001b548  14  15 (.rodata) ascii Loading update
+385 0x00013558 0x0001b558  15  16 (.rodata) ascii FWUpdateSvr.cpp
+386 0x00013568 0x0001b568  25  26 (.rodata) ascii 001 accept tmpsock = %d \n
+387 0x00013584 0x0001b584  21  22 (.rodata) ascii touch /var/update_wav
+388 0x0001359c 0x0001b59c  26  27 (.rodata) ascii Receives the Header is OK\n
+389 0x000135b8 0x0001b5b8  24  25 (.rodata) ascii /mnt/mtd/ipc/app/version
+390 0x000135d4 0x0001b5d4  15  16 (.rodata) ascii chStrVerion=%s\n
+391 0x000135e4 0x0001b5e4  14  15 (.rodata) ascii Id Chip:%d:%d\n
+392 0x000135f4 0x0001b5f4   9  10 (.rodata) ascii /mnt/mtd/
+393 0x00013600 0x0001b600  45  46 (.rodata) ascii DB Update nUpGradeFlage=0x08:/var/ipcsys.db \n
+394 0x00013630 0x0001b630  14  15 (.rodata) ascii /var/ipcsys.db
+395 0x00013644 0x0001b644  16  17 (.rodata) ascii file open error\n
+396 0x00013658 0x0001b658  33  34 (.rodata) ascii FW Update : /var/tmp_update.zip \n
+397 0x00013680 0x0001b680  37  38 (.rodata) ascii  Update Thread creation failed %d %d\n
+398 0x000136a8 0x0001b6a8  41  42 (.rodata) ascii echo Socket error >> /tmp/UpdateErrorLog1
+399 0x000136d4 0x0001b6d4  64  65 (.rodata) ascii echo Recevie_Len error len=%d,errorno=%d >> /tmp/UpdateErrorLog2
+400 0x00013718 0x0001b718  83  84 (.rodata) ascii -EXTRACT RECEIVES THE FILE HAS BEEN COMPLETED, THE UPGRADE, PLEASE WAIT PATIENTLY-\n
+401 0x0001376c 0x0001b76c  24  25 (.rodata) ascii chmod 777 /var/ipcsys.db
+402 0x00013788 0x0001b788  23  24 (.rodata) ascii cp -f /var/ipcsys.db %s
+403 0x000137a0 0x0001b7a0  16  17 (.rodata) ascii /mnt/mtd/dbback/
+404 0x000137b4 0x0001b7b4  14  15 (.rodata) ascii killall colink
+405 0x000137c4 0x0001b7c4  18  19 (.rodata) ascii killall AVRecorder
+406 0x000137d8 0x0001b7d8  19  20 (.rodata) ascii killall AlarmServer
+407 0x000137ec 0x0001b7ec  16  17 (.rodata) ascii killall AVRecSch
+408 0x00013800 0x0001b800  15  16 (.rodata) ascii killall IOTCare
+409 0x00013810 0x0001b810  62  63 (.rodata) ascii -STATUS FROM SYSTEM CMD =%D ,DON'T USE WIFEXITED ,AND SO ON -\n
+410 0x00013854 0x0001b854  46  47 (.rodata) ascii -REQUEST RESOURCE RELEASE, WAITING FOR MEMORY-
+411 0x00013884 0x0001b884  62  63 (.rodata) ascii =================New Add By Peter.Pan 2016-04-27==============
+412 0x000138c4 0x0001b8c4  29  30 (.rodata) ascii chmod 777 /usr/bin/LEDLamp.sh
+413 0x000138e4 0x0001b8e4  19  20 (.rodata) ascii /usr/bin/LEDLamp.sh
+414 0x000138f8 0x0001b8f8  29  30 (.rodata) ascii chmod 777 /var/tmp_update.zip
+415 0x00013918 0x0001b918  25  26 (.rodata) ascii killall -9  upgradesys.sh
+416 0x00013934 0x0001b934  13  14 (.rodata) ascii killall sd.sh
+417 0x00013944 0x0001b944  17  18 (.rodata) ascii killall sd_detect
+418 0x00013958 0x0001b958  60  61 (.rodata) ascii unzip   /var/tmp_update.zip  "*var/kernel/kernel.bin"  -d / 
+419 0x00013998 0x0001b998  22  23 (.rodata) ascii /var/kernel/kernel.bin
+420 0x000139b0 0x0001b9b0   6   7 (.rodata) ascii %s  %s
+421 0x000139b8 0x0001b9b8  23  24 (.rodata) ascii /usr/bin/flash_eraseall
+422 0x000139d0 0x0001b9d0   9  10 (.rodata) ascii /dev/mtd1
+423 0x000139dc 0x0001b9dc  45  46 (.rodata) ascii  /usr/bin/flashcp  -v  /var/kernel/kernel.bin
+424 0x00013a0c 0x0001ba0c  29  30 (.rodata) ascii rm -rf /var/kernel/kernel.bin
+425 0x00013a2c 0x0001ba2c  60  61 (.rodata) ascii unzip   /var/tmp_update.zip  "*var/rootfs/rootfs.bin"  -d / 
+426 0x00013a6c 0x0001ba6c  22  23 (.rodata) ascii /var/rootfs/rootfs.bin
+427 0x00013a84 0x0001ba84   9  10 (.rodata) ascii /dev/mtd2
+428 0x00013a90 0x0001ba90  44  45 (.rodata) ascii /usr/bin/flashcp  -v  /var/rootfs/rootfs.bin
+429 0x00013ac0 0x0001bac0  29  30 (.rodata) ascii rm -rf /var/rootfs/rootfs.bin
+430 0x00013ae0 0x0001bae0  56  57 (.rodata) ascii unzip   /var/tmp_update.zip  "*var/user/user.bin"  -d / 
+431 0x00013b1c 0x0001bb1c  18  19 (.rodata) ascii /var/user/user.bin
+432 0x00013b30 0x0001bb30  36  37 (.rodata) ascii /mnt/mtd/ipc/cfg/wpa_supplicant.conf
+433 0x00013b58 0x0001bb58  53  54 (.rodata) ascii cp /mnt/mtd/ipc/cfg/wpa_supplicant.conf  /mnt/mtd/db/
+434 0x00013b90 0x0001bb90   9  10 (.rodata) ascii /dev/mtd3
+435 0x00013b9c 0x0001bb9c  40  41 (.rodata) ascii /usr/bin/flashcp  -v  /var/user/user.bin
+436 0x00013bc8 0x0001bbc8  25  26 (.rodata) ascii rm -rf /var/user/user.bin
+437 0x00013be4 0x0001bbe4  55  56 (.rodata) ascii unzip   /var/tmp_update.zip  "*var/user/app.bin"  -d / 
+438 0x00013c1c 0x0001bc1c  17  18 (.rodata) ascii /var/user/app.bin
+439 0x00013c30 0x0001bc30  14  15 (.rodata) ascii killall udhcpc
+440 0x00013c40 0x0001bc40  32  33 (.rodata) ascii /gm/bin/wpa_cli -ira0 disconnect
+441 0x00013c64 0x0001bc64  31  32 (.rodata) ascii /gm/bin/wpa_cli -ira0 terminate
+442 0x00013c84 0x0001bc84   9  10 (.rodata) ascii /dev/mtd4
+443 0x00013c90 0x0001bc90  39  40 (.rodata) ascii /usr/bin/flashcp  -v  /var/user/app.bin
+444 0x00013cb8 0x0001bcb8  24  25 (.rodata) ascii rm -rf /var/user/app.bin
+445 0x00013cd4 0x0001bcd4  22  23 (.rodata) ascii touch /var/Fwclosedog\n
+446 0x00013cec 0x0001bcec  18  19 (.rodata) ascii /tmp/RebootKill.sh
+447 0x00013d00 0x0001bd00  19  20 (.rodata) ascii file create failed 
+448 0x00013d14 0x0001bd14  11  12 (.rodata) ascii # !/bin/sh\n
+449 0x00013d20 0x0001bd20   8   9 (.rodata) ascii sleep 2\n
+450 0x00013d2c 0x0001bd2c  51  52 (.rodata) ascii echo --------------WILL REBOOT -------------------\n
+451 0x00013d60 0x0001bd60  20  21 (.rodata) ascii killall FWUpdateSvr\n
+452 0x00013d78 0x0001bd78   7   8 (.rodata) ascii reboot\n
+453 0x00013d80 0x0001bd80  29  30 (.rodata) ascii chmod 755  /tmp/RebootKill.sh
+454 0x00013da0 0x0001bda0  20  21 (.rodata) ascii /tmp/RebootKill.sh &
+455 0x00013db8 0x0001bdb8   6   7 (.rodata) ascii reboot
+456 0x00013dc0 0x0001bdc0  18  19 (.rodata) ascii ThreadAVStreamRecv
+457 0x00013dd4 0x0001bdd4  15  16 (.rodata) ascii RequestKeyFrame
+458 0x00013de4 0x0001bde4  19  20 (.rodata) ascii AV_Interface_Reinit
+459 0x00013df8 0x0001bdf8  17  18 (.rodata) ascii AV_Interface_Init
+460 0x00013e0c 0x0001be0c  19  20 (.rodata) ascii AV_StartVideoStream
+461 0x00013e20 0x0001be20  18  19 (.rodata) ascii AV_StopVideoStream
+462 0x00013e34 0x0001be34  28  29 (.rodata) ascii Audio_Interface_Start_Stream
+463 0x00013e54 0x0001be54  25  26 (.rodata) ascii P2PStream/avInterface.cpp
+464 0x00013e70 0x0001be70  51  52 (.rodata) ascii Real-time audio and video streaming callback start\n
+465 0x00013ea4 0x0001bea4  22  23 (.rodata) ascii g_nVideoSocket[%d]=%d\n
+466 0x00013ebc 0x0001bebc  21  22 (.rodata) ascii g_nAudioSocket   =%d\n
+467 0x00013ed4 0x0001bed4  41  42 (.rodata) ascii Real-time audio and video streaming ,end\n
+468 0x00013f00 0x0001bf00  39  40 (.rodata) ascii Enter into select,From realtime stream\n
+469 0x00013f28 0x0001bf28   9  10 (.rodata) ascii recv < 0\n
+470 0x00013f34 0x0001bf34  73  74 (.rodata) ascii g_objCirVideoFrame[nChn].ReadAVFrame(g_pVideoFB[%d],nLen) == NULL Still.\n
+471 0x00013f80 0x0001bf80  41  42 (.rodata) ascii p2p request I frame:%d .Error Code:%d,%d\n
+472 0x00013fac 0x0001bfac  46  47 (.rodata) ascii Real-time audio and video streaming ,end line\n
+473 0x00013fdc 0x0001bfdc  30  31 (.rodata) ascii Create Video Socket failed:%d\n
+474 0x00013ffc 0x0001bffc  30  31 (.rodata) ascii Get Video Socket failed:%d,%d\n
+475 0x0001401c 0x0001c01c  27  28 (.rodata) ascii Create Audio Socket failed\n
+476 0x00014038 0x0001c038  32  33 (.rodata) ascii getsockname Audio Socket failed\n
+477 0x0001405c 0x0001c05c  43  44 (.rodata) ascii pthread_create ThreadAVStreamRecv  Failed \n
+478 0x00014088 0x0001c088   9  10 (.rodata) ascii 127.0.0.1
+479 0x00014094 0x0001c094  41  42 (.rodata) ascii REQUEST_VSTREAM_FUNID id sucessful:%d:%d\n
+480 0x000140c0 0x0001c0c0  37  38 (.rodata) ascii REQUEST_VSTREAM_FUNID id error:%d:%d\n
+481 0x000140e8 0x0001c0e8  43  44 (.rodata) ascii av start video stream:width * height=%d*%d\n
+482 0x00014114 0x0001c114  39  40 (.rodata) ascii stop stream ,Real-time service stop:%d\n
+483 0x0001413c 0x0001c13c  42  43 (.rodata) ascii p2p start audio interface ,Init share mem\n
+484 0x00014168 0x0001c168  28  29 (.rodata) ascii 001 DY_StopAudioStream :%d \n
+485 0x00014188 0x0001c188  31  32 (.rodata) ascii 002 DY_StopAudioStream :%d,%d \n
+486 0x000141a8 0x0001c1a8   8   9 (.rodata) ascii recvdata
+487 0x000141b4 0x0001c1b4  11  12 (.rodata) ascii _ThreatTask
+488 0x000141c0 0x0001c1c0  12  13 (.rodata) ascii longinthread
+489 0x000141d0 0x0001c1d0  17  18 (.rodata) ascii P2pKitReleaseUser
+490 0x000141e4 0x0001c1e4  33  34 (.rodata) ascii _Initialize_P2PStream_AvInterface
+491 0x00014208 0x0001c208  28  29 (.rodata) ascii P2PStream/P2PVideoStream.cpp
+492 0x00014228 0x0001c228  18  19 (.rodata) ascii recv data size:%d\n
+493 0x0001423c 0x0001c23c  22  23 (.rodata) ascii User exist session:%d\n
+494 0x00014254 0x0001c254  19  20 (.rodata) ascii MAX_USER continue!\n
+495 0x00014268 0x0001c268  53  54 (.rodata) ascii ValidUserIndex:%d , P2P Connected, SessionHandle:%d.\n
+496 0x000142a0 0x0001c2a0  22  23 (.rodata) ascii loginresp send failed\n
+497 0x000142b8 0x0001c2b8  36  37 (.rodata) ascii the device have been sent loginresp\n
+498 0x000142e0 0x0001c2e0  23  24 (.rodata) ascii STREAM_HIGH :%d ,ch:%d\n
+499 0x000142f8 0x0001c2f8  39  40 (.rodata) ascii the device have been sent liveviewresp\n
+500 0x00014320 0x0001c320  13  14 (.rodata) ascii unknown type\n
+501 0x00014330 0x0001c330  25  26 (.rodata) ascii StopLiveResp send failed\n
+502 0x0001434c 0x0001c34c  27  28 (.rodata) ascii StartAudioResp send failed\n
+503 0x00014368 0x0001c368  26  27 (.rodata) ascii StopAudioResp send failed\n
+504 0x00014384 0x0001c384  10  11 (.rodata) ascii buf is %s\n
+505 0x00014390 0x0001c390   7   8 (.rodata) ascii size:%d
+506 0x00014398 0x0001c398 256 257 (.rodata) ascii e3bc8ace7dba73256dbbec46d2b75d8c5f19ac1df1db810da2c2b7f4de5cc50e611a70c397fff21e5a19929a1681d7b8d3ecf5dbd8b5b2dcde688b7cae3b6db1ff3af416b49697eacb733d71b8783ca8a0058fc087b0af014c05c98188ca5d6ccaf74849f6482898dc40d758e7e1b2070055c0f0eb92ce6542508f122b5e3a05
+507 0x0001449c 0x0001c49c   7   8 (.rodata) ascii iotcare
+508 0x000144a4 0x0001c4a4  18  19 (.rodata) ascii p2p init failed:%d
+509 0x000144b8 0x0001c4b8   8   9 (.rodata) ascii 4E6BAF61
+510 0x000144c4 0x0001c4c4  22  23 (.rodata) ascii connect session id:%d\n
+511 0x000144dc 0x0001c4dc  16  17 (.rodata) ascii login in err:%d\n
+512 0x000144f0 0x0001c4f0  23  24 (.rodata) ascii Close exist session:%d\n
+513 0x00014508 0x0001c508  63  64 (.rodata) ascii _Initialize_P2PStream_AvInterface:pthread_attr_init Failed:%d \n
+514 0x00014548 0x0001c548  66  67 (.rodata) ascii  _Initialize_P2PStream_AvInterface  rc=%d ,Thread creation failed\n
+515 0x00014590 0x0001c590  25  26 (.rodata) ascii Create Standard key Error
+516 0x000145ac 0x0001c5ac  26  27 (.rodata) ascii Create Message Queue Error
+517 0x000145c8 0x0001c5c8  18  19 (.rodata) ascii Send Message Error
+518 0x000145dc 0x0001c5dc  38  39 (.rodata) ascii recv thread in select err:%ld--errno:\n
+519 0x00014604 0x0001c604  23  24 (.rodata) ascii udp thread recv err:%d\n
+520 0x0001461c 0x0001c61c  39  40 (.rodata) ascii udp thread recv data err:%d from %s:%d\n
+521 0x00014644 0x0001c644  20  21 (.rodata) ascii PINGREQ recv err:%d\n
+522 0x0001465c 0x0001c65c  36  37 (.rodata) ascii PINGREQ recv data err:%d from %s:%d\n
+523 0x00014684 0x0001c684  43  44 (.rodata) ascii udp client alive pack time:%ld--cid:%d--%d\n
+524 0x000146b0 0x0001c6b0  24  25 (.rodata) ascii PINGRESP sendto failed \n
+525 0x000146cc 0x0001c6cc  21  22 (.rodata) ascii CHANNEL0 recv err:%d\n
+526 0x000146e4 0x0001c6e4  37  38 (.rodata) ascii CHANNEL0 recv data err:%d from %s:%d\n
+527 0x0001470c 0x0001c70c  39  40 (.rodata) ascii session:%d recv data error:data size:0\n
+528 0x00014734 0x0001c734  21  22 (.rodata) ascii CHANNEL1 recv err:%d\n
+529 0x0001474c 0x0001c74c  37  38 (.rodata) ascii CHANNEL1 recv data err:%d from %s:%d\n
+530 0x00014774 0x0001c774  21  22 (.rodata) ascii CHANNEL2 recv err:%d\n
+531 0x0001478c 0x0001c78c  37  38 (.rodata) ascii CHANNEL2 recv data err:%d from %s:%d\n
+532 0x000147b4 0x0001c7b4  21  22 (.rodata) ascii CHANNEL3 recv err:%d\n
+533 0x000147cc 0x0001c7cc  37  38 (.rodata) ascii CHANNEL3 recv data err:%d from %s:%d\n
+534 0x000147f4 0x0001c7f4  21  22 (.rodata) ascii CHANNEL4 recv err:%d\n
+535 0x0001480c 0x0001c80c  37  38 (.rodata) ascii CHANNEL4 recv data err:%d from %s:%d\n
+536 0x00014834 0x0001c834  21  22 (.rodata) ascii CHANNEL5 recv err:%d\n
+537 0x0001484c 0x0001c84c  37  38 (.rodata) ascii CHANNEL5 recv data err:%d from %s:%d\n
+538 0x00014874 0x0001c874  21  22 (.rodata) ascii CHANNEL6 recv err:%d\n
+539 0x0001488c 0x0001c88c  37  38 (.rodata) ascii CHANNEL6 recv data err:%d from %s:%d\n
+540 0x000148b4 0x0001c8b4  21  22 (.rodata) ascii CHANNEL7 recv err:%d\n
+541 0x000148cc 0x0001c8cc  37  38 (.rodata) ascii CHANNEL7 recv data err:%d from %s:%d\n
+542 0x000148f4 0x0001c8f4  22  23 (.rodata) ascii dhead type:%d size:%d\n
+543 0x0001490c 0x0001c90c  53  54 (.rodata) ascii ================dev recv thread ended===============\n
+544 0x00014944 0x0001c944  20  21 (.rodata) ascii p2pkit_init success\n
+545 0x0001495c 0x0001c95c  15  16 (.rodata) ascii p2pkit not init
+546 0x0001496c 0x0001c96c   5   6 (.rodata) ascii 1.4.2
+547 0x00014974 0x0001c974  32  33 (.rodata) ascii remove client link note failed \n
+548 0x00014998 0x0001c998  28  29 (.rodata) ascii session:%d have been closed\n
+549 0x000149b8 0x0001c9b8  31  32 (.rodata) ascii udp login setopt socket failed\n
+550 0x000149d8 0x0001c9d8  47  48 (.rodata) ascii Server Bind socket:%d Port : %d Failed num:%d!\n
+551 0x00014a0c 0x0001ca0c  42  43 (.rodata) ascii have been listen select err:%ld--errno:%d\n
+552 0x00014a38 0x0001ca38  23  24 (.rodata) ascii listen udp recv err:%d\n
+553 0x00014a50 0x0001ca50  41  42 (.rodata) ascii listen udp broken peek err:%d from %s:%d\n
+554 0x00014a7c 0x0001ca7c  34  35 (.rodata) ascii listen udp peek err:%d from %s:%d\n
+555 0x00014aa0 0x0001caa0  24  25 (.rodata) ascii SERVTODEVREQ recv err:%d
+556 0x00014abc 0x0001cabc  41  42 (.rodata) ascii SERVTODEVREQ recv data err:%d from %s:%d\n
+557 0x00014ae8 0x0001cae8  26  27 (.rodata) ascii udp broken sendto failed \n
+558 0x00014b04 0x0001cb04   4   5 (.rodata) ascii %s%d
+559 0x00014b0c 0x0001cb0c  29  30 (.rodata) ascii SERVTODEVRESP sendto failed \n
+560 0x00014b2c 0x0001cb2c  20  21 (.rodata) ascii PINGRESP recv err:%d
+561 0x00014b44 0x0001cb44  41  42 (.rodata) ascii udp PINGRESP recv data err:%d from %s:%d\n
+562 0x00014b70 0x0001cb70  25  26 (.rodata) ascii PINGRESP else recv err:%d
+563 0x00014b8c 0x0001cb8c  42  43 (.rodata) ascii PINGRESP recv else data err:%d from %s:%d\n
+564 0x00014bb8 0x0001cbb8  24  25 (.rodata) ascii udp listen PINGRESP:%ld\n
+565 0x00014bd4 0x0001cbd4  19  20 (.rodata) ascii LANMODE recv err:%d
+566 0x00014be8 0x0001cbe8  36  37 (.rodata) ascii LANMODE recv data err:%d from %s:%d\n
+567 0x00014c10 0x0001cc10  27  28 (.rodata) ascii LANMODERESP sendto failed \n
+568 0x00014c2c 0x0001cc2c  17  18 (.rodata) ascii LANMODERESP sent\n
+569 0x00014c40 0x0001cc40  25  26 (.rodata) ascii SERVTODEV2REQ recv err:%d
+570 0x00014c5c 0x0001cc5c  42  43 (.rodata) ascii SERVTODEV2REQ recv data err:%d from %s:%d\n
+571 0x00014c88 0x0001cc88  30  31 (.rodata) ascii DEVTOCLIENTREQ sendto failed \n
+572 0x00014ca8 0x0001cca8  26  27 (.rodata) ascii CLIENTTODEVREQ recv err:%d
+573 0x00014cc4 0x0001ccc4  43  44 (.rodata) ascii CLIENTTODEVREQ recv data err:%d from %s:%d\n
+574 0x00014cf0 0x0001ccf0  26  27 (.rodata) ascii CLIENTTODEVREQ cid is:%d \n
+575 0x00014d0c 0x0001cd0c  14  15 (.rodata) ascii udp put cid:%s
+576 0x00014d1c 0x0001cd1c  31  32 (.rodata) ascii CLIENTTODEVRESP sendto failed \n
+577 0x00014d3c 0x0001cd3c  27  28 (.rodata) ascii DEVTOCLIENTRESP recv err:%d
+578 0x00014d58 0x0001cd58  44  45 (.rodata) ascii DEVTOCLIENTRESP recv data err:%d from %s:%d\n
+579 0x00014d88 0x0001cd88  27  28 (.rodata) ascii DEVTOCLIENTRESP cid is:%d \n
+580 0x00014da4 0x0001cda4  23  24 (.rodata) ascii LanSearch_req app ip:%s
+581 0x00014dbc 0x0001cdbc  30  31 (.rodata) ascii LanSearch_resp sendto failed \n
+582 0x00014ddc 0x0001cddc  16  17 (.rodata) ascii send wait err:%d
+583 0x00014df0 0x0001cdf0  19  20 (.rodata) ascii U2 sock wait err:%d
+584 0x00014e09 0x0001ce09   5   6 (.rodata) ascii 0\aw,a
+585 0x00014e68 0x0001ce68   4   6 (.rodata)  utf8 (kdz
+586 0x00014e85 0x0001ce85   4   5 (.rodata) ascii  n;^
+587 0x00014ed7 0x0001ced7   4   6 (.rodata)  utf8 !#ĳV
+588 0x00014f38 0x0001cf38   4   5 (.rodata) ascii -=m\b
+589 0x00014f45 0x0001cf45   6   7 (.rodata) ascii Qkkbal
+590 0x00014f7d 0x0001cf7d   4   6 (.rodata)  utf8 |ӌeL
+591 0x00014fbb 0x0001cfbb   4   5 (.rodata) ascii 3_L\n
+592 0x00015011 0x0001d011   4   6 (.rodata)  utf8 ұt9G
+593 0x0001502c 0x0001d02c   4   5 (.rodata) ascii >jm\r
+594 0x00015031 0x0001d031   4   5 (.rodata) ascii Zjz\v
+595 0x00015053 0x0001d053   4   5 (.rodata) ascii i]Wb
+596 0x00015062 0x0001d062   4   5 (.rodata) ascii knv\e
+597 0x00015069 0x0001d069   4   6 (.rodata)  utf8 +ӉZz
+598 0x0001510a 0x0001d10a   5   8 (.rodata)  utf8 c윣ju\n
+599 0x00015193 0x0001d193   4   5 (.rodata) ascii 9a&g
+600 0x0001519c 0x0001d19c   4   5 (.rodata) ascii MGiI
+601 0x000151a1 0x0001d1a1   6   8 (.rodata)  utf8 wn>JjѮ
+602 0x000151e3 0x0001d1e3   4   5 (.rodata) ascii #.zf
+603 0x000151f1 0x0001d1f1   4   5 (.rodata) ascii +o*7
+604 0x00015203 0x0001d203  31  32 (.rodata) ascii -sesison  have been disconnect\n
+605 0x00015a18 0x00000000  45  46 (.comment) ascii GCC: (GNU) 3.3.2 20031005 (Debian prerelease)
+606 0x00015a46 0x0000002e  32  33 (.comment) ascii GCC: (crosstool-NG 1.18.0) 4.6.1
+607 0x00015a6c 0x00000005   5   6 (.ARM.attributes) ascii aeabi
+608 0x00015a8f 0x00000001   9  10 (.shstrtab) ascii .shstrtab
+609 0x00015a99 0x0000000b   7   8 (.shstrtab) ascii .interp
+610 0x00015aa1 0x00000013   5   6 (.shstrtab) ascii .hash
+611 0x00015aa7 0x00000019   7   8 (.shstrtab) ascii .dynsym
+612 0x00015aaf 0x00000021   7   8 (.shstrtab) ascii .dynstr
+613 0x00015ab7 0x00000029  12  13 (.shstrtab) ascii .gnu.version
+614 0x00015ac4 0x00000036  14  15 (.shstrtab) ascii .gnu.version_r
+615 0x00015ad3 0x00000045   8   9 (.shstrtab) ascii .rel.dyn
+616 0x00015adc 0x0000004e   8   9 (.shstrtab) ascii .rel.plt
+617 0x00015ae5 0x00000057   5   6 (.shstrtab) ascii .init
+618 0x00015aeb 0x0000005d   5   6 (.shstrtab) ascii .text
+619 0x00015af1 0x00000063   5   6 (.shstrtab) ascii .fini
+620 0x00015af7 0x00000069   7   8 (.shstrtab) ascii .rodata
+621 0x00015aff 0x00000071  10  11 (.shstrtab) ascii .ARM.extab
+622 0x00015b0a 0x0000007c  10  11 (.shstrtab) ascii .ARM.exidx
+623 0x00015b15 0x00000087   9  10 (.shstrtab) ascii .eh_frame
+624 0x00015b1f 0x00000091  11  12 (.shstrtab) ascii .init_array
+625 0x00015b2b 0x0000009d  11  12 (.shstrtab) ascii .fini_array
+626 0x00015b37 0x000000a9   4   5 (.shstrtab) ascii .jcr
+627 0x00015b3c 0x000000ae   8   9 (.shstrtab) ascii .dynamic
+628 0x00015b45 0x000000b7   4   5 (.shstrtab) ascii .got
+629 0x00015b4a 0x000000bc   5   6 (.shstrtab) ascii .data
+630 0x00015b50 0x000000c2   4   5 (.shstrtab) ascii .bss
+631 0x00015b55 0x000000c7   8   9 (.shstrtab) ascii .comment
+632 0x00015b5e 0x000000d0  15  16 (.shstrtab) ascii .ARM.attributes

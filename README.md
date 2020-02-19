@@ -15,6 +15,11 @@ I managed to have some custom code running on the chip - which is fairly not tha
 
 
 ## Log
+
+### 19.02.20
+
+The second hack can be used to load the sshd, tftpd and connect to you Wifi. Until now no further progress regarding rtspd respectively udp streams.
+
 ### 15.02.20
 
 Until now I know that the rtspd seems to run just for factory testing. The real encoding tool is "avencode" tool. Togehter with the IOTCare app the app is able to receive the stream. The streaming ports must then be 7101 and 7103. The question is in which format ...
