@@ -15,5 +15,8 @@ sleep 1
 wpa_supplicant -B -c /mnt/mmc/wpa_supplicant.conf -i ra0
 sleep 1
 udhcpc -ira0
-
+sleep 1
+/mnt/mtd/ipc/app/IOTCare &
+sleep 1
+/mnt/mtd/ipc/app/ProcessGuard &
 
