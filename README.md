@@ -9,6 +9,10 @@ There you'll find some prepared content for a sdcard to get access to his specif
 
 Beware if you use these mods you lose any warranty and I do not give any warranty as well. So use at own risk. 
 
+## How to
+
+Just download the file from https://github.com/daill/h4ps33/tree/master/hacks/v2 and put it onto a sdcard. If you want to revert all changes just download the concerned files from the backup folder, transfer them to the sdcard and restart your camera.
+
 ## How to dev
 
 I managed to have some custom code running on the chip - which is fairly not that hard, the hard part (using the cam driver etc. pp.) was not successful yet. I used this DockerFile https://github.com/bolshevik/goke-GK7102-customizer/tree/master/tools/compile and the SDK from https://github.com/ant-thomas/zsgx1hacks
